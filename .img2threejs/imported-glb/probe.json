@@ -1,0 +1,2618 @@
+{
+  "schemaVersion": 1,
+  "kind": "glb-reference",
+  "path": "/Users/zhenyu/dev/Interactive_Mathematics_Learning/3D/hatsune_miku_v6.glb",
+  "sha256": "19f9f7e48e8224e961c9b6dc870fe8c5585be3de6903ce505c45919dc17e5287",
+  "bytes": 26672976,
+  "binary": {
+    "version": 2,
+    "declaredLength": 26672976,
+    "jsonChunkBytes": 34894,
+    "binChunkBytes": 26638052,
+    "chunks": [
+      {
+        "type": "JSON",
+        "bytes": 34896
+      },
+      {
+        "type": "BIN\u0000",
+        "bytes": 26638052
+      }
+    ]
+  },
+  "asset": {
+    "version": "2.0",
+    "generator": "Sketchfab-17.15.0"
+  },
+  "scene": {
+    "defaultScene": 0,
+    "sceneCount": 1,
+    "nodeCount": 69,
+    "meshCount": 31,
+    "primitiveCount": 31,
+    "materialCount": 31,
+    "skinCount": 0,
+    "animationCount": 0
+  },
+  "nodes": [
+    {
+      "index": 0,
+      "name": "Sketchfab_model",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        1
+      ]
+    },
+    {
+      "index": 1,
+      "name": "root",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        2
+      ]
+    },
+    {
+      "index": 2,
+      "name": "GLTF_SceneRootNode",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        3
+      ]
+    },
+    {
+      "index": 3,
+      "name": "Node0_0",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        4
+      ]
+    },
+    {
+      "index": 4,
+      "name": "Scene_1",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        5
+      ]
+    },
+    {
+      "index": 5,
+      "name": "model_4",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        6
+      ]
+    },
+    {
+      "index": 6,
+      "name": "model_arm_5",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        7
+      ]
+    },
+    {
+      "index": 7,
+      "name": "model_mesh_6",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        8,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        55,
+        57,
+        59,
+        61,
+        63,
+        65,
+        67
+      ]
+    },
+    {
+      "index": 8,
+      "name": "Object_8",
+      "mesh": 0,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 9,
+      "name": "model_mesh_7",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        10
+      ]
+    },
+    {
+      "index": 10,
+      "name": "Object_10",
+      "mesh": 1,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 11,
+      "name": "model_mesh_8",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        12
+      ]
+    },
+    {
+      "index": 12,
+      "name": "Object_12",
+      "mesh": 2,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 13,
+      "name": "model_mesh_9",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        14
+      ]
+    },
+    {
+      "index": 14,
+      "name": "Object_14",
+      "mesh": 3,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 15,
+      "name": "model_mesh_10",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        16
+      ]
+    },
+    {
+      "index": 16,
+      "name": "Object_16",
+      "mesh": 4,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 17,
+      "name": "model_mesh_11",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        18
+      ]
+    },
+    {
+      "index": 18,
+      "name": "Object_18",
+      "mesh": 5,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 19,
+      "name": "model_mesh_12",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        20
+      ]
+    },
+    {
+      "index": 20,
+      "name": "Object_20",
+      "mesh": 6,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 21,
+      "name": "model_mesh_13",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        22
+      ]
+    },
+    {
+      "index": 22,
+      "name": "Object_22",
+      "mesh": 7,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 23,
+      "name": "model_mesh_14",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        24
+      ]
+    },
+    {
+      "index": 24,
+      "name": "Object_24",
+      "mesh": 8,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 25,
+      "name": "model_mesh_15",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        26
+      ]
+    },
+    {
+      "index": 26,
+      "name": "Object_26",
+      "mesh": 9,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 27,
+      "name": "model_mesh_16",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        28
+      ]
+    },
+    {
+      "index": 28,
+      "name": "Object_28",
+      "mesh": 10,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 29,
+      "name": "model_mesh_17",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        30
+      ]
+    },
+    {
+      "index": 30,
+      "name": "Object_30",
+      "mesh": 11,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 31,
+      "name": "model_mesh_18",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        32
+      ]
+    },
+    {
+      "index": 32,
+      "name": "Object_32",
+      "mesh": 12,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 33,
+      "name": "model_mesh_19",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        34
+      ]
+    },
+    {
+      "index": 34,
+      "name": "Object_34",
+      "mesh": 13,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 35,
+      "name": "model_mesh_20",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        36
+      ]
+    },
+    {
+      "index": 36,
+      "name": "Object_36",
+      "mesh": 14,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 37,
+      "name": "model_mesh_21",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        38
+      ]
+    },
+    {
+      "index": 38,
+      "name": "Object_38",
+      "mesh": 15,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 39,
+      "name": "model_mesh_22",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        40
+      ]
+    },
+    {
+      "index": 40,
+      "name": "Object_40",
+      "mesh": 16,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 41,
+      "name": "model_mesh_23",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        42
+      ]
+    },
+    {
+      "index": 42,
+      "name": "Object_42",
+      "mesh": 17,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 43,
+      "name": "model_mesh_24",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        44
+      ]
+    },
+    {
+      "index": 44,
+      "name": "Object_44",
+      "mesh": 18,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 45,
+      "name": "model_mesh_25",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        46
+      ]
+    },
+    {
+      "index": 46,
+      "name": "Object_46",
+      "mesh": 19,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 47,
+      "name": "model_mesh_26",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        48
+      ]
+    },
+    {
+      "index": 48,
+      "name": "Object_48",
+      "mesh": 20,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 49,
+      "name": "model_mesh_27",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        50
+      ]
+    },
+    {
+      "index": 50,
+      "name": "Object_50",
+      "mesh": 21,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 51,
+      "name": "model_mesh_28",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        52
+      ]
+    },
+    {
+      "index": 52,
+      "name": "Object_52",
+      "mesh": 22,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 53,
+      "name": "model_mesh_29",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        54
+      ]
+    },
+    {
+      "index": 54,
+      "name": "Object_54",
+      "mesh": 23,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 55,
+      "name": "model_mesh_30",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        56
+      ]
+    },
+    {
+      "index": 56,
+      "name": "Object_56",
+      "mesh": 24,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 57,
+      "name": "model_mesh_31",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        58
+      ]
+    },
+    {
+      "index": 58,
+      "name": "Object_58",
+      "mesh": 25,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 59,
+      "name": "model_mesh_32",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        60
+      ]
+    },
+    {
+      "index": 60,
+      "name": "Object_60",
+      "mesh": 26,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 61,
+      "name": "model_mesh_33",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        62
+      ]
+    },
+    {
+      "index": 62,
+      "name": "Object_62",
+      "mesh": 27,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 63,
+      "name": "model_mesh_34",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        64
+      ]
+    },
+    {
+      "index": 64,
+      "name": "Object_64",
+      "mesh": 28,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 65,
+      "name": "model_mesh_35",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        66
+      ]
+    },
+    {
+      "index": 66,
+      "name": "Object_66",
+      "mesh": 29,
+      "skin": null,
+      "children": []
+    },
+    {
+      "index": 67,
+      "name": "model_mesh_36",
+      "mesh": null,
+      "skin": null,
+      "children": [
+        68
+      ]
+    },
+    {
+      "index": 68,
+      "name": "Object_68",
+      "mesh": 30,
+      "skin": null,
+      "children": []
+    }
+  ],
+  "meshes": [
+    {
+      "index": 0,
+      "name": "Object_0",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 0,
+          "positionBounds": {
+            "min": [
+              -0.09208731353282928,
+              1.041108250617981,
+              -0.06314638257026672
+            ],
+            "max": [
+              0.09208731353282928,
+              1.3959460258483887,
+              0.121263787150383
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.09208731353282928,
+          1.041108250617981,
+          -0.06314638257026672
+        ],
+        "max": [
+          0.09208731353282928,
+          1.3959460258483887,
+          0.121263787150383
+        ],
+        "size": [
+          0.18417462706565857,
+          0.3548377752304077,
+          0.18441016972064972
+        ],
+        "center": [
+          0.0,
+          1.2185271382331848,
+          0.029058702290058136
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "name": "Object_1",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 1,
+          "positionBounds": {
+            "min": [
+              -0.4867834746837616,
+              0.1784439980983734,
+              -0.09250316768884659
+            ],
+            "max": [
+              0.4867834746837616,
+              1.2851678133010864,
+              0.07519850879907608
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.4867834746837616,
+          0.1784439980983734,
+          -0.09250316768884659
+        ],
+        "max": [
+          0.4867834746837616,
+          1.2851678133010864,
+          0.07519850879907608
+        ],
+        "size": [
+          0.9735669493675232,
+          1.106723815202713,
+          0.16770167648792267
+        ],
+        "center": [
+          0.0,
+          0.7318059056997299,
+          -0.008652329444885254
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "name": "Object_2",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 2,
+          "positionBounds": {
+            "min": [
+              -0.1888504922389984,
+              0.847062349319458,
+              -0.13042782247066498
+            ],
+            "max": [
+              0.1888504922389984,
+              1.0739939212799072,
+              0.14753684401512146
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.1888504922389984,
+          0.847062349319458,
+          -0.13042782247066498
+        ],
+        "max": [
+          0.1888504922389984,
+          1.0739939212799072,
+          0.14753684401512146
+        ],
+        "size": [
+          0.3777009844779968,
+          0.22693157196044922,
+          0.27796466648578644
+        ],
+        "center": [
+          0.0,
+          0.9605281352996826,
+          0.008554510772228241
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "name": "Object_3",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 3,
+          "positionBounds": {
+            "min": [
+              0.057948097586631775,
+              0.8750240802764893,
+              -0.047117460519075394
+            ],
+            "max": [
+              0.22029803693294525,
+              1.0540974140167236,
+              0.11964240670204163
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          0.057948097586631775,
+          0.8750240802764893,
+          -0.047117460519075394
+        ],
+        "max": [
+          0.22029803693294525,
+          1.0540974140167236,
+          0.11964240670204163
+        ],
+        "size": [
+          0.16234993934631348,
+          0.17907333374023438,
+          0.16675986722111702
+        ],
+        "center": [
+          0.1391230672597885,
+          0.9645607471466064,
+          0.036262473091483116
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "name": "Object_4",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 4,
+          "positionBounds": {
+            "min": [
+              -0.08685474097728729,
+              0.9075844287872314,
+              -0.06046978756785393
+            ],
+            "max": [
+              0.08685474097728729,
+              1.0535634756088257,
+              0.08944246917963028
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.08685474097728729,
+          0.9075844287872314,
+          -0.06046978756785393
+        ],
+        "max": [
+          0.08685474097728729,
+          1.0535634756088257,
+          0.08944246917963028
+        ],
+        "size": [
+          0.17370948195457458,
+          0.14597904682159424,
+          0.1499122567474842
+        ],
+        "center": [
+          0.0,
+          0.9805739521980286,
+          0.014486340805888176
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "name": "Object_5",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 5,
+          "positionBounds": {
+            "min": [
+              -0.08651373535394669,
+              1.0612730979919434,
+              -0.04253489524126053
+            ],
+            "max": [
+              0.08651373535394669,
+              1.0962296724319458,
+              0.10386958718299866
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.08651373535394669,
+          1.0612730979919434,
+          -0.04253489524126053
+        ],
+        "max": [
+          0.08651373535394669,
+          1.0962296724319458,
+          0.10386958718299866
+        ],
+        "size": [
+          0.17302747070789337,
+          0.03495657444000244,
+          0.14640448242425919
+        ],
+        "center": [
+          0.0,
+          1.0787513852119446,
+          0.030667345970869064
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "name": "Object_6",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 6,
+          "positionBounds": {
+            "min": [
+              -0.08363942801952362,
+              1.0575926303863525,
+              -0.04236330837011337
+            ],
+            "max": [
+              0.08147847652435303,
+              1.0972332954406738,
+              0.10091918706893921
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.08363942801952362,
+          1.0575926303863525,
+          -0.04236330837011337
+        ],
+        "max": [
+          0.08147847652435303,
+          1.0972332954406738,
+          0.10091918706893921
+        ],
+        "size": [
+          0.16511790454387665,
+          0.03964066505432129,
+          0.14328249543905258
+        ],
+        "center": [
+          -0.0010804757475852966,
+          1.0774129629135132,
+          0.029277939349412918
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "name": "Object_7",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 7,
+          "positionBounds": {
+            "min": [
+              -0.038475241512060165,
+              1.153178334236145,
+              0.015202860347926617
+            ],
+            "max": [
+              0.038475241512060165,
+              1.3751933574676514,
+              0.19332700967788696
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.038475241512060165,
+          1.153178334236145,
+          0.015202860347926617
+        ],
+        "max": [
+          0.038475241512060165,
+          1.3751933574676514,
+          0.19332700967788696
+        ],
+        "size": [
+          0.07695048302412033,
+          0.22201502323150635,
+          0.17812414932996035
+        ],
+        "center": [
+          0.0,
+          1.2641858458518982,
+          0.10426493501290679
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "name": "Object_8",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 8,
+          "positionBounds": {
+            "min": [
+              -0.5501717329025269,
+              0.7171996831893921,
+              -0.06307082623243332
+            ],
+            "max": [
+              0.5501717329025269,
+              1.362955927848816,
+              0.09348303824663162
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.5501717329025269,
+          0.7171996831893921,
+          -0.06307082623243332
+        ],
+        "max": [
+          0.5501717329025269,
+          1.362955927848816,
+          0.09348303824663162
+        ],
+        "size": [
+          1.1003434658050537,
+          0.6457562446594238,
+          0.15655386447906494
+        ],
+        "center": [
+          0.0,
+          1.040077805519104,
+          0.015206106007099152
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "name": "Object_9",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 9,
+          "positionBounds": {
+            "min": [
+              -0.48388609290122986,
+              0.2354809194803238,
+              -0.3868598937988281
+            ],
+            "max": [
+              0.48388609290122986,
+              1.6310582160949707,
+              -0.05074680596590042
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.48388609290122986,
+          0.2354809194803238,
+          -0.3868598937988281
+        ],
+        "max": [
+          0.48388609290122986,
+          1.6310582160949707,
+          -0.05074680596590042
+        ],
+        "size": [
+          0.9677721858024597,
+          1.395577296614647,
+          0.3361130878329277
+        ],
+        "center": [
+          0.0,
+          0.9332695677876472,
+          -0.21880334988236427
+        ]
+      }
+    },
+    {
+      "index": 10,
+      "name": "Object_10",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 10,
+          "positionBounds": {
+            "min": [
+              -0.12366153299808502,
+              1.3639037609100342,
+              -0.021482238546013832
+            ],
+            "max": [
+              0.10546328127384186,
+              1.6416823863983154,
+              0.11188939213752747
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.12366153299808502,
+          1.3639037609100342,
+          -0.021482238546013832
+        ],
+        "max": [
+          0.10546328127384186,
+          1.6416823863983154,
+          0.11188939213752747
+        ],
+        "size": [
+          0.22912481427192688,
+          0.27777862548828125,
+          0.1333716306835413
+        ],
+        "center": [
+          -0.009099125862121582,
+          1.5027930736541748,
+          0.04520357679575682
+        ]
+      }
+    },
+    {
+      "index": 11,
+      "name": "Object_11",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 11,
+          "positionBounds": {
+            "min": [
+              -0.09113053977489471,
+              1.407362461090088,
+              -0.11900398880243301
+            ],
+            "max": [
+              0.09113053977489471,
+              1.6299400329589844,
+              0.07464092969894409
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.09113053977489471,
+          1.407362461090088,
+          -0.11900398880243301
+        ],
+        "max": [
+          0.09113053977489471,
+          1.6299400329589844,
+          0.07464092969894409
+        ],
+        "size": [
+          0.18226107954978943,
+          0.22257757186889648,
+          0.1936449185013771
+        ],
+        "center": [
+          0.0,
+          1.5186512470245361,
+          -0.02218152955174446
+        ]
+      }
+    },
+    {
+      "index": 12,
+      "name": "Object_12",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 12,
+          "positionBounds": {
+            "min": [
+              -0.19996047019958496,
+              0.22384585440158844,
+              -0.15482044219970703
+            ],
+            "max": [
+              0.19996047019958496,
+              1.653359055519104,
+              0.15496796369552612
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.19996047019958496,
+          0.22384585440158844,
+          -0.15482044219970703
+        ],
+        "max": [
+          0.19996047019958496,
+          1.653359055519104,
+          0.15496796369552612
+        ],
+        "size": [
+          0.3999209403991699,
+          1.4295132011175156,
+          0.30978840589523315
+        ],
+        "center": [
+          0.0,
+          0.9386024549603462,
+          7.37607479095459e-05
+        ]
+      }
+    },
+    {
+      "index": 13,
+      "name": "Object_13",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 13,
+          "positionBounds": {
+            "min": [
+              -0.1187242791056633,
+              1.5193759202957153,
+              -0.15249848365783691
+            ],
+            "max": [
+              0.1187242791056633,
+              1.653359055519104,
+              0.0013645176077261567
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.1187242791056633,
+          1.5193759202957153,
+          -0.15249848365783691
+        ],
+        "max": [
+          0.1187242791056633,
+          1.653359055519104,
+          0.0013645176077261567
+        ],
+        "size": [
+          0.2374485582113266,
+          0.13398313522338867,
+          0.15386300126556307
+        ],
+        "center": [
+          0.0,
+          1.5863674879074097,
+          -0.07556698302505538
+        ]
+      }
+    },
+    {
+      "index": 14,
+      "name": "Object_14",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 14,
+          "positionBounds": {
+            "min": [
+              -0.0951584205031395,
+              0.006429014261811972,
+              -0.06995810568332672
+            ],
+            "max": [
+              0.0951584205031395,
+              0.26562967896461487,
+              0.1250843107700348
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.0951584205031395,
+          0.006429014261811972,
+          -0.06995810568332672
+        ],
+        "max": [
+          0.0951584205031395,
+          0.26562967896461487,
+          0.1250843107700348
+        ],
+        "size": [
+          0.190316841006279,
+          0.2592006647028029,
+          0.1950424164533615
+        ],
+        "center": [
+          0.0,
+          0.13602934661321342,
+          0.027563102543354034
+        ]
+      }
+    },
+    {
+      "index": 15,
+      "name": "Object_15",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 15,
+          "positionBounds": {
+            "min": [
+              -0.09658976644277573,
+              0.0007535147597081959,
+              -0.07264445722103119
+            ],
+            "max": [
+              0.09658976644277573,
+              0.0951523408293724,
+              0.12861670553684235
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.09658976644277573,
+          0.0007535147597081959,
+          -0.07264445722103119
+        ],
+        "max": [
+          0.09658976644277573,
+          0.0951523408293724,
+          0.12861670553684235
+        ],
+        "size": [
+          0.19317953288555145,
+          0.09439882606966421,
+          0.20126116275787354
+        ],
+        "center": [
+          0.0,
+          0.0479529277945403,
+          0.02798612415790558
+        ]
+      }
+    },
+    {
+      "index": 16,
+      "name": "Object_16",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 16,
+          "positionBounds": {
+            "min": [
+              -0.05481521040201187,
+              0.5488195419311523,
+              0.05109197646379471
+            ],
+            "max": [
+              0.05481521040201187,
+              0.5607113242149353,
+              0.05366944149136543
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.05481521040201187,
+          0.5488195419311523,
+          0.05109197646379471
+        ],
+        "max": [
+          0.05481521040201187,
+          0.5607113242149353,
+          0.05366944149136543
+        ],
+        "size": [
+          0.10963042080402374,
+          0.011891782283782959,
+          0.0025774650275707245
+        ],
+        "center": [
+          0.0,
+          0.5547654330730438,
+          0.05238070897758007
+        ]
+      }
+    },
+    {
+      "index": 17,
+      "name": "Object_17",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 17,
+          "positionBounds": {
+            "min": [
+              -0.5501717329025269,
+              0.9721113443374634,
+              -0.046252984553575516
+            ],
+            "max": [
+              0.5501717329025269,
+              0.9902248978614807,
+              0.03557496517896652
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.5501717329025269,
+          0.9721113443374634,
+          -0.046252984553575516
+        ],
+        "max": [
+          0.5501717329025269,
+          0.9902248978614807,
+          0.03557496517896652
+        ],
+        "size": [
+          1.1003434658050537,
+          0.018113553524017334,
+          0.08182794973254204
+        ],
+        "center": [
+          0.0,
+          0.981168121099472,
+          -0.005339009687304497
+        ]
+      }
+    },
+    {
+      "index": 18,
+      "name": "Object_18",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 18,
+          "positionBounds": {
+            "min": [
+              -0.47921401262283325,
+              1.0984480381011963,
+              -0.049580033868551254
+            ],
+            "max": [
+              0.47921401262283325,
+              1.201310634613037,
+              0.012301500886678696
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.47921401262283325,
+          1.0984480381011963,
+          -0.049580033868551254
+        ],
+        "max": [
+          0.47921401262283325,
+          1.201310634613037,
+          0.012301500886678696
+        ],
+        "size": [
+          0.9584280252456665,
+          0.10286259651184082,
+          0.06188153475522995
+        ],
+        "center": [
+          0.0,
+          1.1498793363571167,
+          -0.01863926649093628
+        ]
+      }
+    },
+    {
+      "index": 19,
+      "name": "Object_19",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 19,
+          "positionBounds": {
+            "min": [
+              -0.05184943974018097,
+              1.4703681468963623,
+              0.05582369118928909
+            ],
+            "max": [
+              0.05184943974018097,
+              1.5020086765289307,
+              0.06380295008420944
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.05184943974018097,
+          1.4703681468963623,
+          0.05582369118928909
+        ],
+        "max": [
+          0.05184943974018097,
+          1.5020086765289307,
+          0.06380295008420944
+        ],
+        "size": [
+          0.10369887948036194,
+          0.03164052963256836,
+          0.007979258894920349
+        ],
+        "center": [
+          0.0,
+          1.4861884117126465,
+          0.05981332063674927
+        ]
+      }
+    },
+    {
+      "index": 20,
+      "name": "Object_20",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 20,
+          "positionBounds": {
+            "min": [
+              -0.07387624680995941,
+              1.471529483795166,
+              0.04331335052847862
+            ],
+            "max": [
+              0.07387624680995941,
+              1.505811333656311,
+              0.07018383592367172
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.07387624680995941,
+          1.471529483795166,
+          0.04331335052847862
+        ],
+        "max": [
+          0.07387624680995941,
+          1.505811333656311,
+          0.07018383592367172
+        ],
+        "size": [
+          0.14775249361991882,
+          0.03428184986114502,
+          0.0268704853951931
+        ],
+        "center": [
+          0.0,
+          1.4886704087257385,
+          0.05674859322607517
+        ]
+      }
+    },
+    {
+      "index": 21,
+      "name": "Object_21",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 21,
+          "positionBounds": {
+            "min": [
+              -0.05441172048449516,
+              1.4843841791152954,
+              0.05608008801937103
+            ],
+            "max": [
+              0.03774232789874077,
+              1.4910950660705566,
+              0.06461595743894577
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.05441172048449516,
+          1.4843841791152954,
+          0.05608008801937103
+        ],
+        "max": [
+          0.03774232789874077,
+          1.4910950660705566,
+          0.06461595743894577
+        ],
+        "size": [
+          0.09215404838323593,
+          0.0067108869552612305,
+          0.008535869419574738
+        ],
+        "center": [
+          -0.008334696292877197,
+          1.487739622592926,
+          0.0603480227291584
+        ]
+      }
+    },
+    {
+      "index": 22,
+      "name": "Object_22",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 22,
+          "positionBounds": {
+            "min": [
+              -0.06758353114128113,
+              1.4629017114639282,
+              0.048790011554956436
+            ],
+            "max": [
+              0.06758353114128113,
+              1.5081640481948853,
+              0.07268784195184708
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.06758353114128113,
+          1.4629017114639282,
+          0.048790011554956436
+        ],
+        "max": [
+          0.06758353114128113,
+          1.5081640481948853,
+          0.07268784195184708
+        ],
+        "size": [
+          0.13516706228256226,
+          0.04526233673095703,
+          0.02389783039689064
+        ],
+        "center": [
+          0.0,
+          1.4855328798294067,
+          0.060738926753401756
+        ]
+      }
+    },
+    {
+      "index": 23,
+      "name": "Object_23",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 23,
+          "positionBounds": {
+            "min": [
+              -0.06363126635551453,
+              1.4666885137557983,
+              0.0413566455245018
+            ],
+            "max": [
+              0.06363126635551453,
+              1.5086817741394043,
+              0.06729251891374588
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.06363126635551453,
+          1.4666885137557983,
+          0.0413566455245018
+        ],
+        "max": [
+          0.06363126635551453,
+          1.5086817741394043,
+          0.06729251891374588
+        ],
+        "size": [
+          0.12726253271102905,
+          0.04199326038360596,
+          0.02593587338924408
+        ],
+        "center": [
+          0.0,
+          1.4876851439476013,
+          0.05432458221912384
+        ]
+      }
+    },
+    {
+      "index": 24,
+      "name": "Object_24",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 24,
+          "positionBounds": {
+            "min": [
+              -0.0643996000289917,
+              1.5201854705810547,
+              0.06258641928434372
+            ],
+            "max": [
+              0.0643996000289917,
+              1.5275546312332153,
+              0.08175291866064072
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.0643996000289917,
+          1.5201854705810547,
+          0.06258641928434372
+        ],
+        "max": [
+          0.0643996000289917,
+          1.5275546312332153,
+          0.08175291866064072
+        ],
+        "size": [
+          0.1287992000579834,
+          0.0073691606521606445,
+          0.019166499376296997
+        ],
+        "center": [
+          0.0,
+          1.523870050907135,
+          0.07216966897249222
+        ]
+      }
+    },
+    {
+      "index": 25,
+      "name": "Object_25",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 25,
+          "positionBounds": {
+            "min": [
+              -0.012944166548550129,
+              1.4281704425811768,
+              0.0727028176188469
+            ],
+            "max": [
+              0.012944166548550129,
+              1.4321388006210327,
+              0.0801069512963295
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.012944166548550129,
+          1.4281704425811768,
+          0.0727028176188469
+        ],
+        "max": [
+          0.012944166548550129,
+          1.4321388006210327,
+          0.0801069512963295
+        ],
+        "size": [
+          0.025888333097100258,
+          0.003968358039855957,
+          0.007404133677482605
+        ],
+        "center": [
+          0.0,
+          1.4301546216011047,
+          0.0764048844575882
+        ]
+      }
+    },
+    {
+      "index": 26,
+      "name": "Object_26",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 26,
+          "positionBounds": {
+            "min": [
+              -0.01967478357255459,
+              1.4164496660232544,
+              0.02767956629395485
+            ],
+            "max": [
+              0.01967478357255459,
+              1.4473463296890259,
+              0.07719453424215317
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.01967478357255459,
+          1.4164496660232544,
+          0.02767956629395485
+        ],
+        "max": [
+          0.01967478357255459,
+          1.4473463296890259,
+          0.07719453424215317
+        ],
+        "size": [
+          0.03934956714510918,
+          0.030896663665771484,
+          0.04951496794819832
+        ],
+        "center": [
+          0.0,
+          1.4318979978561401,
+          0.05243705026805401
+        ]
+      }
+    },
+    {
+      "index": 27,
+      "name": "Object_27",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 27,
+          "positionBounds": {
+            "min": [
+              -0.08938136696815491,
+              1.3505877256393433,
+              -0.07393520325422287
+            ],
+            "max": [
+              0.08938136696815491,
+              1.6172599792480469,
+              0.09491894394159317
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.08938136696815491,
+          1.3505877256393433,
+          -0.07393520325422287
+        ],
+        "max": [
+          0.08938136696815491,
+          1.6172599792480469,
+          0.09491894394159317
+        ],
+        "size": [
+          0.17876273393630981,
+          0.2666722536087036,
+          0.16885414719581604
+        ],
+        "center": [
+          0.0,
+          1.483923852443695,
+          0.01049187034368515
+        ]
+      }
+    },
+    {
+      "index": 28,
+      "name": "Object_28",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 28,
+          "positionBounds": {
+            "min": [
+              -0.01918521150946617,
+              1.42460298538208,
+              0.03975139185786247
+            ],
+            "max": [
+              0.01918521150946617,
+              1.437872290611267,
+              0.07738983631134033
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.01918521150946617,
+          1.42460298538208,
+          0.03975139185786247
+        ],
+        "max": [
+          0.01918521150946617,
+          1.437872290611267,
+          0.07738983631134033
+        ],
+        "size": [
+          0.03837042301893234,
+          0.013269305229187012,
+          0.03763844445347786
+        ],
+        "center": [
+          0.0,
+          1.4312376379966736,
+          0.0585706140846014
+        ]
+      }
+    },
+    {
+      "index": 29,
+      "name": "Object_29",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 29,
+          "positionBounds": {
+            "min": [
+              -0.06389285624027252,
+              1.4651761054992676,
+              0.007037808187305927
+            ],
+            "max": [
+              0.06389285624027252,
+              1.5063443183898926,
+              0.03753761202096939
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          -0.06389285624027252,
+          1.4651761054992676,
+          0.007037808187305927
+        ],
+        "max": [
+          0.06389285624027252,
+          1.5063443183898926,
+          0.03753761202096939
+        ],
+        "size": [
+          0.12778571248054504,
+          0.041168212890625,
+          0.030499803833663464
+        ],
+        "center": [
+          0.0,
+          1.48576021194458,
+          0.02228771010413766
+        ]
+      }
+    },
+    {
+      "index": 30,
+      "name": "Object_30",
+      "primitiveCount": 1,
+      "primitives": [
+        {
+          "index": 0,
+          "mode": 4,
+          "attributes": [
+            "NORMAL",
+            "POSITION",
+            "TEXCOORD_0"
+          ],
+          "material": 30,
+          "positionBounds": {
+            "min": [
+              0.122067391872406,
+              1.2716634273529053,
+              -0.03591862693428993
+            ],
+            "max": [
+              0.18056020140647888,
+              1.3189926147460938,
+              0.011237412691116333
+            ]
+          }
+        }
+      ],
+      "bounds": {
+        "space": "mesh-local-untransformed",
+        "min": [
+          0.122067391872406,
+          1.2716634273529053,
+          -0.03591862693428993
+        ],
+        "max": [
+          0.18056020140647888,
+          1.3189926147460938,
+          0.011237412691116333
+        ],
+        "size": [
+          0.058492809534072876,
+          0.04732918739318848,
+          0.047156039625406265
+        ],
+        "center": [
+          0.15131379663944244,
+          1.2953280210494995,
+          -0.0123406071215868
+        ]
+      }
+    }
+  ],
+  "materials": [
+    {
+      "index": 0,
+      "name": "cloth0",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 1,
+      "name": "cloth21",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 2,
+      "name": "skirt2",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 3,
+      "name": "skirt23",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 4,
+      "name": "pants4",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 5,
+      "name": "belt5",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 6,
+      "name": "belt26",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 7,
+      "name": "tie7",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 8,
+      "name": "body8",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 9,
+      "name": "longhair9",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 10,
+      "name": "fronthair10",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 11,
+      "name": "backhair11",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 12,
+      "name": "metal12",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 13,
+      "name": "redLight13",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 14,
+      "name": "shoes14",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 15,
+      "name": "sloe15",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 16,
+      "name": "blueLight16",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 17,
+      "name": "nail17",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 18,
+      "name": "panel18",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 19,
+      "name": "eyes19",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 20,
+      "name": "eyelashes20",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 21,
+      "name": "eyeLight21",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 22,
+      "name": "eyesocket22",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 23,
+      "name": "whiteeyes23",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 24,
+      "name": "eyebrow24",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 25,
+      "name": "mouth25",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 26,
+      "name": "mouthInside26",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 27,
+      "name": "head27",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 28,
+      "name": "tooth28",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 29,
+      "name": "material",
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "index": 30,
+      "name": "0130",
+      "alphaMode": "OPAQUE"
+    }
+  ],
+  "skins": [],
+  "bounds": {
+    "space": "mesh-local-untransformed",
+    "min": [
+      -0.5501717329025269,
+      0.0007535147597081959,
+      -0.3868598937988281
+    ],
+    "max": [
+      0.5501717329025269,
+      1.653359055519104,
+      0.19332700967788696
+    ],
+    "size": [
+      1.1003434658050537,
+      1.6526055407593958,
+      0.5801869034767151
+    ],
+    "center": [
+      0.0,
+      0.8270562851394061,
+      -0.09676644206047058
+    ]
+  },
+  "semanticDecomposition": {
+    "schemaVersion": 1,
+    "status": "rich",
+    "reliableSemanticBoundary": "named-node-or-mesh",
+    "reason": "Multiple named scene/mesh entities provide an explicit semantic starting point.",
+    "metadataEvidence": {
+      "nodeCount": 69,
+      "meshCount": 31,
+      "primitiveCount": 31,
+      "materialCount": 31,
+      "textureCount": 13,
+      "namedNodes": [
+        "Sketchfab_model",
+        "root",
+        "GLTF_SceneRootNode",
+        "Node0_0",
+        "Scene_1",
+        "model_4",
+        "model_arm_5",
+        "model_mesh_6",
+        "Object_8",
+        "model_mesh_7",
+        "Object_10",
+        "model_mesh_8",
+        "Object_12",
+        "model_mesh_9",
+        "Object_14",
+        "model_mesh_10",
+        "Object_16",
+        "model_mesh_11",
+        "Object_18",
+        "model_mesh_12",
+        "Object_20",
+        "model_mesh_13",
+        "Object_22",
+        "model_mesh_14",
+        "Object_24",
+        "model_mesh_15",
+        "Object_26",
+        "model_mesh_16",
+        "Object_28",
+        "model_mesh_17",
+        "Object_30",
+        "model_mesh_18",
+        "Object_32",
+        "model_mesh_19",
+        "Object_34",
+        "model_mesh_20",
+        "Object_36",
+        "model_mesh_21",
+        "Object_38",
+        "model_mesh_22",
+        "Object_40",
+        "model_mesh_23",
+        "Object_42",
+        "model_mesh_24",
+        "Object_44",
+        "model_mesh_25",
+        "Object_46",
+        "model_mesh_26",
+        "Object_48",
+        "model_mesh_27",
+        "Object_50",
+        "model_mesh_28",
+        "Object_52",
+        "model_mesh_29",
+        "Object_54",
+        "model_mesh_30",
+        "Object_56",
+        "model_mesh_31",
+        "Object_58",
+        "model_mesh_32",
+        "Object_60",
+        "model_mesh_33",
+        "Object_62",
+        "model_mesh_34",
+        "Object_64",
+        "model_mesh_35",
+        "Object_66",
+        "model_mesh_36",
+        "Object_68"
+      ],
+      "namedMeshes": [
+        "Object_0",
+        "Object_1",
+        "Object_2",
+        "Object_3",
+        "Object_4",
+        "Object_5",
+        "Object_6",
+        "Object_7",
+        "Object_8",
+        "Object_9",
+        "Object_10",
+        "Object_11",
+        "Object_12",
+        "Object_13",
+        "Object_14",
+        "Object_15",
+        "Object_16",
+        "Object_17",
+        "Object_18",
+        "Object_19",
+        "Object_20",
+        "Object_21",
+        "Object_22",
+        "Object_23",
+        "Object_24",
+        "Object_25",
+        "Object_26",
+        "Object_27",
+        "Object_28",
+        "Object_29",
+        "Object_30"
+      ],
+      "namedMaterials": [
+        "cloth0",
+        "cloth21",
+        "skirt2",
+        "skirt23",
+        "pants4",
+        "belt5",
+        "belt26",
+        "tie7",
+        "body8",
+        "longhair9",
+        "fronthair10",
+        "backhair11",
+        "metal12",
+        "redLight13",
+        "shoes14",
+        "sloe15",
+        "blueLight16",
+        "nail17",
+        "panel18",
+        "eyes19",
+        "eyelashes20",
+        "eyeLight21",
+        "eyesocket22",
+        "whiteeyes23",
+        "eyebrow24",
+        "mouth25",
+        "mouthInside26",
+        "head27",
+        "tooth28",
+        "material",
+        "0130"
+      ]
+    },
+    "strategies": [
+      {
+        "id": "named-node",
+        "status": "available"
+      },
+      {
+        "id": "primitive-material-boundary",
+        "status": "available"
+      },
+      {
+        "id": "uv-texture-boundary",
+        "status": "available"
+      },
+      {
+        "id": "connected-component-hypothesis",
+        "status": "candidate-only"
+      },
+      {
+        "id": "curvature-normal-region-growing-hypothesis",
+        "status": "candidate-only"
+      },
+      {
+        "id": "multiview-id-mask",
+        "status": "required-for-runtime-region-evidence"
+      },
+      {
+        "id": "multipart-glb",
+        "status": "recommended"
+      }
+    ],
+    "claimsAllowed": [
+      "scene and drawable inventory",
+      "material/primitive boundaries explicitly present in the GLB",
+      "browser-rendered ID-mask evidence when captured"
+    ],
+    "claimsForbiddenUntilEvidence": [
+      "exact semantic labels inferred from a merged mesh",
+      "per-region material equality without region crops or ID masks",
+      "multipart topology reconstructed from metadata alone"
+    ]
+  },
+  "referenceReadiness": "pass",
+  "warnings": [
+    "GLB contains no skin; this is acceptable for static reference geometry but not animation evidence"
+  ],
+  "note": "Metadata only. Render the GLB through the target Three.js route before using it as a visual baseline; do not copy its topology into a procedural factory."
+}

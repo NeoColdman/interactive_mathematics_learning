@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "views": [
+    {
+      "id": "front",
+      "path": "/Users/zhenyu/dev/Interactive_Mathematics_Learning/images/Hatsune_Miku_V2.png",
+      "sha256": "6ccf77fd177948516339e43c581ae49468cf7832a1261183c4d09dc077a585ae",
+      "dimensions": [
+        1028,
+        1199
+      ],
+      "cameraRole": "hero-reference",
+      "admitted": true,
+      "evidence": "/Users/zhenyu/dev/Interactive_Mathematics_Learning/.img2threejs/admission.json"
+    }
+  ],
+  "hiddenRegionConfidence": {
+    "rear": 0.48,
+    "profile": 0.5
+  },
+  "hiddenRegionPolicy": "user-accepted-inferred-stylization"
+}

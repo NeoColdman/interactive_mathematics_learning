@@ -1,0 +1,334 @@
+{
+  "sourceImage": "/Users/zhenyu/dev/Interactive_Mathematics_Learning/images/Hatsune_Miku_V2.png",
+  "zonesDir": "/Users/zhenyu/dev/Interactive_Mathematics_Learning/.img2threejs/detail-inventory",
+  "detailInventory": {
+    "scanMethod": "grid-3x3",
+    "targetMinDetails": 10,
+    "note": "Enumerate every identity-defining small detail before authoring the spec. Each detail must map to a component.localFeatures entry or material.localOverrides entry, never prose only. Use forge/stage1_intake/build_detail_inventory.py to scan zones.",
+    "details": [
+      {
+        "id": "bang-tapers",
+        "kind": "contour",
+        "description": "Front fringe split into tapered locks",
+        "region": {
+          "x": 0.34,
+          "y": 0,
+          "width": 0.27,
+          "height": 0.18
+        },
+        "scale": "meso",
+        "affects": "geometry",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "scalp/bang-tapers"
+        },
+        "evidenceRef": "front-head",
+        "confidence": 0.88
+      },
+      {
+        "id": "twin-tail-arcs",
+        "kind": "contour",
+        "description": "Broad flattened tail curves and tapered ends",
+        "region": {
+          "x": 0.03,
+          "y": 0,
+          "width": 0.92,
+          "height": 0.87
+        },
+        "scale": "meso",
+        "affects": "geometry",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "twintail-l/twin-tail-arcs"
+        },
+        "evidenceRef": "front-hair",
+        "confidence": 0.88
+      },
+      {
+        "id": "pink-hairband",
+        "kind": "linework",
+        "description": "Pink inset along black rectangular ornament",
+        "region": {
+          "x": 0.34,
+          "y": 0,
+          "width": 0.27,
+          "height": 0.18
+        },
+        "scale": "micro",
+        "affects": "color",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "hairband-l/pink-hairband"
+        },
+        "evidenceRef": "front-head",
+        "confidence": 0.88
+      },
+      {
+        "id": "earphone-pink",
+        "kind": "linework",
+        "description": "Pink outer rim on dark earphone cup",
+        "region": {
+          "x": 0.34,
+          "y": 0,
+          "width": 0.27,
+          "height": 0.18
+        },
+        "scale": "micro",
+        "affects": "color",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "earphone-l/earphone-pink"
+        },
+        "evidenceRef": "front-head",
+        "confidence": 0.88
+      },
+      {
+        "id": "iris-catchlights",
+        "kind": "gloss",
+        "description": "Bright paired highlights in teal irises",
+        "region": {
+          "x": 0.34,
+          "y": 0,
+          "width": 0.27,
+          "height": 0.18
+        },
+        "scale": "micro",
+        "affects": "color",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "iris-l/iris-catchlights"
+        },
+        "evidenceRef": "front-head",
+        "confidence": 0.88
+      },
+      {
+        "id": "upper-lashes",
+        "kind": "contour",
+        "description": "Dark curved upper eyelash at almond sclera margin",
+        "region": {
+          "x": 0.34,
+          "y": 0,
+          "width": 0.27,
+          "height": 0.18
+        },
+        "scale": "meso",
+        "affects": "geometry",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "eye-l/upper-lashes"
+        },
+        "evidenceRef": "front-head",
+        "confidence": 0.88
+      },
+      {
+        "id": "collar-piping",
+        "kind": "linework",
+        "description": "Cyan edge around folded white collar",
+        "region": {
+          "x": 0.22,
+          "y": 0.17,
+          "width": 0.55,
+          "height": 0.38
+        },
+        "scale": "micro",
+        "affects": "color",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "collar/collar-piping"
+        },
+        "evidenceRef": "front-outfit",
+        "confidence": 0.88
+      },
+      {
+        "id": "tie-clips",
+        "kind": "linework",
+        "description": "Two dark horizontal bars low on cyan tie",
+        "region": {
+          "x": 0.22,
+          "y": 0.17,
+          "width": 0.55,
+          "height": 0.38
+        },
+        "scale": "micro",
+        "affects": "color",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "tie/tie-clips"
+        },
+        "evidenceRef": "front-outfit",
+        "confidence": 0.88
+      },
+      {
+        "id": "blouse-seams",
+        "kind": "seam",
+        "description": "Princess panel lines and split front hem",
+        "region": {
+          "x": 0.22,
+          "y": 0.17,
+          "width": 0.55,
+          "height": 0.38
+        },
+        "scale": "micro",
+        "affects": "geometry",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "blouse/blouse-seams"
+        },
+        "evidenceRef": "front-outfit",
+        "confidence": 0.88
+      },
+      {
+        "id": "sleeve-cyan-rim",
+        "kind": "linework",
+        "description": "Cyan border at flared cuff",
+        "region": {
+          "x": 0.22,
+          "y": 0.17,
+          "width": 0.55,
+          "height": 0.38
+        },
+        "scale": "micro",
+        "affects": "color",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "sleeve-l/sleeve-cyan-rim"
+        },
+        "evidenceRef": "front-outfit",
+        "confidence": 0.88
+      },
+      {
+        "id": "sleeve-control-strip",
+        "kind": "decal",
+        "description": "Small cyan control strip down outer forearm",
+        "region": {
+          "x": 0.22,
+          "y": 0.17,
+          "width": 0.55,
+          "height": 0.38
+        },
+        "scale": "micro",
+        "affects": "color",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "sleeve-l/sleeve-control-strip"
+        },
+        "evidenceRef": "front-outfit",
+        "confidence": 0.88
+      },
+      {
+        "id": "arm-01",
+        "kind": "decal",
+        "description": "Pink 01 upper-arm mark, surface graphic only",
+        "region": {
+          "x": 0.22,
+          "y": 0.17,
+          "width": 0.55,
+          "height": 0.38
+        },
+        "scale": "micro",
+        "affects": "color",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "upper-arm-l/arm-01"
+        },
+        "evidenceRef": "front-outfit",
+        "confidence": 0.88
+      },
+      {
+        "id": "skirt-pleats",
+        "kind": "ridge",
+        "description": "Repeated vertical pleat folds on flared skirt",
+        "region": {
+          "x": 0.22,
+          "y": 0.17,
+          "width": 0.55,
+          "height": 0.38
+        },
+        "scale": "meso",
+        "affects": "geometry",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "skirt/skirt-pleats"
+        },
+        "evidenceRef": "front-outfit",
+        "confidence": 0.88
+      },
+      {
+        "id": "skirt-cyan-hem",
+        "kind": "linework",
+        "description": "Cyan hem band follows pleats",
+        "region": {
+          "x": 0.22,
+          "y": 0.17,
+          "width": 0.55,
+          "height": 0.38
+        },
+        "scale": "micro",
+        "affects": "color",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "skirt/skirt-cyan-hem"
+        },
+        "evidenceRef": "front-outfit",
+        "confidence": 0.88
+      },
+      {
+        "id": "boot-top-band",
+        "kind": "linework",
+        "description": "Cyan thin top band across thigh boot",
+        "region": {
+          "x": 0.34,
+          "y": 0.48,
+          "width": 0.24,
+          "height": 0.52
+        },
+        "scale": "micro",
+        "affects": "color",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "boot-l/boot-top-band"
+        },
+        "evidenceRef": "front-legs",
+        "confidence": 0.88
+      },
+      {
+        "id": "boot-panel-stitches",
+        "kind": "linework",
+        "description": "Subtle dark rectangular front boot panel marks",
+        "region": {
+          "x": 0.34,
+          "y": 0.48,
+          "width": 0.24,
+          "height": 0.52
+        },
+        "scale": "micro",
+        "affects": "color",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "boot-l/boot-panel-stitches"
+        },
+        "evidenceRef": "front-legs",
+        "confidence": 0.88
+      },
+      {
+        "id": "boot-sole-trim",
+        "kind": "linework",
+        "description": "Thin cyan sole edge",
+        "region": {
+          "x": 0.34,
+          "y": 0.48,
+          "width": 0.24,
+          "height": 0.52
+        },
+        "scale": "micro",
+        "affects": "color",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "foot-l/boot-sole-trim"
+        },
+        "evidenceRef": "front-legs",
+        "confidence": 0.88
+      }
+    ]
+  }
+}

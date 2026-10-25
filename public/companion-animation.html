@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f7f8f3">
+  <meta name="color-scheme" content="light">
+  <title>初音 · 动作样板 · 交互学数学</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='10' fill='%23245646'/%3E%3Cpath d='M12 35h25M12 35 28 11' fill='none' stroke='%23fff' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/companion/animation-preview.css">
+</head>
+<body>
+  <a class="skip-link" href="#animation-main">跳到动作样板</a>
+  <header class="site-header">
+    <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">∠</span><span>交互学数学<small>学习陪伴精灵</small></span></a>
+    <nav aria-label="页面导航"><a href="/companion-preview.html">静态形象</a><a href="/">返回学习 <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main class="page" id="animation-main">
+    <div class="page-heading">
+      <div><p class="eyebrow">学习陪伴精灵 / 动作样板</p><h1>每一次回应，都跟上你。</h1><p class="intro">点选一个学习场景，看看她的动作和中文回应。你可以随时切换，打断上一段动作。</p></div>
+      <span class="status-pill"><span aria-hidden="true"></span>动作样板 · 待确认</span>
+    </div>
+
+    <div class="preview-layout">
+      <aside class="scenario-column" aria-labelledby="scenario-title">
+        <div class="section-label"><h2 id="scenario-title">试试这些时刻</h2><span>07 个场景</span></div>
+        <div class="scenario-list" role="group" aria-label="模拟学习场景">
+          <button class="scenario-button" type="button" data-state="idle" aria-pressed="true"><span class="scenario-symbol" aria-hidden="true">○</span><span><strong>安静待机</strong><small>专心作答时，轻轻陪伴</small></span><span class="selection-dot" aria-hidden="true"></span></button>
+          <button class="scenario-button" type="button" data-state="wave" aria-pressed="false"><span class="scenario-symbol" aria-hidden="true">↗</span><span><strong>欢迎回来</strong><small>挥挥手，准备开始</small></span><span class="selection-dot" aria-hidden="true"></span></button>
+          <button class="scenario-button" type="button" data-state="encourage" aria-pressed="false"><span class="scenario-symbol" aria-hidden="true">↺</span><span><strong>答错后的鼓励</strong><small>再检查一步，继续尝试</small></span><span class="selection-dot" aria-hidden="true"></span></button>
+          <button class="scenario-button" type="button" data-state="correct" aria-pressed="false"><span class="scenario-symbol" aria-hidden="true">✓</span><span><strong>首次独立答对</strong><small>肯定这次独立完成</small></span><span class="selection-dot" aria-hidden="true"></span></button>
+          <button class="scenario-button" type="button" data-state="retry" aria-pressed="false"><span class="scenario-symbol" aria-hidden="true">↻</span><span><strong>订正成功</strong><small>肯定找到问题、改过来</small></span><span class="selection-dot" aria-hidden="true"></span></button>
+          <button class="scenario-button" type="button" data-state="thinking" aria-pressed="false"><span class="scenario-symbol" aria-hidden="true">?</span><span><strong>查看提示</strong><small>一起理解，想想下一步</small></span><span class="selection-dot" aria-hidden="true"></span></button>
+          <button class="scenario-button" type="button" data-state="celebrate" aria-pressed="false"><span class="scenario-symbol" aria-hidden="true">✧</span><span><strong>一轮达标</strong><small>回顾五题中的独立完成</small></span><span class="selection-dot" aria-hidden="true"></span></button>
+        </div>
+        <p class="scenario-note"><span aria-hidden="true">↳</span>这里只模拟回应，不会提交答案或改变学习记录。</p>
+        <div class="motion-settings">
+          <label class="reduce-control" for="reduced-motion"><span><strong>减少动作</strong><small>保留文字，人物安静显示</small></span><input type="checkbox" id="reduced-motion"><span class="switch-track" aria-hidden="true"></span></label>
+          <p id="motion-note">短动作结束后，会回到安静待机。</p>
+        </div>
+      </aside>
+
+      <section class="model-column" aria-labelledby="model-title">
+        <div class="section-label"><h2 id="model-title">看看她的回应</h2><span id="view-label">正面</span></div>
+        <div class="model-stage" id="model-stage" data-background="light">
+          <div class="stage-topline"><span><i aria-hidden="true"></i>HATSUNE MIKU</span><span id="state-label">安静待机</span></div>
+          <div class="dialogue" id="dialogue" aria-live="polite" aria-atomic="true"><span class="dialogue-name">初音</span><p id="dialogue-text">我在这里陪你，慢慢想就好。</p></div>
+          <canvas id="main-canvas" tabindex="0" role="img" aria-label="初音三维动作样板。拖动旋转，滚轮或双指缩放；也可使用视角按钮与方向键。"></canvas>
+          <div class="stage-fallback" id="stage-fallback"><img src="/companion/reference.png" alt="初音参考立绘"><p id="load-status" role="status" aria-live="polite">正在准备动作样板…</p></div>
+          <p class="stage-guide">拖动旋转 · 滚轮或双指缩放</p>
+        </div>
+        <div class="playback-toolbar"><button type="button" class="play-button" id="toggle-play" disabled><span id="play-icon" aria-hidden="true">Ⅱ</span><span id="play-text">暂停动作</span></button><button type="button" class="quiet-button" id="reset-pose" disabled>恢复静态原姿态</button><span class="playback-label" id="playback-label">人物准备中</span></div>
+        <div class="view-toolbar"><div class="view-controls" role="group" aria-label="选择人物视角"><button type="button" data-view="0" aria-pressed="true">正面</button><button type="button" data-view="90" aria-pressed="false">左侧</button><button type="button" data-view="180" aria-pressed="false">背面</button><button type="button" data-view="270" aria-pressed="false">右侧</button></div><div class="background-controls" role="group" aria-label="选择舞台背景"><button type="button" data-background="light" aria-pressed="true"><span class="swatch light" aria-hidden="true"></span>浅色</button><button type="button" data-background="dark" aria-pressed="false"><span class="swatch dark" aria-hidden="true"></span>深色</button></div></div>
+      </section>
+
+      <aside class="detail-column">
+        <section aria-labelledby="mini-title"><div class="section-label"><h2 id="mini-title">在学习页面的一角</h2><span>人物高 220 px</span></div><div class="corner-demo"><div class="demo-topline"><span aria-hidden="true"></span>练习页面 · 示意</div><p class="demo-subject">有理数的加法</p><p class="demo-problem">7 + (−3) = <span>?</span></p><div class="demo-rule" aria-hidden="true"></div><div class="mini-dialogue" id="mini-dialogue">我在这里陪你。</div><canvas id="mini-canvas" aria-label="初音在学习页面角落的 220 像素动作预览" role="img"></canvas><img class="mini-fallback" id="mini-fallback" src="/companion/reference.png" alt="初音小尺寸参考立绘"></div><p class="detail-note">与大预览显示同一个动作。小尺寸下，也要看清脸部、双马尾和手势。</p></section>
+        <section class="review-note" aria-labelledby="review-title"><p class="eyebrow">一起看看</p><h2 id="review-title">回应自然，陪伴安静。</h2><ol><li><span>01</span>眨眼、表情与双马尾是否自然</li><li><span>02</span>不同结果的回应是否准确</li><li><span>03</span>连续切换时是否及时跟上</li><li><span>04</span>缩小后是否清楚、不过分抢眼</li></ol><p>样板确认并试用后，再接入实际练习流程。首版使用预置中文气泡。</p></section>
+      </aside>
+    </div>
+    <footer class="page-footer"><span id="preview-status" role="status" aria-live="polite">动作样板准备中</span><span>本地资源 · 无语音 · 无自由聊天</span></footer>
+    <p class="asset-credit">模型：<a href="https://sketchfab.com/3d-models/hatsune-miku-v6-14c9c7a0348842d79973bd1c9da29bb4" target="_blank" rel="noopener noreferrer">Hatsune Miku V6</a>，作者 <a href="https://sketchfab.com/not_here01-39" target="_blank" rel="noopener noreferrer">not_here01-39</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>。动作样板添加骨骼、蒙皮与表情变形；沿用原模型造型及材质。</p>
+  </main>
+  <noscript><p class="noscript-note">请开启浏览器的 JavaScript 查看人物动作；参考立绘仍可查看。</p></noscript>
+  <script type="module" src="/companion/animation-preview.js"></script>
+</body>
+</html>

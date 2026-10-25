@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "kind": "rigging.glb-rig-v1",
+  "provenance": {
+    "provider": "character",
+    "version": "0.1.0"
+  },
+  "path": "/Users/zhenyu/dev/Interactive_Mathematics_Learning/3D/hatsune_miku_v6.glb",
+  "nodeCount": 69,
+  "skinCount": 0,
+  "clipCount": 0,
+  "primarySkinIndex": null,
+  "skins": [],
+  "joints": [],
+  "inverseBindSource": null,
+  "inverseBindMatrices": [],
+  "skinnedMeshNodes": [],
+  "clips": [],
+  "deformVsTechnical": {
+    "status": "unevaluated",
+    "reason": "GLB carries no skin, so 'is this node in skin.joints' has no answer here",
+    "basis": null,
+    "targetedNodeCount": 0,
+    "channelsWithoutTargetNode": 0,
+    "deformNodes": [],
+    "technicalNodes": [],
+    "channelsTargetingJoints": null,
+    "channelsTargetingTechnicalNodes": null
+  },
+  "unsupportedInterpolationClips": [],
+  "structuralFailure": "GLB carries no skin, so it has no rig to reference; a procedurally authored skeleton cannot be validated against this file",
+  "warnings": [],
+  "note": "Original static source has no skin. The derived skeleton is authored offline, not recovered from the source."
+}

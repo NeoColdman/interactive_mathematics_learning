@@ -1,0 +1,151 @@
+{
+  "source": "public/companion/hatsune_miku_v6-rigged.glb",
+  "output": "public/companion/hatsune_miku_v6-animated.glb",
+  "sourceSha256": "0ef7a865e8ecda1a38e6b08a66654825482440584cc0cb99b9c1f6c9d3814a71",
+  "outputSha256": "19f059f8adb91ee42e44934ff6a7443df9a30d6fb8295c807d2eee95c942abff",
+  "originalBinPrefixPreserved": true,
+  "originalGeometryAccessorsUnchanged": true,
+  "clips": [
+    {
+      "name": "idle",
+      "duration": 4.0,
+      "frames": 121,
+      "rotationChannels": 27,
+      "morphChannels": 11,
+      "loopIntended": true
+    },
+    {
+      "name": "wave",
+      "duration": 2.6,
+      "frames": 79,
+      "rotationChannels": 27,
+      "morphChannels": 11,
+      "loopIntended": false
+    },
+    {
+      "name": "encourage",
+      "duration": 2.2,
+      "frames": 67,
+      "rotationChannels": 27,
+      "morphChannels": 11,
+      "loopIntended": false
+    },
+    {
+      "name": "correct",
+      "duration": 2.0,
+      "frames": 61,
+      "rotationChannels": 27,
+      "morphChannels": 11,
+      "loopIntended": false
+    },
+    {
+      "name": "retry",
+      "duration": 2.2,
+      "frames": 67,
+      "rotationChannels": 27,
+      "morphChannels": 11,
+      "loopIntended": false
+    },
+    {
+      "name": "thinking",
+      "duration": 2.6,
+      "frames": 79,
+      "rotationChannels": 27,
+      "morphChannels": 11,
+      "loopIntended": false
+    },
+    {
+      "name": "celebrate",
+      "duration": 3.0,
+      "frames": 91,
+      "rotationChannels": 27,
+      "morphChannels": 11,
+      "loopIntended": false
+    }
+  ],
+  "morphs": [
+    {
+      "mesh": 19,
+      "material": "eyes19",
+      "vertices": 322,
+      "maxBlinkDelta": 0.016752227448820843,
+      "maxSmileDelta": 0.0
+    },
+    {
+      "mesh": 20,
+      "material": "eyelashes20",
+      "vertices": 426,
+      "maxBlinkDelta": 0.018527842620629117,
+      "maxSmileDelta": 0.0
+    },
+    {
+      "mesh": 21,
+      "material": "eyeLight21",
+      "vertices": 100,
+      "maxBlinkDelta": 0.0037866301249953917,
+      "maxSmileDelta": 0.0
+    },
+    {
+      "mesh": 22,
+      "material": "eyesocket22",
+      "vertices": 310,
+      "maxBlinkDelta": 0.0240915456441919,
+      "maxSmileDelta": 0.0
+    },
+    {
+      "mesh": 23,
+      "material": "whiteeyes23",
+      "vertices": 258,
+      "maxBlinkDelta": 0.020763136308931437,
+      "maxSmileDelta": 0.0
+    },
+    {
+      "mesh": 24,
+      "material": "eyebrow24",
+      "vertices": 170,
+      "maxBlinkDelta": 0.0,
+      "maxSmileDelta": 0.0014992999446607742
+    },
+    {
+      "mesh": 25,
+      "material": "mouth25",
+      "vertices": 144,
+      "maxBlinkDelta": 0.0,
+      "maxSmileDelta": 0.00400065958182945
+    },
+    {
+      "mesh": 26,
+      "material": "mouthInside26",
+      "vertices": 448,
+      "maxBlinkDelta": 0.0,
+      "maxSmileDelta": 0.0045
+    },
+    {
+      "mesh": 27,
+      "material": "head27",
+      "vertices": 3401,
+      "maxBlinkDelta": 0.029191491633928486,
+      "maxSmileDelta": 0.0045
+    },
+    {
+      "mesh": 28,
+      "material": "tooth28",
+      "vertices": 139,
+      "maxBlinkDelta": 0.0,
+      "maxSmileDelta": 0.0045
+    },
+    {
+      "mesh": 29,
+      "material": "material",
+      "vertices": 489,
+      "maxBlinkDelta": 0.02186958727201892,
+      "maxSmileDelta": 0.0
+    }
+  ],
+  "limits": [
+    "Authored motion intent is not a classifier claim.",
+    "No finger articulation or lip sync.",
+    "Face morph topology and broad sleeve bends require browser visual review.",
+    "Sample has no real exercise-data integration."
+  ]
+}

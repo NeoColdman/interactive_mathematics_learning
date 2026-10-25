@@ -1,0 +1,864 @@
+{
+  "date": "2026-10-24T20:55:12.359Z",
+  "scope": "Face morph normal revision and responsive layout; retained full rig tests apply to unchanged joints/weights/clips.",
+  "animatedSha256": "4e8eac64cd8c21571040994dc44e51e4157ae2f84ed5a5197c473b4b062c140e",
+  "originalGeometryAccessorsUnchanged": true,
+  "face": [
+    {
+      "mesh": "Object_46",
+      "material": "eyes19",
+      "normalTargets": 2,
+      "checks": [
+        {
+          "weights": [
+            0,
+            0
+          ],
+          "vertices": 322,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.999999965954696
+        },
+        {
+          "weights": [
+            0.5,
+            0
+          ],
+          "vertices": 322,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.41816812571026607
+        },
+        {
+          "weights": [
+            1,
+            0
+          ],
+          "vertices": 322,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999398075716
+        },
+        {
+          "weights": [
+            0,
+            0.5
+          ],
+          "vertices": 322,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.999999965954696
+        },
+        {
+          "weights": [
+            0,
+            1
+          ],
+          "vertices": 322,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.999999965954696
+        },
+        {
+          "weights": [
+            1,
+            1
+          ],
+          "vertices": 322,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999398075716
+        }
+      ]
+    },
+    {
+      "mesh": "Object_48",
+      "material": "eyelashes20",
+      "normalTargets": 2,
+      "checks": [
+        {
+          "weights": [
+            0,
+            0
+          ],
+          "vertices": 426,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999573270411
+        },
+        {
+          "weights": [
+            0.5,
+            0
+          ],
+          "vertices": 426,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.4196526482054743
+        },
+        {
+          "weights": [
+            1,
+            0
+          ],
+          "vertices": 426,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999393941151
+        },
+        {
+          "weights": [
+            0,
+            0.5
+          ],
+          "vertices": 426,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999573270411
+        },
+        {
+          "weights": [
+            0,
+            1
+          ],
+          "vertices": 426,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999573270411
+        },
+        {
+          "weights": [
+            1,
+            1
+          ],
+          "vertices": 426,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999393941151
+        }
+      ]
+    },
+    {
+      "mesh": "Object_50",
+      "material": "eyeLight21",
+      "normalTargets": 2,
+      "checks": [
+        {
+          "weights": [
+            0,
+            0
+          ],
+          "vertices": 100,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999598521804
+        },
+        {
+          "weights": [
+            0.5,
+            0
+          ],
+          "vertices": 100,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.492354436821524
+        },
+        {
+          "weights": [
+            1,
+            0
+          ],
+          "vertices": 100,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999433550395
+        },
+        {
+          "weights": [
+            0,
+            0.5
+          ],
+          "vertices": 100,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999598521804
+        },
+        {
+          "weights": [
+            0,
+            1
+          ],
+          "vertices": 100,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999598521804
+        },
+        {
+          "weights": [
+            1,
+            1
+          ],
+          "vertices": 100,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999433550395
+        }
+      ]
+    },
+    {
+      "mesh": "Object_52",
+      "material": "eyesocket22",
+      "normalTargets": 2,
+      "checks": [
+        {
+          "weights": [
+            0,
+            0
+          ],
+          "vertices": 310,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999460985664
+        },
+        {
+          "weights": [
+            0.5,
+            0
+          ],
+          "vertices": 310,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.39360445068516553
+        },
+        {
+          "weights": [
+            1,
+            0
+          ],
+          "vertices": 310,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999416341315
+        },
+        {
+          "weights": [
+            0,
+            0.5
+          ],
+          "vertices": 310,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999460985664
+        },
+        {
+          "weights": [
+            0,
+            1
+          ],
+          "vertices": 310,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999460985664
+        },
+        {
+          "weights": [
+            1,
+            1
+          ],
+          "vertices": 310,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999416341315
+        }
+      ]
+    },
+    {
+      "mesh": "Object_54",
+      "material": "whiteeyes23",
+      "normalTargets": 2,
+      "checks": [
+        {
+          "weights": [
+            0,
+            0
+          ],
+          "vertices": 258,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999206207741
+        },
+        {
+          "weights": [
+            0.5,
+            0
+          ],
+          "vertices": 258,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.17298701187691568
+        },
+        {
+          "weights": [
+            1,
+            0
+          ],
+          "vertices": 258,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999453247533
+        },
+        {
+          "weights": [
+            0,
+            0.5
+          ],
+          "vertices": 258,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999206207741
+        },
+        {
+          "weights": [
+            0,
+            1
+          ],
+          "vertices": 258,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999206207741
+        },
+        {
+          "weights": [
+            1,
+            1
+          ],
+          "vertices": 258,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999453247533
+        }
+      ]
+    },
+    {
+      "mesh": "Object_56",
+      "material": "eyebrow24",
+      "normalTargets": 2,
+      "checks": [
+        {
+          "weights": [
+            0,
+            0
+          ],
+          "vertices": 170,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999298967456
+        },
+        {
+          "weights": [
+            0.5,
+            0
+          ],
+          "vertices": 170,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999298967456
+        },
+        {
+          "weights": [
+            1,
+            0
+          ],
+          "vertices": 170,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999298967456
+        },
+        {
+          "weights": [
+            0,
+            0.5
+          ],
+          "vertices": 170,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.7121068141523562
+        },
+        {
+          "weights": [
+            0,
+            1
+          ],
+          "vertices": 170,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.999999963438787
+        },
+        {
+          "weights": [
+            1,
+            1
+          ],
+          "vertices": 170,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.999999963438787
+        }
+      ]
+    },
+    {
+      "mesh": "Object_58",
+      "material": "mouth25",
+      "normalTargets": 2,
+      "checks": [
+        {
+          "weights": [
+            0,
+            0
+          ],
+          "vertices": 144,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999656810031
+        },
+        {
+          "weights": [
+            0.5,
+            0
+          ],
+          "vertices": 144,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999656810031
+        },
+        {
+          "weights": [
+            1,
+            0
+          ],
+          "vertices": 144,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999656810031
+        },
+        {
+          "weights": [
+            0,
+            0.5
+          ],
+          "vertices": 144,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.3232986395847214
+        },
+        {
+          "weights": [
+            0,
+            1
+          ],
+          "vertices": 144,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999441223482
+        },
+        {
+          "weights": [
+            1,
+            1
+          ],
+          "vertices": 144,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999441223482
+        }
+      ]
+    },
+    {
+      "mesh": "Object_60",
+      "material": "mouthInside26",
+      "normalTargets": 2,
+      "checks": [
+        {
+          "weights": [
+            0,
+            0
+          ],
+          "vertices": 448,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999552043547
+        },
+        {
+          "weights": [
+            0.5,
+            0
+          ],
+          "vertices": 448,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999552043547
+        },
+        {
+          "weights": [
+            1,
+            0
+          ],
+          "vertices": 448,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999552043547
+        },
+        {
+          "weights": [
+            0,
+            0.5
+          ],
+          "vertices": 448,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.011722898173794755
+        },
+        {
+          "weights": [
+            0,
+            1
+          ],
+          "vertices": 448,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999380564406
+        },
+        {
+          "weights": [
+            1,
+            1
+          ],
+          "vertices": 448,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999380564406
+        }
+      ]
+    },
+    {
+      "mesh": "Object_62",
+      "material": "head27",
+      "normalTargets": 2,
+      "checks": [
+        {
+          "weights": [
+            0,
+            0
+          ],
+          "vertices": 3401,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999282379416
+        },
+        {
+          "weights": [
+            0.5,
+            0
+          ],
+          "vertices": 3401,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.46071596162224115
+        },
+        {
+          "weights": [
+            1,
+            0
+          ],
+          "vertices": 3401,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999282379416
+        },
+        {
+          "weights": [
+            0,
+            0.5
+          ],
+          "vertices": 3401,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.5126491048352645
+        },
+        {
+          "weights": [
+            0,
+            1
+          ],
+          "vertices": 3401,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999282379416
+        },
+        {
+          "weights": [
+            1,
+            1
+          ],
+          "vertices": 3401,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.999190045187684
+        }
+      ]
+    },
+    {
+      "mesh": "Object_64",
+      "material": "tooth28",
+      "normalTargets": 2,
+      "checks": [
+        {
+          "weights": [
+            0,
+            0
+          ],
+          "vertices": 139,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999761936207
+        },
+        {
+          "weights": [
+            0.5,
+            0
+          ],
+          "vertices": 139,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999761936207
+        },
+        {
+          "weights": [
+            1,
+            0
+          ],
+          "vertices": 139,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999761936207
+        },
+        {
+          "weights": [
+            0,
+            0.5
+          ],
+          "vertices": 139,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.019033612395972357
+        },
+        {
+          "weights": [
+            0,
+            1
+          ],
+          "vertices": 139,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999340459578
+        },
+        {
+          "weights": [
+            1,
+            1
+          ],
+          "vertices": 139,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999340459578
+        }
+      ]
+    },
+    {
+      "mesh": "Object_66",
+      "material": "material",
+      "normalTargets": 2,
+      "checks": [
+        {
+          "weights": [
+            0,
+            0
+          ],
+          "vertices": 489,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.999999962610382
+        },
+        {
+          "weights": [
+            0.5,
+            0
+          ],
+          "vertices": 489,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.16981108398411227
+        },
+        {
+          "weights": [
+            1,
+            0
+          ],
+          "vertices": 489,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999417373254
+        },
+        {
+          "weights": [
+            0,
+            0.5
+          ],
+          "vertices": 489,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.999999962610382
+        },
+        {
+          "weights": [
+            0,
+            1
+          ],
+          "vertices": 489,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.999999962610382
+        },
+        {
+          "weights": [
+            1,
+            1
+          ],
+          "vertices": 489,
+          "nonFinite": 0,
+          "badNormal": 0,
+          "minNormalLength": 0.9999999417373254
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "viewport": [
+        820,
+        1180
+      ],
+      "scrollWidth": 820,
+      "canvas": {
+        "width": 525,
+        "height": 496
+      },
+      "buttons": [
+        {
+          "state": "idle",
+          "width": 214,
+          "height": 66
+        },
+        {
+          "state": "wave",
+          "width": 214,
+          "height": 66
+        },
+        {
+          "state": "encourage",
+          "width": 214,
+          "height": 66
+        },
+        {
+          "state": "correct",
+          "width": 214,
+          "height": 66
+        },
+        {
+          "state": "retry",
+          "width": 214,
+          "height": 66
+        },
+        {
+          "state": "thinking",
+          "width": 214,
+          "height": 66
+        },
+        {
+          "state": "celebrate",
+          "width": 214,
+          "height": 66
+        }
+      ]
+    },
+    {
+      "viewport": [
+        375,
+        812
+      ],
+      "scrollWidth": 375,
+      "canvas": {
+        "width": 343,
+        "height": 416
+      },
+      "buttons": [
+        {
+          "state": "idle",
+          "width": 169.5,
+          "height": 72
+        },
+        {
+          "state": "wave",
+          "width": 169.5,
+          "height": 72
+        },
+        {
+          "state": "encourage",
+          "width": 169.5,
+          "height": 72
+        },
+        {
+          "state": "correct",
+          "width": 169.5,
+          "height": 72
+        },
+        {
+          "state": "retry",
+          "width": 169.5,
+          "height": 72
+        },
+        {
+          "state": "thinking",
+          "width": 169.5,
+          "height": 72
+        },
+        {
+          "state": "celebrate",
+          "width": 169.5,
+          "height": 72
+        }
+      ]
+    }
+  ],
+  "events": {
+    "errors": [],
+    "warnings": [
+      "[.WebGL-0x12c0044aa00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+      "[.WebGL-0x12c0044aa00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+      "[.WebGL-0x12c0044aa00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+      "[.WebGL-0x12c0044aa00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    ],
+    "failedRequests": [
+      {
+        "url": "http://127.0.0.1:3211/companion/hatsune_miku_v6-animated.glb",
+        "failure": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      }
+    ],
+    "badResponses": [],
+    "externalRequests": []
+  },
+  "freezePath": ".img2threejs/imported-glb/animation/geometry-freeze.json",
+  "frozenSource": null
+}

@@ -1,0 +1,46 @@
+{
+  "route": "external-asset-direct",
+  "authorization": "2026-10-24 user explicitly requested direct use of 3D/hatsune_miku_v6.glb after rejecting the procedural preview.",
+  "status": "appearance-approved-motion-sample-ready-for-review",
+  "source": "3D/hatsune_miku_v6.glb",
+  "runtime": "public/companion/hatsune_miku_v6.glb",
+  "sourceSha256": "19f9f7e48e8224e961c9b6dc870fe8c5585be3de6903ce505c45919dc17e5287",
+  "proceduralFactoryClaim": false,
+  "sourceMeshAltered": false,
+  "previewTransforms": [
+    "uniform parent scale",
+    "parent translation"
+  ],
+  "textureAdaptation": "embedded PNGs extracted to same-origin paths; preview max dimension 2048",
+  "previousWorkflow": {
+    "path": ".img2threejs/state.json",
+    "status": "stopped, preserved as history; not resumed or reset"
+  },
+  "animation": {
+    "sourceHadSkin": false,
+    "sourceHadClips": false,
+    "sourceHadMorphTargets": false,
+    "derivedRig": "public/companion/hatsune_miku_v6-rigged.glb",
+    "motionAsset": "public/companion/hatsune_miku_v6-animated.glb",
+    "jointCount": 27,
+    "clipCount": 7,
+    "morphMeshes": 11,
+    "stage": "seven-state standalone motion sample ready for user and child review; not integrated into exercises",
+    "motionSha256": "19f059f8adb91ee42e44934ff6a7443df9a30d6fb8295c807d2eee95c942abff",
+    "validation": {
+      "date": "2026-10-25",
+      "assetIntegrity": "animation/final-asset-integrity.json",
+      "faceAndLayout": "animation/validation/face-final/report.json",
+      "pluginGateStatus": {
+        "pass": 10,
+        "G2": "fail: two original meshes contain fewer than 64 distinct vertices",
+        "G10": "unevaluated: no pixel integrity baseline"
+      }
+    }
+  },
+  "appearanceApproval": {
+    "date": "2026-10-24",
+    "userMessage": "形象确认",
+    "assetSha256": "19f9f7e48e8224e961c9b6dc870fe8c5585be3de6903ce505c45919dc17e5287"
+  }
+}

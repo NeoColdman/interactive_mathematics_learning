@@ -1,0 +1,681 @@
+{
+  "schemaVersion": 1,
+  "kind": "rigging.clip-features-v1",
+  "provenance": {
+    "provider": "character",
+    "version": "0.1.0"
+  },
+  "figureHeight": 1.6526055407593958,
+  "clipCount": 7,
+  "scaleTripwire": {
+    "limit": 0.0,
+    "tripped": false,
+    "clips": [],
+    "note": "A non-zero scaleDelta means the source rig scales joints, which changes what Stage R2 may legally do to skin weights. Surface it before anything else proceeds."
+  },
+  "clips": [
+    {
+      "sourceName": "idle",
+      "features": {
+        "sourceName": "idle",
+        "figureHeight": 1.6526055407593958,
+        "sampleCount": 25,
+        "duration": 4.0,
+        "travel": 0.0,
+        "rise": 0.0,
+        "speed": 0.0,
+        "handRange": 0.26298842594571087,
+        "footRange": 0.07386536562373315,
+        "headRise": 2.127299888883004e-05,
+        "scaleDelta": 0.0,
+        "scalesJoints": false,
+        "poseReturn": 0.0,
+        "hipReturn": 0.0,
+        "landmarkRanges": {
+          "hip": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "head": [
+            0.0,
+            2.127299888883004e-05,
+            0.0015978385832101014
+          ],
+          "hand.l": [
+            0.004893424535302458,
+            0.001091794011099809,
+            0.00391709842327729
+          ],
+          "hand.r": [
+            0.004893424535302458,
+            0.001091794011099809,
+            0.00391709842327729
+          ],
+          "foot.l": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "foot.r": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "classification": {
+        "labels": [
+          "idle",
+          "in-place",
+          "planted"
+        ],
+        "primary": "idle",
+        "reasons": {
+          "idle": "travel 0.0000 < 0.02 and rise 0.0000 < 0.02",
+          "in-place": "travel 0.0000 < 0.3",
+          "planted": "footRange 0.0739 < 0.1"
+        },
+        "thresholds": {
+          "idleTravel": 0.02,
+          "idleRise": 0.02,
+          "inPlaceTravel": 0.3,
+          "walkSpeed": 0.3,
+          "runSpeed": 0.6,
+          "dashSpeed": 1.5,
+          "jumpRise": 0.15,
+          "leapTravel": 0.5,
+          "plantedFootRange": 0.1,
+          "gestureHandRange": 0.4,
+          "provenance": "single-subject (11 clips, one rig, H = 1.0)"
+        }
+      },
+      "loop": {
+        "loop": true,
+        "reason": "poseReturn 0.000 deg <= 0.5 and ||hip(T) - hip(0)|| 0.0000H <= 0.01H",
+        "poseReturn": 0.0,
+        "hipReturn": 0.0,
+        "poseReturnLimit": 0.5,
+        "hipTolerance": 0.01
+      },
+      "name": {
+        "sourceName": "idle",
+        "id": "idle",
+        "label": "idle",
+        "measured": "travel 0.000H, rise 0.000H, footRange 0.074H",
+        "inferred": false,
+        "loop": true
+      }
+    },
+    {
+      "sourceName": "wave",
+      "features": {
+        "sourceName": "wave",
+        "figureHeight": 1.6526055407593958,
+        "sampleCount": 25,
+        "duration": 2.5999999046325684,
+        "travel": 0.0,
+        "rise": 0.0,
+        "speed": 0.0,
+        "handRange": 0.4400493754862847,
+        "footRange": 0.07386536562373315,
+        "headRise": 0.0,
+        "scaleDelta": 0.0,
+        "scalesJoints": false,
+        "poseReturn": 0.0,
+        "hipReturn": 0.0,
+        "landmarkRanges": {
+          "hip": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hand.l": [
+            8.397519834913185e-17,
+            0.0,
+            2.0993799587282965e-18
+          ],
+          "hand.r": [
+            0.18194942898763594,
+            0.40542435055217374,
+            0.019907482841364774
+          ],
+          "foot.l": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "foot.r": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "classification": {
+        "labels": [
+          "idle",
+          "in-place",
+          "planted",
+          "gesture"
+        ],
+        "primary": "idle",
+        "reasons": {
+          "idle": "travel 0.0000 < 0.02 and rise 0.0000 < 0.02",
+          "in-place": "travel 0.0000 < 0.3",
+          "planted": "footRange 0.0739 < 0.1",
+          "gesture": "handRange 0.4400 >= 0.4 while in-place"
+        },
+        "thresholds": {
+          "idleTravel": 0.02,
+          "idleRise": 0.02,
+          "inPlaceTravel": 0.3,
+          "walkSpeed": 0.3,
+          "runSpeed": 0.6,
+          "dashSpeed": 1.5,
+          "jumpRise": 0.15,
+          "leapTravel": 0.5,
+          "plantedFootRange": 0.1,
+          "gestureHandRange": 0.4,
+          "provenance": "single-subject (11 clips, one rig, H = 1.0)"
+        }
+      },
+      "loop": {
+        "loop": true,
+        "reason": "poseReturn 0.000 deg <= 0.5 and ||hip(T) - hip(0)|| 0.0000H <= 0.01H",
+        "poseReturn": 0.0,
+        "hipReturn": 0.0,
+        "poseReturnLimit": 0.5,
+        "hipTolerance": 0.01
+      },
+      "name": {
+        "sourceName": "wave",
+        "id": "idle",
+        "label": "idle",
+        "measured": "travel 0.000H, rise 0.000H, footRange 0.074H, handRange 0.440H",
+        "inferred": false,
+        "loop": true
+      }
+    },
+    {
+      "sourceName": "encourage",
+      "features": {
+        "sourceName": "encourage",
+        "figureHeight": 1.6526055407593958,
+        "sampleCount": 25,
+        "duration": 2.200000047683716,
+        "travel": 0.0,
+        "rise": 0.0,
+        "speed": 0.0,
+        "handRange": 0.41997665517195926,
+        "footRange": 0.07386536562373315,
+        "headRise": 0.00038036616759058126,
+        "scaleDelta": 0.0,
+        "scalesJoints": false,
+        "poseReturn": 0.0,
+        "hipReturn": 0.0,
+        "landmarkRanges": {
+          "hip": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "head": [
+            0.0,
+            0.00038036616759058126,
+            0.007479190149478724
+          ],
+          "hand.l": [
+            8.397519834913185e-17,
+            0.0006557453655777184,
+            0.019020731226352283
+          ],
+          "hand.r": [
+            0.16187670867331047,
+            0.22728403506161132,
+            0.011424724263612825
+          ],
+          "foot.l": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "foot.r": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "classification": {
+        "labels": [
+          "idle",
+          "in-place",
+          "planted",
+          "gesture"
+        ],
+        "primary": "idle",
+        "reasons": {
+          "idle": "travel 0.0000 < 0.02 and rise 0.0000 < 0.02",
+          "in-place": "travel 0.0000 < 0.3",
+          "planted": "footRange 0.0739 < 0.1",
+          "gesture": "handRange 0.4200 >= 0.4 while in-place"
+        },
+        "thresholds": {
+          "idleTravel": 0.02,
+          "idleRise": 0.02,
+          "inPlaceTravel": 0.3,
+          "walkSpeed": 0.3,
+          "runSpeed": 0.6,
+          "dashSpeed": 1.5,
+          "jumpRise": 0.15,
+          "leapTravel": 0.5,
+          "plantedFootRange": 0.1,
+          "gestureHandRange": 0.4,
+          "provenance": "single-subject (11 clips, one rig, H = 1.0)"
+        }
+      },
+      "loop": {
+        "loop": true,
+        "reason": "poseReturn 0.000 deg <= 0.5 and ||hip(T) - hip(0)|| 0.0000H <= 0.01H",
+        "poseReturn": 0.0,
+        "hipReturn": 0.0,
+        "poseReturnLimit": 0.5,
+        "hipTolerance": 0.01
+      },
+      "name": {
+        "sourceName": "encourage",
+        "id": "idle",
+        "label": "idle",
+        "measured": "travel 0.000H, rise 0.000H, footRange 0.074H, handRange 0.420H",
+        "inferred": false,
+        "loop": true
+      }
+    },
+    {
+      "sourceName": "correct",
+      "features": {
+        "sourceName": "correct",
+        "figureHeight": 1.6526055407593958,
+        "sampleCount": 25,
+        "duration": 2.0,
+        "travel": 0.0,
+        "rise": 0.0,
+        "speed": 0.0,
+        "handRange": 0.4971773943551455,
+        "footRange": 0.07386536562373315,
+        "headRise": 0.0,
+        "scaleDelta": 0.0,
+        "scalesJoints": false,
+        "poseReturn": 0.0,
+        "hipReturn": 0.0,
+        "landmarkRanges": {
+          "hip": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hand.l": [
+            0.11953872392824841,
+            0.06817044678918786,
+            0.04427157035794112
+          ],
+          "hand.r": [
+            0.11953872392824841,
+            0.06817044678918786,
+            0.04427157035794112
+          ],
+          "foot.l": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "foot.r": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "classification": {
+        "labels": [
+          "idle",
+          "in-place",
+          "planted",
+          "gesture"
+        ],
+        "primary": "idle",
+        "reasons": {
+          "idle": "travel 0.0000 < 0.02 and rise 0.0000 < 0.02",
+          "in-place": "travel 0.0000 < 0.3",
+          "planted": "footRange 0.0739 < 0.1",
+          "gesture": "handRange 0.4972 >= 0.4 while in-place"
+        },
+        "thresholds": {
+          "idleTravel": 0.02,
+          "idleRise": 0.02,
+          "inPlaceTravel": 0.3,
+          "walkSpeed": 0.3,
+          "runSpeed": 0.6,
+          "dashSpeed": 1.5,
+          "jumpRise": 0.15,
+          "leapTravel": 0.5,
+          "plantedFootRange": 0.1,
+          "gestureHandRange": 0.4,
+          "provenance": "single-subject (11 clips, one rig, H = 1.0)"
+        }
+      },
+      "loop": {
+        "loop": true,
+        "reason": "poseReturn 0.000 deg <= 0.5 and ||hip(T) - hip(0)|| 0.0000H <= 0.01H",
+        "poseReturn": 0.0,
+        "hipReturn": 0.0,
+        "poseReturnLimit": 0.5,
+        "hipTolerance": 0.01
+      },
+      "name": {
+        "sourceName": "correct",
+        "id": "idle",
+        "label": "idle",
+        "measured": "travel 0.000H, rise 0.000H, footRange 0.074H, handRange 0.497H",
+        "inferred": false,
+        "loop": true
+      }
+    },
+    {
+      "sourceName": "retry",
+      "features": {
+        "sourceName": "retry",
+        "figureHeight": 1.6526055407593958,
+        "sampleCount": 25,
+        "duration": 2.200000047683716,
+        "travel": 0.0,
+        "rise": 0.0,
+        "speed": 0.0,
+        "handRange": 0.4192176733759718,
+        "footRange": 0.07386536562373315,
+        "headRise": 0.0,
+        "scaleDelta": 0.0,
+        "scalesJoints": false,
+        "poseReturn": 0.0,
+        "hipReturn": 0.0,
+        "landmarkRanges": {
+          "hip": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hand.l": [
+            8.397519834913185e-17,
+            0.0,
+            1.5745349690462223e-18
+          ],
+          "hand.r": [
+            0.1611177268773231,
+            0.15613131399052263,
+            0.01505877567122094
+          ],
+          "foot.l": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "foot.r": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "classification": {
+        "labels": [
+          "idle",
+          "in-place",
+          "planted",
+          "gesture"
+        ],
+        "primary": "idle",
+        "reasons": {
+          "idle": "travel 0.0000 < 0.02 and rise 0.0000 < 0.02",
+          "in-place": "travel 0.0000 < 0.3",
+          "planted": "footRange 0.0739 < 0.1",
+          "gesture": "handRange 0.4192 >= 0.4 while in-place"
+        },
+        "thresholds": {
+          "idleTravel": 0.02,
+          "idleRise": 0.02,
+          "inPlaceTravel": 0.3,
+          "walkSpeed": 0.3,
+          "runSpeed": 0.6,
+          "dashSpeed": 1.5,
+          "jumpRise": 0.15,
+          "leapTravel": 0.5,
+          "plantedFootRange": 0.1,
+          "gestureHandRange": 0.4,
+          "provenance": "single-subject (11 clips, one rig, H = 1.0)"
+        }
+      },
+      "loop": {
+        "loop": true,
+        "reason": "poseReturn 0.000 deg <= 0.5 and ||hip(T) - hip(0)|| 0.0000H <= 0.01H",
+        "poseReturn": 0.0,
+        "hipReturn": 0.0,
+        "poseReturnLimit": 0.5,
+        "hipTolerance": 0.01
+      },
+      "name": {
+        "sourceName": "retry",
+        "id": "idle",
+        "label": "idle",
+        "measured": "travel 0.000H, rise 0.000H, footRange 0.074H, handRange 0.419H",
+        "inferred": false,
+        "loop": true
+      }
+    },
+    {
+      "sourceName": "thinking",
+      "features": {
+        "sourceName": "thinking",
+        "figureHeight": 1.6526055407593958,
+        "sampleCount": 25,
+        "duration": 2.5999999046325684,
+        "travel": 0.0,
+        "rise": 0.0,
+        "speed": 0.0,
+        "handRange": 0.4140981513796682,
+        "footRange": 0.07386536562373315,
+        "headRise": 0.0,
+        "scaleDelta": 0.0,
+        "scalesJoints": false,
+        "poseReturn": 0.0,
+        "hipReturn": 0.0,
+        "landmarkRanges": {
+          "hip": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hand.l": [
+            8.397519834913185e-17,
+            0.0,
+            2.0993799587282965e-18
+          ],
+          "hand.r": [
+            0.15599820488101943,
+            0.34609355158981314,
+            0.04884935541380415
+          ],
+          "foot.l": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "foot.r": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "classification": {
+        "labels": [
+          "idle",
+          "in-place",
+          "planted",
+          "gesture"
+        ],
+        "primary": "idle",
+        "reasons": {
+          "idle": "travel 0.0000 < 0.02 and rise 0.0000 < 0.02",
+          "in-place": "travel 0.0000 < 0.3",
+          "planted": "footRange 0.0739 < 0.1",
+          "gesture": "handRange 0.4141 >= 0.4 while in-place"
+        },
+        "thresholds": {
+          "idleTravel": 0.02,
+          "idleRise": 0.02,
+          "inPlaceTravel": 0.3,
+          "walkSpeed": 0.3,
+          "runSpeed": 0.6,
+          "dashSpeed": 1.5,
+          "jumpRise": 0.15,
+          "leapTravel": 0.5,
+          "plantedFootRange": 0.1,
+          "gestureHandRange": 0.4,
+          "provenance": "single-subject (11 clips, one rig, H = 1.0)"
+        }
+      },
+      "loop": {
+        "loop": true,
+        "reason": "poseReturn 0.000 deg <= 0.5 and ||hip(T) - hip(0)|| 0.0000H <= 0.01H",
+        "poseReturn": 0.0,
+        "hipReturn": 0.0,
+        "poseReturnLimit": 0.5,
+        "hipTolerance": 0.01
+      },
+      "name": {
+        "sourceName": "thinking",
+        "id": "idle",
+        "label": "idle",
+        "measured": "travel 0.000H, rise 0.000H, footRange 0.074H, handRange 0.414H",
+        "inferred": false,
+        "loop": true
+      }
+    },
+    {
+      "sourceName": "celebrate",
+      "features": {
+        "sourceName": "celebrate",
+        "figureHeight": 1.6526055407593958,
+        "sampleCount": 25,
+        "duration": 3.0,
+        "travel": 0.0,
+        "rise": 0.0,
+        "speed": 0.0,
+        "handRange": 0.6393279019807984,
+        "footRange": 0.07386536562373315,
+        "headRise": 0.0,
+        "scaleDelta": 0.0,
+        "scalesJoints": false,
+        "poseReturn": 0.0,
+        "hipReturn": 0.0,
+        "landmarkRanges": {
+          "hip": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "head": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hand.l": [
+            0.1906139777410748,
+            0.39454670928665203,
+            0.015121019557889474
+          ],
+          "hand.r": [
+            0.1906139777410748,
+            0.39454670928665203,
+            0.015121019557889474
+          ],
+          "foot.l": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "foot.r": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "classification": {
+        "labels": [
+          "idle",
+          "in-place",
+          "planted",
+          "gesture"
+        ],
+        "primary": "idle",
+        "reasons": {
+          "idle": "travel 0.0000 < 0.02 and rise 0.0000 < 0.02",
+          "in-place": "travel 0.0000 < 0.3",
+          "planted": "footRange 0.0739 < 0.1",
+          "gesture": "handRange 0.6393 >= 0.4 while in-place"
+        },
+        "thresholds": {
+          "idleTravel": 0.02,
+          "idleRise": 0.02,
+          "inPlaceTravel": 0.3,
+          "walkSpeed": 0.3,
+          "runSpeed": 0.6,
+          "dashSpeed": 1.5,
+          "jumpRise": 0.15,
+          "leapTravel": 0.5,
+          "plantedFootRange": 0.1,
+          "gestureHandRange": 0.4,
+          "provenance": "single-subject (11 clips, one rig, H = 1.0)"
+        }
+      },
+      "loop": {
+        "loop": true,
+        "reason": "poseReturn 0.000 deg <= 0.5 and ||hip(T) - hip(0)|| 0.0000H <= 0.01H",
+        "poseReturn": 0.0,
+        "hipReturn": 0.0,
+        "poseReturnLimit": 0.5,
+        "hipTolerance": 0.01
+      },
+      "name": {
+        "sourceName": "celebrate",
+        "id": "idle",
+        "label": "idle",
+        "measured": "travel 0.000H, rise 0.000H, footRange 0.074H, handRange 0.639H",
+        "inferred": false,
+        "loop": true
+      }
+    }
+  ]
+}

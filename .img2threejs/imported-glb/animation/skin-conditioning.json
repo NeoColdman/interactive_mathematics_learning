@@ -1,0 +1,35 @@
+{
+  "verticesTotal": 28138,
+  "verticesTouched": 10037,
+  "verticesInterior": 18101,
+  "verticesWithoutWeight": 0,
+  "figureHeight": 1.6526055407593958,
+  "radiusFraction": 0.006,
+  "radiusWorld": 0.009915633244556375,
+  "maxInfluencesSeen": 5,
+  "lossyReductions": 0,
+  "maxDiscardedFraction": 0.0008181004381198531,
+  "discardThreshold": 0.001,
+  "trade": "Proximity blending closes holes and makes creases ~16% worse (measured over 176 frames: holes 974px/30 blobs -> 287px/15 blobs, creases 31,316px -> 36,470px). A hole shows the background, a crease shows skin; the trade was accepted deliberately. Do not disable the blend to bring the crease count back down.",
+  "residual": "Creases are not eliminated by this method. Removing them entirely needs one continuous mesh with a unified weight field, which changes the part structure and breaks per-part UI.",
+  "scope": {
+    "meshIndices": [
+      0,
+      1,
+      4,
+      5,
+      6,
+      7,
+      8,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      30
+    ],
+    "excluded": "head accessories; all longhair and face materials"
+  },
+  "evidenceBoundary": "structural proximity blend; crease/hole pixel counts not measured here"
+}

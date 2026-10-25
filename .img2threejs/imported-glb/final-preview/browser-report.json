@@ -1,0 +1,118 @@
+{
+  "metrics": {
+    "ready": true,
+    "meshCount": 31,
+    "triangleCount": 248223,
+    "vertexCount": 50553,
+    "bounds": {
+      "min": [
+        -1.1318998065376396,
+        0,
+        -0.5968258677489297
+      ],
+      "max": [
+        1.1318998065376396,
+        3.3999999999999995,
+        0.5968258677489298
+      ],
+      "size": [
+        2.263799613075279,
+        3.3999999999999995,
+        1.1936517354978595
+      ],
+      "center": [
+        0,
+        1.6999999999999997,
+        5.551115123125783e-17
+      ]
+    },
+    "viewport": {
+      "width": 906,
+      "height": 608
+    },
+    "camera": {
+      "position": [
+        0,
+        1.7612,
+        7.8671631023551924
+      ],
+      "target": [
+        0,
+        1.6999999999999997,
+        5.551115123125783e-17
+      ],
+      "fov": 30
+    },
+    "renderCount": 13,
+    "background": "light",
+    "requestedPass": "imported-glb-static",
+    "renderer": {
+      "frame": 26,
+      "calls": 31,
+      "triangles": 248223,
+      "points": 0,
+      "lines": 0
+    },
+    "modelUserData": {
+      "sourceKind": "imported-glb",
+      "sourcePath": "3D/hatsune_miku_v6.glb",
+      "sourceSha256": "19f9f7e48e8224e961c9b6dc870fe8c5585be3de6903ce505c45919dc17e5287",
+      "normalizedHeight": 3.4,
+      "previewTextureLimit": 2048,
+      "originalBounds": {
+        "min": [
+          -0.5501717329025269,
+          0.0007535147597081959,
+          -0.3868598937988281
+        ],
+        "max": [
+          0.5501717329025269,
+          1.653359055519104,
+          0.19332700967788696
+        ]
+      },
+      "inventory": {
+        "meshCount": 31,
+        "triangles": 248223,
+        "materialCount": 31,
+        "textureCount": 13,
+        "skinnedMeshes": 0,
+        "morphMeshes": 0,
+        "animationClips": 0
+      },
+      "animationStatus": "no-skin-or-animation-in-source",
+      "attribution": {
+        "title": "Hatsune Miku V6",
+        "author": "not_here01-39",
+        "license": "CC BY 4.0",
+        "source": "https://sketchfab.com/3d-models/hatsune-miku-v6-14c9c7a0348842d79973bd1c9da29bb4"
+      }
+    }
+  },
+  "uiChecks": [
+    "front/side/back controls",
+    "light/dark background controls",
+    "keyboard rotation and reset",
+    "tablet viewport 820x1180",
+    "mobile viewport 375x812",
+    "static on-demand rendering"
+  ],
+  "errors": [],
+  "consoleWarnings": [
+    "[.WebGL-0x11400448600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x11400448600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x11400448600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x11400448600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+  ],
+  "applicationWarnings": [],
+  "externalRequests": [],
+  "views": [
+    0,
+    35,
+    -35,
+    90,
+    135,
+    180,
+    270
+  ]
+}

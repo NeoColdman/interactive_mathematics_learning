@@ -1,0 +1,13 @@
+{
+  "name": "interactive-mathematics-learning",
+  "version": "0.5.0",
+  "private": true,
+  "type": "module",
+  "description": "家庭本地运行的七年级交互数学学习工具",
+  "engines": { "node": "^22.0.0 || ^24.0.0" },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "package": "node scripts/package.mjs"
+  }
+}

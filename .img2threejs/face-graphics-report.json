@@ -1,0 +1,27 @@
+{
+  "source": ".img2threejs/face-delit.png",
+  "sourceSha256": "ec6ea46e5cfbbc5b36c45884abd3d4fa57956f528e821f3d7af5099bb4d28e8f",
+  "output": "public/companion/face-albedo.png",
+  "chart": {
+    "referenceX": [
+      365,
+      553
+    ],
+    "referenceY": [
+      10,
+      212
+    ],
+    "rotationDegrees": 8
+  },
+  "skinRGB": [
+    235,
+    228,
+    217
+  ],
+  "method": "Observed facial graphics camera-baked into front XY UVs; neutral skin palette elsewhere.",
+  "limits": [
+    "Graphic albedo only; no inferred normal, roughness or physical skin evidence.",
+    "Hidden face sides/back use neutral continued skin palette.",
+    "Not an animation or expression readiness claim."
+  ]
+}

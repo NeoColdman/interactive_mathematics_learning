@@ -1,0 +1,10 @@
+node_modules/
+.local-data/
+.test-data/
+data/
+runtime/
+dist/
+__pycache__/
+*.pyc
+*.log
+.DS_Store

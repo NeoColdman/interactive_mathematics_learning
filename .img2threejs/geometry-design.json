@@ -1,0 +1,3725 @@
+{
+  "version": 1,
+  "reference": "/Users/zhenyu/dev/Interactive_Mathematics_Learning/images/Hatsune_Miku_V2.png",
+  "sourceSha256": "6ccf77fd177948516339e43c581ae49468cf7832a1261183c4d09dc077a585ae",
+  "coordinates": {
+    "handedness": "right",
+    "up": "+Y",
+    "forward": "+Z",
+    "characterLeft": "+X",
+    "units": "relative",
+    "groundY": 0,
+    "targetHeight": 3.4
+  },
+  "anatomy": {
+    "applies": true,
+    "source": "reference-image-manual-landmarks",
+    "styleHeads": 6.3,
+    "proportions": {
+      "headUnit": 0.1587,
+      "torso": 2.85,
+      "legs": 3.45,
+      "shoulderWidth": 1.25,
+      "hipWidth": 1.16
+    },
+    "pose": {
+      "type": "relaxed frontal standing, arms diagonally down and out; slight reference asymmetry normalized for static neutral review",
+      "jointAngles": {
+        "neck": [
+          0,
+          0,
+          0
+        ],
+        "leftShoulder": [
+          0,
+          0,
+          -28
+        ],
+        "rightShoulder": [
+          0,
+          0,
+          28
+        ],
+        "leftElbow": [
+          0,
+          0,
+          -8
+        ],
+        "rightElbow": [
+          0,
+          0,
+          8
+        ],
+        "leftWrist": [
+          0,
+          0,
+          -10
+        ],
+        "rightWrist": [
+          0,
+          0,
+          10
+        ],
+        "leftHip": [
+          0,
+          0,
+          0
+        ],
+        "rightHip": [
+          0,
+          0,
+          0
+        ],
+        "leftKnee": [
+          0,
+          0,
+          0
+        ],
+        "rightKnee": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "faceLandmarks": {
+      "hairline": 0.19,
+      "eyeLine": 0.58,
+      "eyeSpacing": 0.23,
+      "noseBase": 0.72,
+      "mouthLine": 0.82,
+      "earTop": 0.49,
+      "earBottom": 0.75
+    },
+    "features": [
+      {
+        "name": "crown-to-chin",
+        "observedPixels": [
+          188,
+          199
+        ],
+        "evidenceRef": "front-head",
+        "confidence": 0.87
+      },
+      {
+        "name": "head-to-standing-height",
+        "value": 6.3,
+        "evidenceRef": "full-object",
+        "confidence": 0.83
+      },
+      {
+        "name": "side-back-depth",
+        "status": "inferred",
+        "evidenceRef": "front-head",
+        "confidence": 0.48
+      }
+    ],
+    "confidence": 0.84,
+    "note": "Pixel guide overlay inspected by agent; body proportions are reference estimates, not generic canon. Reference ornament tips are excluded from skull HH; rear depth inferred under user accepted stylization."
+  },
+  "components": [
+    {
+      "id": "root",
+      "parent": null,
+      "dimensions": {
+        "width": 0.01,
+        "height": 0.01,
+        "depth": 0.01,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Invisible semantic hierarchy root, no rendered cube.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {}
+      },
+      "geometryLayer": "L-1",
+      "material": "hidden",
+      "localFeatures": []
+    },
+    {
+      "id": "torso",
+      "parent": "root",
+      "dimensions": {
+        "width": 0.51,
+        "height": 0.75,
+        "depth": 0.3,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0,
+          2.48,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Waist-cinched smooth torso volume covered by fitted blouse; no independent chest spheres.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "rings": [
+            [
+              2.12,
+              0.22,
+              0.14
+            ],
+            [
+              2.3,
+              0.17,
+              0.12
+            ],
+            [
+              2.52,
+              0.22,
+              0.145
+            ],
+            [
+              2.72,
+              0.255,
+              0.145
+            ],
+            [
+              2.78,
+              0.19,
+              0.12
+            ]
+          ]
+        }
+      },
+      "geometryLayer": "L0",
+      "material": "skin",
+      "localFeatures": []
+    },
+    {
+      "id": "neck",
+      "parent": "torso",
+      "dimensions": {
+        "width": 0.13,
+        "height": 0.16,
+        "depth": 0.12,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0,
+          0.34,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Closed continuous loft, normals recomputed across connected rings",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "closedLoft": true
+        }
+      },
+      "geometryLayer": "L0",
+      "material": "skin",
+      "localFeatures": []
+    },
+    {
+      "id": "head",
+      "parent": "neck",
+      "dimensions": {
+        "width": 0.46,
+        "height": 0.54,
+        "depth": 0.38,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0,
+          0.28,
+          0.005
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Single continuous anime cranium and jaw; broad forehead tapering to small chin, shallow facial depth.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "headUnits": 1,
+          "centerWorld": [
+            0,
+            3.07,
+            0
+          ],
+          "rings": [
+            [
+              -0.27,
+              0.02,
+              0.035
+            ],
+            [
+              -0.21,
+              0.135,
+              0.11
+            ],
+            [
+              -0.1,
+              0.205,
+              0.16
+            ],
+            [
+              0.05,
+              0.23,
+              0.185
+            ],
+            [
+              0.19,
+              0.2,
+              0.17
+            ],
+            [
+              0.27,
+              0.04,
+              0.06
+            ]
+          ],
+          "faceForward": "+Z",
+          "faceLandmarks": {
+            "hairline": 0.19,
+            "eyeLine": 0.58,
+            "eyeSpacing": 0.23,
+            "noseBase": 0.72,
+            "mouthLine": 0.82,
+            "earTop": 0.49,
+            "earBottom": 0.75
+          },
+          "faceAlbedoPath": "/companion/face-albedo.png",
+          "faceProjection": "De-lit reference eye/mouth local pixels on continuous facial UV region; not a billboard.",
+          "staticRuntimeParameters": {
+            "center": [
+              0,
+              3.07,
+              0.005
+            ],
+            "rings": [
+              [
+                -0.27,
+                0.002,
+                0.035
+              ],
+              [
+                -0.21,
+                0.135,
+                0.11
+              ],
+              [
+                -0.1,
+                0.205,
+                0.16
+              ],
+              [
+                0.05,
+                0.23,
+                0.185
+              ],
+              [
+                0.19,
+                0.2,
+                0.17
+              ],
+              [
+                0.27,
+                0.004,
+                0.01
+              ]
+            ]
+          }
+        }
+      },
+      "geometryLayer": "L0",
+      "material": "skin",
+      "localFeatures": [
+        {
+          "id": "reference-face-graphics",
+          "kind": "decal",
+          "description": "De-lit eye/mouth source pixels projected onto continuous head front UV; graphical albedo with alpha, independently authored depth; not recovered physical PBR.",
+          "source": "/companion/face-albedo.png",
+          "evidenceRefs": [
+            "front-head"
+          ],
+          "report": "/Users/zhenyu/dev/Interactive_Mathematics_Learning/.img2threejs/face-graphics-report.json",
+          "implementation": "separate face graphics surface/material over neutral skin; future expression channels pending"
+        }
+      ]
+    },
+    {
+      "id": "scalp",
+      "parent": "head",
+      "dimensions": {
+        "width": 0.51,
+        "height": 0.52,
+        "depth": 0.42,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0,
+          0.055,
+          -0.015
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Closed crown shell extends over occiput and temporal scalp with face opening; fills between bangs in side/rear views.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "ellipsoidRadii": [
+            0.255,
+            0.27,
+            0.21
+          ],
+          "coverage": "crown/rear/temples; foreground opening excludes eyes",
+          "shellOffset": 0.012,
+          "rootBinding": {
+            "scalpUV": [
+              0.5,
+              0.22
+            ],
+            "notes": "Head-local scalp-UV anchor; root x/y fitting preserved in per-lock transform."
+          }
+        }
+      },
+      "geometryLayer": "L3",
+      "material": "hair",
+      "localFeatures": [
+        {
+          "id": "bang-tapers",
+          "kind": "contour",
+          "description": "Front fringe split into tapered locks",
+          "evidenceRefs": [
+            "front-head"
+          ],
+          "implementation": "geometry or spatial-color region matching the named semantic surface; paired features mirror X only"
+        }
+      ]
+    },
+    {
+      "id": "bang-0",
+      "parent": "scalp",
+      "dimensions": {
+        "width": 0.09,
+        "height": 0.37,
+        "depth": 0.065,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          -0.21,
+          0.14,
+          0.135
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Volumetric tapered ribbon lock follows crown into separated swept fringe, with at least 0.02 root overlap.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "controlPoints": [
+            [
+              0,
+              0.09,
+              -0.025
+            ],
+            [
+              -0.042,
+              -0.02,
+              0.03
+            ],
+            [
+              -0.015000000000000013,
+              -0.16,
+              0.08
+            ]
+          ],
+          "widthProfile": [
+            1,
+            0.85,
+            0.45,
+            0.025
+          ],
+          "thicknessProfile": [
+            1,
+            0.75,
+            0.4,
+            0.03
+          ],
+          "rootEmbedDepth": 0.025,
+          "eyeClearance": "Do not cover both iris centers",
+          "rootBinding": {
+            "scalpUV": [
+              0.5,
+              0.22
+            ],
+            "notes": "Head-local scalp-UV anchor; root x/y fitting preserved in per-lock transform."
+          }
+        },
+        "taperedSweep": {
+          "radialSegments": 12,
+          "samplesPerSegment": 8,
+          "capStart": true,
+          "capEnd": true,
+          "stations": [
+            {
+              "position": [
+                0,
+                0.09,
+                -0.025
+              ],
+              "rx": 0.075,
+              "rz": 0.025,
+              "twist": 0
+            },
+            {
+              "position": [
+                -0.042,
+                -0.02,
+                0.03
+              ],
+              "rx": 0.0375,
+              "rz": 0.0125,
+              "twist": 0
+            },
+            {
+              "position": [
+                -0.015000000000000013,
+                -0.16,
+                0.08
+              ],
+              "rx": 0.00075,
+              "rz": 0.00025,
+              "twist": 0
+            }
+          ]
+        }
+      },
+      "geometryLayer": "L3",
+      "material": "hair",
+      "localFeatures": []
+    },
+    {
+      "id": "bang-1",
+      "parent": "scalp",
+      "dimensions": {
+        "width": 0.09,
+        "height": 0.37,
+        "depth": 0.065,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          -0.15,
+          0.14,
+          0.135
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Volumetric tapered ribbon lock follows crown into separated swept fringe, with at least 0.02 root overlap.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "controlPoints": [
+            [
+              0,
+              0.09,
+              -0.025
+            ],
+            [
+              -0.03,
+              -0.02,
+              0.03
+            ],
+            [
+              -0.020000000000000018,
+              -0.1,
+              0.08
+            ]
+          ],
+          "widthProfile": [
+            1,
+            0.85,
+            0.45,
+            0.025
+          ],
+          "thicknessProfile": [
+            1,
+            0.75,
+            0.4,
+            0.03
+          ],
+          "rootEmbedDepth": 0.025,
+          "eyeClearance": "Do not cover both iris centers",
+          "rootBinding": {
+            "scalpUV": [
+              0.5,
+              0.22
+            ],
+            "notes": "Head-local scalp-UV anchor; root x/y fitting preserved in per-lock transform."
+          }
+        },
+        "taperedSweep": {
+          "radialSegments": 12,
+          "samplesPerSegment": 8,
+          "capStart": true,
+          "capEnd": true,
+          "stations": [
+            {
+              "position": [
+                0,
+                0.09,
+                -0.025
+              ],
+              "rx": 0.075,
+              "rz": 0.025,
+              "twist": 0
+            },
+            {
+              "position": [
+                -0.03,
+                -0.02,
+                0.03
+              ],
+              "rx": 0.0375,
+              "rz": 0.0125,
+              "twist": 0
+            },
+            {
+              "position": [
+                -0.020000000000000018,
+                -0.1,
+                0.08
+              ],
+              "rx": 0.00075,
+              "rz": 0.00025,
+              "twist": 0
+            }
+          ]
+        }
+      },
+      "geometryLayer": "L3",
+      "material": "hair",
+      "localFeatures": []
+    },
+    {
+      "id": "bang-2",
+      "parent": "scalp",
+      "dimensions": {
+        "width": 0.09,
+        "height": 0.37,
+        "depth": 0.065,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          -0.08,
+          0.14,
+          0.135
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Volumetric tapered ribbon lock follows crown into separated swept fringe, with at least 0.02 root overlap.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "controlPoints": [
+            [
+              0,
+              0.09,
+              -0.025
+            ],
+            [
+              -0.016,
+              -0.02,
+              0.03
+            ],
+            [
+              -0.020000000000000004,
+              -0.04,
+              0.08
+            ]
+          ],
+          "widthProfile": [
+            1,
+            0.85,
+            0.45,
+            0.025
+          ],
+          "thicknessProfile": [
+            1,
+            0.75,
+            0.4,
+            0.03
+          ],
+          "rootEmbedDepth": 0.025,
+          "eyeClearance": "Do not cover both iris centers",
+          "rootBinding": {
+            "scalpUV": [
+              0.5,
+              0.22
+            ],
+            "notes": "Head-local scalp-UV anchor; root x/y fitting preserved in per-lock transform."
+          }
+        },
+        "taperedSweep": {
+          "radialSegments": 12,
+          "samplesPerSegment": 8,
+          "capStart": true,
+          "capEnd": true,
+          "stations": [
+            {
+              "position": [
+                0,
+                0.09,
+                -0.025
+              ],
+              "rx": 0.075,
+              "rz": 0.025,
+              "twist": 0
+            },
+            {
+              "position": [
+                -0.016,
+                -0.02,
+                0.03
+              ],
+              "rx": 0.0375,
+              "rz": 0.0125,
+              "twist": 0
+            },
+            {
+              "position": [
+                -0.020000000000000004,
+                -0.04,
+                0.08
+              ],
+              "rx": 0.00075,
+              "rz": 0.00025,
+              "twist": 0
+            }
+          ]
+        }
+      },
+      "geometryLayer": "L3",
+      "material": "hair",
+      "localFeatures": []
+    },
+    {
+      "id": "bang-3",
+      "parent": "scalp",
+      "dimensions": {
+        "width": 0.09,
+        "height": 0.37,
+        "depth": 0.065,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0,
+          0.14,
+          0.135
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Volumetric tapered ribbon lock follows crown into separated swept fringe, with at least 0.02 root overlap.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "controlPoints": [
+            [
+              0,
+              0.09,
+              -0.025
+            ],
+            [
+              0.0,
+              -0.02,
+              0.03
+            ],
+            [
+              0.025,
+              -0.11,
+              0.08
+            ]
+          ],
+          "widthProfile": [
+            1,
+            0.85,
+            0.45,
+            0.025
+          ],
+          "thicknessProfile": [
+            1,
+            0.75,
+            0.4,
+            0.03
+          ],
+          "rootEmbedDepth": 0.025,
+          "eyeClearance": "Do not cover both iris centers",
+          "rootBinding": {
+            "scalpUV": [
+              0.5,
+              0.22
+            ],
+            "notes": "Head-local scalp-UV anchor; root x/y fitting preserved in per-lock transform."
+          }
+        },
+        "taperedSweep": {
+          "radialSegments": 12,
+          "samplesPerSegment": 8,
+          "capStart": true,
+          "capEnd": true,
+          "stations": [
+            {
+              "position": [
+                0,
+                0.09,
+                -0.025
+              ],
+              "rx": 0.075,
+              "rz": 0.025,
+              "twist": 0
+            },
+            {
+              "position": [
+                0.0,
+                -0.02,
+                0.03
+              ],
+              "rx": 0.0375,
+              "rz": 0.0125,
+              "twist": 0
+            },
+            {
+              "position": [
+                0.025,
+                -0.11,
+                0.08
+              ],
+              "rx": 0.00075,
+              "rz": 0.00025,
+              "twist": 0
+            }
+          ]
+        }
+      },
+      "geometryLayer": "L3",
+      "material": "hair",
+      "localFeatures": []
+    },
+    {
+      "id": "bang-4",
+      "parent": "scalp",
+      "dimensions": {
+        "width": 0.09,
+        "height": 0.37,
+        "depth": 0.065,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0.07,
+          0.14,
+          0.135
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Volumetric tapered ribbon lock follows crown into separated swept fringe, with at least 0.02 root overlap.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "controlPoints": [
+            [
+              0,
+              0.09,
+              -0.025
+            ],
+            [
+              0.014000000000000002,
+              -0.02,
+              0.03
+            ],
+            [
+              0.045,
+              -0.02,
+              0.08
+            ]
+          ],
+          "widthProfile": [
+            1,
+            0.85,
+            0.45,
+            0.025
+          ],
+          "thicknessProfile": [
+            1,
+            0.75,
+            0.4,
+            0.03
+          ],
+          "rootEmbedDepth": 0.025,
+          "eyeClearance": "Do not cover both iris centers",
+          "rootBinding": {
+            "scalpUV": [
+              0.5,
+              0.22
+            ],
+            "notes": "Head-local scalp-UV anchor; root x/y fitting preserved in per-lock transform."
+          }
+        },
+        "taperedSweep": {
+          "radialSegments": 12,
+          "samplesPerSegment": 8,
+          "capStart": true,
+          "capEnd": true,
+          "stations": [
+            {
+              "position": [
+                0,
+                0.09,
+                -0.025
+              ],
+              "rx": 0.075,
+              "rz": 0.025,
+              "twist": 0
+            },
+            {
+              "position": [
+                0.014000000000000002,
+                -0.02,
+                0.03
+              ],
+              "rx": 0.0375,
+              "rz": 0.0125,
+              "twist": 0
+            },
+            {
+              "position": [
+                0.045,
+                -0.02,
+                0.08
+              ],
+              "rx": 0.00075,
+              "rz": 0.00025,
+              "twist": 0
+            }
+          ]
+        }
+      },
+      "geometryLayer": "L3",
+      "material": "hair",
+      "localFeatures": []
+    },
+    {
+      "id": "bang-5",
+      "parent": "scalp",
+      "dimensions": {
+        "width": 0.09,
+        "height": 0.37,
+        "depth": 0.065,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0.14,
+          0.14,
+          0.135
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Volumetric tapered ribbon lock follows crown into separated swept fringe, with at least 0.02 root overlap.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "controlPoints": [
+            [
+              0,
+              0.09,
+              -0.025
+            ],
+            [
+              0.028000000000000004,
+              -0.02,
+              0.03
+            ],
+            [
+              0.044999999999999984,
+              -0.12,
+              0.08
+            ]
+          ],
+          "widthProfile": [
+            1,
+            0.85,
+            0.45,
+            0.025
+          ],
+          "thicknessProfile": [
+            1,
+            0.75,
+            0.4,
+            0.03
+          ],
+          "rootEmbedDepth": 0.025,
+          "eyeClearance": "Do not cover both iris centers",
+          "rootBinding": {
+            "scalpUV": [
+              0.5,
+              0.22
+            ],
+            "notes": "Head-local scalp-UV anchor; root x/y fitting preserved in per-lock transform."
+          }
+        },
+        "taperedSweep": {
+          "radialSegments": 12,
+          "samplesPerSegment": 8,
+          "capStart": true,
+          "capEnd": true,
+          "stations": [
+            {
+              "position": [
+                0,
+                0.09,
+                -0.025
+              ],
+              "rx": 0.075,
+              "rz": 0.025,
+              "twist": 0
+            },
+            {
+              "position": [
+                0.028000000000000004,
+                -0.02,
+                0.03
+              ],
+              "rx": 0.0375,
+              "rz": 0.0125,
+              "twist": 0
+            },
+            {
+              "position": [
+                0.044999999999999984,
+                -0.12,
+                0.08
+              ],
+              "rx": 0.00075,
+              "rz": 0.00025,
+              "twist": 0
+            }
+          ]
+        }
+      },
+      "geometryLayer": "L3",
+      "material": "hair",
+      "localFeatures": []
+    },
+    {
+      "id": "bang-6",
+      "parent": "scalp",
+      "dimensions": {
+        "width": 0.09,
+        "height": 0.37,
+        "depth": 0.065,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0.21,
+          0.14,
+          0.135
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Volumetric tapered ribbon lock follows crown into separated swept fringe, with at least 0.02 root overlap.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "controlPoints": [
+            [
+              0,
+              0.09,
+              -0.025
+            ],
+            [
+              0.042,
+              -0.02,
+              0.03
+            ],
+            [
+              0.024999999999999994,
+              -0.2,
+              0.08
+            ]
+          ],
+          "widthProfile": [
+            1,
+            0.85,
+            0.45,
+            0.025
+          ],
+          "thicknessProfile": [
+            1,
+            0.75,
+            0.4,
+            0.03
+          ],
+          "rootEmbedDepth": 0.025,
+          "eyeClearance": "Do not cover both iris centers",
+          "rootBinding": {
+            "scalpUV": [
+              0.5,
+              0.22
+            ],
+            "notes": "Head-local scalp-UV anchor; root x/y fitting preserved in per-lock transform."
+          }
+        },
+        "taperedSweep": {
+          "radialSegments": 12,
+          "samplesPerSegment": 8,
+          "capStart": true,
+          "capEnd": true,
+          "stations": [
+            {
+              "position": [
+                0,
+                0.09,
+                -0.025
+              ],
+              "rx": 0.075,
+              "rz": 0.025,
+              "twist": 0
+            },
+            {
+              "position": [
+                0.042,
+                -0.02,
+                0.03
+              ],
+              "rx": 0.0375,
+              "rz": 0.0125,
+              "twist": 0
+            },
+            {
+              "position": [
+                0.024999999999999994,
+                -0.2,
+                0.08
+              ],
+              "rx": 0.00075,
+              "rz": 0.00025,
+              "twist": 0
+            }
+          ]
+        }
+      },
+      "geometryLayer": "L3",
+      "material": "hair",
+      "localFeatures": []
+    },
+    {
+      "id": "twintail-l",
+      "parent": "scalp",
+      "dimensions": {
+        "width": 0.42,
+        "height": 2.65,
+        "depth": 0.22,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0.245,
+          0.12,
+          -0.045
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "High-root broad curved twin tail with thick ribbon volume, outward arc and split tapered lower ends; not cylindrical noodle.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "controlPoints": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.12,
+              -0.47,
+              -0.06
+            ],
+            [
+              0.57,
+              -1.4,
+              0.02
+            ],
+            [
+              0.72,
+              -2.0,
+              0.14
+            ],
+            [
+              0.45,
+              -2.58,
+              0.18
+            ]
+          ],
+          "widthProfile": [
+            0.25,
+            0.45,
+            0.85,
+            1,
+            0.12,
+            0.015
+          ],
+          "thicknessProfile": [
+            0.16,
+            0.17,
+            0.2,
+            0.15,
+            0.08,
+            0.003
+          ],
+          "rootEmbedDepth": 0.03,
+          "crossSection": "closed flattened ellipse with subtle longitudinal facets",
+          "rootBinding": {
+            "scalpUV": [
+              0.5,
+              0.22
+            ],
+            "notes": "Head-local scalp-UV anchor; root x/y fitting preserved in per-lock transform."
+          },
+          "referenceRowStations": [
+            [
+              50,
+              550,
+              22
+            ],
+            [
+              80,
+              575,
+              15
+            ],
+            [
+              120,
+              577,
+              24
+            ],
+            [
+              180,
+              612,
+              25
+            ],
+            [
+              250,
+              642,
+              18
+            ],
+            [
+              350,
+              693,
+              41
+            ],
+            [
+              450,
+              787,
+              42
+            ],
+            [
+              550,
+              848,
+              36
+            ],
+            [
+              650,
+              870,
+              37
+            ],
+            [
+              750,
+              856,
+              21
+            ],
+            [
+              820,
+              829,
+              9
+            ],
+            [
+              860,
+              815,
+              0.5
+            ]
+          ],
+          "referenceOuterStrandStations": [
+            [
+              100,
+              590,
+              3
+            ],
+            [
+              250,
+              660,
+              4
+            ],
+            [
+              350,
+              735,
+              5
+            ],
+            [
+              450,
+              842,
+              5
+            ],
+            [
+              550,
+              914,
+              3
+            ],
+            [
+              650,
+              923,
+              3
+            ],
+            [
+              750,
+              896,
+              4
+            ],
+            [
+              820,
+              856,
+              9
+            ],
+            [
+              880,
+              856,
+              7
+            ],
+            [
+              940,
+              874,
+              7
+            ],
+            [
+              990,
+              929,
+              0.5
+            ]
+          ],
+          "observedAsymmetry": "Reference hair styling is asymmetric; anatomical handedness and scalp root convention stay unchanged.",
+          "referenceInnerStrandStations": [
+            [
+              250,
+              600,
+              3
+            ],
+            [
+              350,
+              655,
+              5
+            ],
+            [
+              450,
+              690,
+              5
+            ],
+            [
+              550,
+              769,
+              13
+            ],
+            [
+              650,
+              805,
+              12
+            ],
+            [
+              750,
+              813,
+              7
+            ],
+            [
+              820,
+              800,
+              7
+            ],
+            [
+              850,
+              750,
+              5
+            ],
+            [
+              870,
+              730,
+              0.5
+            ]
+          ]
+        },
+        "taperedSweep": {
+          "radialSegments": 12,
+          "samplesPerSegment": 8,
+          "capStart": true,
+          "capEnd": true,
+          "stations": [
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rx": 0.145,
+              "rz": 0.075,
+              "twist": 0
+            },
+            {
+              "position": [
+                0.12,
+                -0.47,
+                -0.06
+              ],
+              "rx": 0.10874999999999999,
+              "rz": 0.056249999999999994,
+              "twist": 0
+            },
+            {
+              "position": [
+                0.57,
+                -1.4,
+                0.02
+              ],
+              "rx": 0.0725,
+              "rz": 0.0375,
+              "twist": 0
+            },
+            {
+              "position": [
+                0.72,
+                -2.0,
+                0.14
+              ],
+              "rx": 0.03625,
+              "rz": 0.01875,
+              "twist": 0
+            },
+            {
+              "position": [
+                0.45,
+                -2.58,
+                0.18
+              ],
+              "rx": 0.00145,
+              "rz": 0.00075,
+              "twist": 0
+            }
+          ]
+        }
+      },
+      "geometryLayer": "L1",
+      "material": "hair",
+      "localFeatures": [
+        {
+          "id": "twin-tail-arcs",
+          "kind": "contour",
+          "description": "Broad flattened tail curves and tapered ends",
+          "evidenceRefs": [
+            "front-hair"
+          ],
+          "implementation": "geometry or spatial-color region matching the named semantic surface; paired features mirror X only"
+        }
+      ]
+    },
+    {
+      "id": "hairband-l",
+      "parent": "scalp",
+      "dimensions": {
+        "width": 0.065,
+        "height": 0.23,
+        "depth": 0.09,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0.245,
+          0.19,
+          0.005
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Black tilted rectangular hair ornament with pink inset stripe, rigidly attached at twin-tail root.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {}
+      },
+      "geometryLayer": "L3",
+      "material": "ink",
+      "localFeatures": [
+        {
+          "id": "pink-hairband",
+          "kind": "linework",
+          "description": "Pink inset along black rectangular ornament",
+          "evidenceRefs": [
+            "front-head"
+          ],
+          "implementation": "geometry or spatial-color region matching the named semantic surface; paired features mirror X only"
+        }
+      ]
+    },
+    {
+      "id": "earphone-l",
+      "parent": "head",
+      "dimensions": {
+        "width": 0.07,
+        "height": 0.13,
+        "depth": 0.09,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0.225,
+          -0.015,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Small dark earphone cup contacting temporal head; pink exterior detail.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {}
+      },
+      "geometryLayer": "L3",
+      "material": "ink",
+      "localFeatures": [
+        {
+          "id": "earphone-pink",
+          "kind": "linework",
+          "description": "Pink outer rim on dark earphone cup",
+          "evidenceRefs": [
+            "front-head"
+          ],
+          "implementation": "geometry or spatial-color region matching the named semantic surface; paired features mirror X only"
+        }
+      ]
+    },
+    {
+      "id": "eye-l",
+      "parent": "head",
+      "dimensions": {
+        "width": 0.103,
+        "height": 0.13,
+        "depth": 0.015,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0.097,
+          -0.045,
+          0.17
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Almond sclera conformed to shallow face, teal iris and upper lash; attachment follows head surface.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {}
+      },
+      "geometryLayer": "L2",
+      "material": "eye-white",
+      "localFeatures": [
+        {
+          "id": "upper-lashes",
+          "kind": "contour",
+          "description": "Dark curved upper eyelash at almond sclera margin",
+          "evidenceRefs": [
+            "front-head"
+          ],
+          "implementation": "geometry or spatial-color region matching the named semantic surface; paired features mirror X only"
+        }
+      ]
+    },
+    {
+      "id": "iris-l",
+      "parent": "eye-l",
+      "dimensions": {
+        "width": 0.06,
+        "height": 0.105,
+        "depth": 0.008,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0.009
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Teal oval iris with darker upper region and small bright catchlights.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {}
+      },
+      "geometryLayer": "L2",
+      "material": "iris",
+      "localFeatures": [
+        {
+          "id": "iris-catchlights",
+          "kind": "gloss",
+          "description": "Bright paired highlights in teal irises",
+          "evidenceRefs": [
+            "front-head"
+          ],
+          "implementation": "geometry or spatial-color region matching the named semantic surface; paired features mirror X only"
+        }
+      ]
+    },
+    {
+      "id": "upper-arm-l",
+      "parent": "torso",
+      "dimensions": {
+        "width": 0.13,
+        "height": 0.39,
+        "depth": 0.14,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0.245,
+          0.27,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Closed continuous loft, normals recomputed across connected rings",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "controlPoints": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.105,
+              -0.21,
+              0
+            ],
+            [
+              0.18,
+              -0.38,
+              0.01
+            ]
+          ],
+          "radii": [
+            0.075,
+            0.064,
+            0.055
+          ]
+        }
+      },
+      "geometryLayer": "L0",
+      "material": "skin",
+      "localFeatures": [
+        {
+          "id": "arm-01",
+          "kind": "decal",
+          "description": "Pink 01 upper-arm mark, surface graphic only",
+          "evidenceRefs": [
+            "front-outfit"
+          ],
+          "implementation": "geometry or spatial-color region matching the named semantic surface; paired features mirror X only"
+        }
+      ]
+    },
+    {
+      "id": "sleeve-l",
+      "parent": "upper-arm-l",
+      "dimensions": {
+        "width": 0.28,
+        "height": 0.68,
+        "depth": 0.23,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0.12,
+          -0.25,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Dark separate sleeve widens toward wrist, cyan opening rim; continuous cloth shell.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "controlPoints": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.12,
+              -0.28,
+              0.01
+            ],
+            [
+              0.25,
+              -0.62,
+              0.02
+            ]
+          ],
+          "radii": [
+            [
+              0.075,
+              0.07
+            ],
+            [
+              0.09,
+              0.08
+            ],
+            [
+              0.16,
+              0.1
+            ]
+          ],
+          "doubleSidedOpening": true,
+          "staticRuntimeParameters": {
+            "referenceSections": [
+              [
+                300,
+                560,
+                11
+              ],
+              [
+                350,
+                570,
+                27
+              ],
+              [
+                400,
+                606,
+                33
+              ],
+              [
+                450,
+                657,
+                53
+              ],
+              [
+                495,
+                700,
+                77
+              ]
+            ]
+          }
+        }
+      },
+      "geometryLayer": "L4",
+      "material": "dark-cloth",
+      "localFeatures": [
+        {
+          "id": "sleeve-cyan-rim",
+          "kind": "linework",
+          "description": "Cyan border at flared cuff",
+          "evidenceRefs": [
+            "front-outfit"
+          ],
+          "implementation": "geometry or spatial-color region matching the named semantic surface; paired features mirror X only"
+        },
+        {
+          "id": "sleeve-control-strip",
+          "kind": "decal",
+          "description": "Small cyan control strip down outer forearm",
+          "evidenceRefs": [
+            "front-outfit"
+          ],
+          "implementation": "geometry or spatial-color region matching the named semantic surface; paired features mirror X only"
+        }
+      ]
+    },
+    {
+      "id": "hand-l",
+      "parent": "sleeve-l",
+      "dimensions": {
+        "width": 0.17,
+        "height": 0.12,
+        "depth": 0.055,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0.26,
+          -0.63,
+          0.015
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Closed continuous loft, normals recomputed across connected rings",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "palm": "flattened closed smooth volume",
+          "fingers": "five individually named tapered curved sweeps",
+          "fingerLengths": [
+            0.09,
+            0.12,
+            0.13,
+            0.115,
+            0.09
+          ],
+          "spreadDegrees": [
+            45,
+            14,
+            0,
+            -10,
+            -20
+          ],
+          "mirrorRule": "negate only X, retain Z"
+        }
+      },
+      "geometryLayer": "L0",
+      "material": "skin",
+      "localFeatures": []
+    },
+    {
+      "id": "thigh-l",
+      "parent": "root",
+      "dimensions": {
+        "width": 0.21,
+        "height": 0.45,
+        "depth": 0.22,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0.13,
+          1.59,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Closed continuous loft, normals recomputed across connected rings",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "controlPoints": [
+            [
+              0,
+              0.11,
+              0
+            ],
+            [
+              0,
+              -0.14,
+              0
+            ],
+            [
+              0.005,
+              -0.32,
+              0.01
+            ]
+          ],
+          "radii": [
+            0.115,
+            0.107,
+            0.09
+          ]
+        }
+      },
+      "geometryLayer": "L0",
+      "material": "skin",
+      "localFeatures": []
+    },
+    {
+      "id": "boot-l",
+      "parent": "root",
+      "dimensions": {
+        "width": 0.18,
+        "height": 1.44,
+        "depth": 0.21,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0.13,
+          0.73,
+          0.01
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Closed continuous loft, normals recomputed across connected rings",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "rings": [
+            [
+              0,
+              0.077,
+              0.1
+            ],
+            [
+              0.1,
+              0.065,
+              0.085
+            ],
+            [
+              0.38,
+              0.08,
+              0.085
+            ],
+            [
+              0.67,
+              0.07,
+              0.09
+            ],
+            [
+              1.01,
+              0.085,
+              0.095
+            ],
+            [
+              1.38,
+              0.103,
+              0.105
+            ]
+          ],
+          "cyanTopBand": 0.014,
+          "staticRuntimeParameters": {
+            "centersX": [
+              0.01,
+              0.02,
+              0.055,
+              0.075,
+              0.085,
+              0.13
+            ],
+            "centerZ": -0.05
+          }
+        }
+      },
+      "geometryLayer": "L0",
+      "material": "dark-cloth",
+      "localFeatures": [
+        {
+          "id": "boot-top-band",
+          "kind": "linework",
+          "description": "Cyan thin top band across thigh boot",
+          "evidenceRefs": [
+            "front-legs"
+          ],
+          "implementation": "geometry or spatial-color region matching the named semantic surface; paired features mirror X only"
+        },
+        {
+          "id": "boot-panel-stitches",
+          "kind": "linework",
+          "description": "Subtle dark rectangular front boot panel marks",
+          "evidenceRefs": [
+            "front-legs"
+          ],
+          "implementation": "geometry or spatial-color region matching the named semantic surface; paired features mirror X only"
+        }
+      ]
+    },
+    {
+      "id": "foot-l",
+      "parent": "boot-l",
+      "dimensions": {
+        "width": 0.18,
+        "height": 0.13,
+        "depth": 0.36,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0,
+          -0.66,
+          0.08
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Closed continuous loft, normals recomputed across connected rings",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "closedLoft": true,
+          "toeForward": "+Z",
+          "toeTaper": 0.7,
+          "soleThickness": 0.018
+        }
+      },
+      "geometryLayer": "L0",
+      "material": "dark-cloth",
+      "localFeatures": [
+        {
+          "id": "boot-sole-trim",
+          "kind": "linework",
+          "description": "Thin cyan sole edge",
+          "evidenceRefs": [
+            "front-legs"
+          ],
+          "implementation": "geometry or spatial-color region matching the named semantic surface; paired features mirror X only"
+        }
+      ]
+    },
+    {
+      "id": "twintail-r",
+      "parent": "scalp",
+      "dimensions": {
+        "width": 0.42,
+        "height": 2.65,
+        "depth": 0.22,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          -0.245,
+          0.12,
+          -0.045
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "High-root broad curved twin tail with thick ribbon volume, outward arc and split tapered lower ends; not cylindrical noodle.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "controlPoints": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              -0.12,
+              -0.47,
+              -0.06
+            ],
+            [
+              -0.57,
+              -1.4,
+              0.02
+            ],
+            [
+              -0.72,
+              -2.0,
+              0.14
+            ],
+            [
+              -0.45,
+              -2.58,
+              0.18
+            ]
+          ],
+          "widthProfile": [
+            0.25,
+            0.45,
+            0.85,
+            1,
+            0.12,
+            0.015
+          ],
+          "thicknessProfile": [
+            0.16,
+            0.17,
+            0.2,
+            0.15,
+            0.08,
+            0.003
+          ],
+          "rootEmbedDepth": 0.03,
+          "crossSection": "closed flattened ellipse with subtle longitudinal facets",
+          "rootBinding": {
+            "scalpUV": [
+              0.5,
+              0.22
+            ],
+            "notes": "Head-local scalp-UV anchor; root x/y fitting preserved in per-lock transform."
+          },
+          "referenceRowStations": [
+            [
+              50,
+              385,
+              22
+            ],
+            [
+              80,
+              365,
+              22
+            ],
+            [
+              120,
+              357,
+              34
+            ],
+            [
+              180,
+              311,
+              24
+            ],
+            [
+              250,
+              269,
+              18
+            ],
+            [
+              350,
+              216,
+              19
+            ],
+            [
+              450,
+              169,
+              35
+            ],
+            [
+              550,
+              149,
+              38
+            ],
+            [
+              650,
+              142,
+              46
+            ],
+            [
+              750,
+              163,
+              28
+            ],
+            [
+              820,
+              204,
+              17
+            ],
+            [
+              880,
+              218,
+              6
+            ],
+            [
+              940,
+              273,
+              6
+            ],
+            [
+              1000,
+              257,
+              0.5
+            ]
+          ],
+          "referenceOuterStrandStations": [
+            [
+              100,
+              353,
+              3
+            ],
+            [
+              250,
+              251,
+              4
+            ],
+            [
+              450,
+              140,
+              5
+            ],
+            [
+              550,
+              90,
+              6
+            ],
+            [
+              650,
+              65,
+              7
+            ],
+            [
+              750,
+              76,
+              6
+            ],
+            [
+              820,
+              130,
+              5
+            ],
+            [
+              850,
+              180,
+              4
+            ],
+            [
+              880,
+              253,
+              5
+            ],
+            [
+              940,
+              273,
+              0.5
+            ]
+          ],
+          "observedAsymmetry": "Reference hair styling is asymmetric; anatomical handedness and scalp root convention stay unchanged.",
+          "referenceInnerStrandStations": [
+            [
+              500,
+              180,
+              5
+            ],
+            [
+              650,
+              190,
+              6
+            ],
+            [
+              750,
+              212,
+              10
+            ],
+            [
+              800,
+              263,
+              16
+            ],
+            [
+              820,
+              306,
+              20
+            ],
+            [
+              830,
+              337,
+              0.5
+            ]
+          ]
+        },
+        "taperedSweep": {
+          "radialSegments": 12,
+          "samplesPerSegment": 8,
+          "capStart": true,
+          "capEnd": true,
+          "stations": [
+            {
+              "position": [
+                0,
+                0,
+                0
+              ],
+              "rx": 0.145,
+              "rz": 0.075,
+              "twist": 0
+            },
+            {
+              "position": [
+                -0.12,
+                -0.47,
+                -0.06
+              ],
+              "rx": 0.10874999999999999,
+              "rz": 0.056249999999999994,
+              "twist": 0
+            },
+            {
+              "position": [
+                -0.57,
+                -1.4,
+                0.02
+              ],
+              "rx": 0.0725,
+              "rz": 0.0375,
+              "twist": 0
+            },
+            {
+              "position": [
+                -0.72,
+                -2.0,
+                0.14
+              ],
+              "rx": 0.03625,
+              "rz": 0.01875,
+              "twist": 0
+            },
+            {
+              "position": [
+                -0.45,
+                -2.58,
+                0.18
+              ],
+              "rx": 0.00145,
+              "rz": 0.00075,
+              "twist": 0
+            }
+          ]
+        }
+      },
+      "geometryLayer": "L1",
+      "material": "hair",
+      "localFeatures": []
+    },
+    {
+      "id": "hairband-r",
+      "parent": "scalp",
+      "dimensions": {
+        "width": 0.065,
+        "height": 0.23,
+        "depth": 0.09,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          -0.245,
+          0.19,
+          0.005
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Black tilted rectangular hair ornament with pink inset stripe, rigidly attached at twin-tail root.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {}
+      },
+      "geometryLayer": "L3",
+      "material": "ink",
+      "localFeatures": []
+    },
+    {
+      "id": "earphone-r",
+      "parent": "head",
+      "dimensions": {
+        "width": 0.07,
+        "height": 0.13,
+        "depth": 0.09,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          -0.225,
+          -0.015,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Small dark earphone cup contacting temporal head; pink exterior detail.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {}
+      },
+      "geometryLayer": "L3",
+      "material": "ink",
+      "localFeatures": []
+    },
+    {
+      "id": "eye-r",
+      "parent": "head",
+      "dimensions": {
+        "width": 0.103,
+        "height": 0.13,
+        "depth": 0.015,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          -0.097,
+          -0.045,
+          0.17
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Almond sclera conformed to shallow face, teal iris and upper lash; attachment follows head surface.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {}
+      },
+      "geometryLayer": "L2",
+      "material": "eye-white",
+      "localFeatures": []
+    },
+    {
+      "id": "iris-r",
+      "parent": "eye-r",
+      "dimensions": {
+        "width": 0.06,
+        "height": 0.105,
+        "depth": 0.008,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0.009
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Teal oval iris with darker upper region and small bright catchlights.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {}
+      },
+      "geometryLayer": "L2",
+      "material": "iris",
+      "localFeatures": []
+    },
+    {
+      "id": "upper-arm-r",
+      "parent": "torso",
+      "dimensions": {
+        "width": 0.13,
+        "height": 0.39,
+        "depth": 0.14,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          -0.245,
+          0.27,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Closed continuous loft, normals recomputed across connected rings",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "controlPoints": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              -0.105,
+              -0.21,
+              0
+            ],
+            [
+              -0.18,
+              -0.38,
+              0.01
+            ]
+          ],
+          "radii": [
+            0.075,
+            0.064,
+            0.055
+          ]
+        }
+      },
+      "geometryLayer": "L0",
+      "material": "skin",
+      "localFeatures": []
+    },
+    {
+      "id": "sleeve-r",
+      "parent": "upper-arm-r",
+      "dimensions": {
+        "width": 0.28,
+        "height": 0.68,
+        "depth": 0.23,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          -0.12,
+          -0.25,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Dark separate sleeve widens toward wrist, cyan opening rim; continuous cloth shell.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "controlPoints": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              -0.12,
+              -0.28,
+              0.01
+            ],
+            [
+              -0.25,
+              -0.62,
+              0.02
+            ]
+          ],
+          "radii": [
+            [
+              0.075,
+              0.07
+            ],
+            [
+              0.09,
+              0.08
+            ],
+            [
+              0.16,
+              0.1
+            ]
+          ],
+          "doubleSidedOpening": true,
+          "staticRuntimeParameters": {
+            "referenceSections": [
+              [
+                300,
+                367.5,
+                10
+              ],
+              [
+                350,
+                365.5,
+                14
+              ],
+              [
+                400,
+                350.5,
+                24
+              ],
+              [
+                450,
+                330.5,
+                26
+              ],
+              [
+                500,
+                302,
+                35
+              ],
+              [
+                535,
+                296,
+                53
+              ]
+            ]
+          }
+        }
+      },
+      "geometryLayer": "L4",
+      "material": "dark-cloth",
+      "localFeatures": []
+    },
+    {
+      "id": "hand-r",
+      "parent": "sleeve-r",
+      "dimensions": {
+        "width": 0.17,
+        "height": 0.12,
+        "depth": 0.055,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          -0.26,
+          -0.63,
+          0.015
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Closed continuous loft, normals recomputed across connected rings",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "palm": "flattened closed smooth volume",
+          "fingers": "five individually named tapered curved sweeps",
+          "fingerLengths": [
+            0.09,
+            0.12,
+            0.13,
+            0.115,
+            0.09
+          ],
+          "spreadDegrees": [
+            45,
+            14,
+            0,
+            -10,
+            -20
+          ],
+          "mirrorRule": "negate only X, retain Z"
+        }
+      },
+      "geometryLayer": "L0",
+      "material": "skin",
+      "localFeatures": []
+    },
+    {
+      "id": "thigh-r",
+      "parent": "root",
+      "dimensions": {
+        "width": 0.21,
+        "height": 0.45,
+        "depth": 0.22,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          -0.13,
+          1.59,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Closed continuous loft, normals recomputed across connected rings",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "controlPoints": [
+            [
+              0,
+              0.11,
+              0
+            ],
+            [
+              0,
+              -0.14,
+              0
+            ],
+            [
+              -0.005,
+              -0.32,
+              0.01
+            ]
+          ],
+          "radii": [
+            0.115,
+            0.107,
+            0.09
+          ]
+        }
+      },
+      "geometryLayer": "L0",
+      "material": "skin",
+      "localFeatures": []
+    },
+    {
+      "id": "boot-r",
+      "parent": "root",
+      "dimensions": {
+        "width": 0.18,
+        "height": 1.44,
+        "depth": 0.21,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          -0.13,
+          0.73,
+          0.01
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Closed continuous loft, normals recomputed across connected rings",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "rings": [
+            [
+              0,
+              0.077,
+              0.1
+            ],
+            [
+              0.1,
+              0.065,
+              0.085
+            ],
+            [
+              0.38,
+              0.08,
+              0.085
+            ],
+            [
+              0.67,
+              0.07,
+              0.09
+            ],
+            [
+              1.01,
+              0.085,
+              0.095
+            ],
+            [
+              1.38,
+              0.103,
+              0.105
+            ]
+          ],
+          "cyanTopBand": 0.014,
+          "staticRuntimeParameters": {
+            "centersX": [
+              -0.015,
+              -0.005,
+              0.02,
+              -0.015,
+              -0.04,
+              -0.13
+            ],
+            "centerZ": 0.055
+          }
+        }
+      },
+      "geometryLayer": "L0",
+      "material": "dark-cloth",
+      "localFeatures": []
+    },
+    {
+      "id": "foot-r",
+      "parent": "boot-r",
+      "dimensions": {
+        "width": 0.18,
+        "height": 0.13,
+        "depth": 0.36,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0,
+          -0.66,
+          0.08
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Closed continuous loft, normals recomputed across connected rings",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "closedLoft": true,
+          "toeForward": "+Z",
+          "toeTaper": 0.7,
+          "soleThickness": 0.018
+        }
+      },
+      "geometryLayer": "L0",
+      "material": "dark-cloth",
+      "localFeatures": []
+    },
+    {
+      "id": "blouse",
+      "parent": "torso",
+      "dimensions": {
+        "width": 0.58,
+        "height": 0.87,
+        "depth": 0.33,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0.006
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Sleeveless fitted white blouse with waist cinch and two pointed front tails, cyan edge piping.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "rings": [
+            [
+              2.0,
+              0.29,
+              0.16
+            ],
+            [
+              2.18,
+              0.24,
+              0.145
+            ],
+            [
+              2.32,
+              0.18,
+              0.13
+            ],
+            [
+              2.53,
+              0.235,
+              0.155
+            ],
+            [
+              2.72,
+              0.25,
+              0.15
+            ]
+          ],
+          "hemShape": "split front V notch; pointed lateral front panels",
+          "centerlineSeam": true,
+          "staticRuntimeParameters": {
+            "rings": [
+              [
+                2,
+                0.29,
+                0.16,
+                -0.025
+              ],
+              [
+                2.18,
+                0.24,
+                0.145,
+                -0.06
+              ],
+              [
+                2.32,
+                0.16,
+                0.13,
+                -0.07
+              ],
+              [
+                2.53,
+                0.235,
+                0.155,
+                -0.015
+              ],
+              [
+                2.72,
+                0.25,
+                0.15,
+                0
+              ]
+            ]
+          }
+        }
+      },
+      "geometryLayer": "L4",
+      "material": "white-cloth",
+      "localFeatures": [
+        {
+          "id": "blouse-seams",
+          "kind": "seam",
+          "description": "Princess panel lines and split front hem",
+          "evidenceRefs": [
+            "front-outfit"
+          ],
+          "implementation": "geometry or spatial-color region matching the named semantic surface; paired features mirror X only"
+        }
+      ]
+    },
+    {
+      "id": "collar",
+      "parent": "blouse",
+      "dimensions": {
+        "width": 0.22,
+        "height": 0.15,
+        "depth": 0.1,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0,
+          0.28,
+          0.07
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Two folded white collar leaves with cyan outline; neck gap retained.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {}
+      },
+      "geometryLayer": "L4",
+      "material": "white-cloth",
+      "localFeatures": [
+        {
+          "id": "collar-piping",
+          "kind": "linework",
+          "description": "Cyan edge around folded white collar",
+          "evidenceRefs": [
+            "front-outfit"
+          ],
+          "implementation": "geometry or spatial-color region matching the named semantic surface; paired features mirror X only"
+        }
+      ]
+    },
+    {
+      "id": "tie",
+      "parent": "blouse",
+      "dimensions": {
+        "width": 0.09,
+        "height": 0.57,
+        "depth": 0.025,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0,
+          0.07,
+          0.175
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Cyan necktie hangs over white front with narrow knot, widening body and pointed tip.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "profile": [
+            [
+              0,
+              0.28
+            ],
+            [
+              0.045,
+              0.2
+            ],
+            [
+              0.028,
+              0.12
+            ],
+            [
+              0.043,
+              -0.2
+            ],
+            [
+              0,
+              -0.28
+            ],
+            [
+              -0.043,
+              -0.2
+            ],
+            [
+              -0.028,
+              0.12
+            ],
+            [
+              -0.045,
+              0.2
+            ]
+          ],
+          "twoDarkClipsAtY": [
+            -0.12,
+            -0.16
+          ]
+        }
+      },
+      "geometryLayer": "L3",
+      "material": "cyan-trim",
+      "localFeatures": [
+        {
+          "id": "tie-clips",
+          "kind": "linework",
+          "description": "Two dark horizontal bars low on cyan tie",
+          "evidenceRefs": [
+            "front-outfit"
+          ],
+          "implementation": "geometry or spatial-color region matching the named semantic surface; paired features mirror X only"
+        }
+      ]
+    },
+    {
+      "id": "skirt",
+      "parent": "root",
+      "dimensions": {
+        "width": 0.89,
+        "height": 0.41,
+        "depth": 0.5,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          0,
+          1.85,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Flared short pleated skirt, cyan hem rim, exposed thighs below; no pants block.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "topY": 2.045,
+          "bottomY": 1.66,
+          "topRadii": [
+            0.25,
+            0.16
+          ],
+          "bottomRadii": [
+            0.445,
+            0.25
+          ],
+          "pleatCount": 18,
+          "pleatAmplitude": 0.024,
+          "hemBandHeight": 0.025,
+          "staticRuntimeParameters": {
+            "rings": [
+              [
+                1.66,
+                0.465,
+                0.25,
+                0.05
+              ],
+              [
+                1.8,
+                0.4,
+                0.222,
+                0.04
+              ],
+              [
+                2.045,
+                0.25,
+                0.16,
+                0.03
+              ]
+            ],
+            "cap": false
+          }
+        }
+      },
+      "geometryLayer": "L4",
+      "material": "dark-cloth",
+      "localFeatures": [
+        {
+          "id": "skirt-pleats",
+          "kind": "ridge",
+          "description": "Repeated vertical pleat folds on flared skirt",
+          "evidenceRefs": [
+            "front-outfit"
+          ],
+          "implementation": "geometry or spatial-color region matching the named semantic surface; paired features mirror X only"
+        },
+        {
+          "id": "skirt-cyan-hem",
+          "kind": "linework",
+          "description": "Cyan hem band follows pleats",
+          "evidenceRefs": [
+            "front-outfit"
+          ],
+          "implementation": "geometry or spatial-color region matching the named semantic surface; paired features mirror X only"
+        }
+      ]
+    },
+    {
+      "id": "mic-boom",
+      "parent": "head",
+      "dimensions": {
+        "width": 0.13,
+        "height": 0.12,
+        "depth": 0.1,
+        "units": "relative",
+        "confidence": 0.85
+      },
+      "transform": {
+        "position": [
+          -0.23,
+          -0.07,
+          0.08
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "geometryDescriptor": {
+        "topologyIntent": "Thin earphone microphone follows cheek and ends by mouth corner.",
+        "edgeTreatment": {
+          "type": "none",
+          "bevelRadius": 0,
+          "segments": 1
+        },
+        "deformationStack": [],
+        "uvStrategy": "generated parametric surface coordinates",
+        "normalStrategy": "smooth vertex normals",
+        "construction": {
+          "controlPoints": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0.03,
+              -0.08,
+              0.09
+            ],
+            [
+              0.115,
+              -0.09,
+              0.11
+            ]
+          ],
+          "radius": 0.006
+        }
+      },
+      "geometryLayer": "L3",
+      "material": "ink",
+      "localFeatures": []
+    }
+  ],
+  "warnings": [
+    "Single-view stylized reconstruction accepted in Q2; rear and profile are inferred, not observations.",
+    "Static preview phase only; all rigging, skinning, expression animation and motion clips remain unimplemented until user accepts static appearance."
+  ],
+  "currentAllowedStage": "blockout-only-until-reviewed",
+  "animationStatus": "not-started-await-static-user-approval",
+  "staticRefinementEvidence": {
+    "path": ".img2threejs/hair-parameters.json",
+    "reason": "Correct silhouette using observed reference stations, not generic neutral hair masses."
+  },
+  "runtimeRefinementParameters": ".img2threejs/static-runtime-parameters.json"
+}

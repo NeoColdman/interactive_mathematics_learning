@@ -1,0 +1,262 @@
+{
+  "source": "3D/hatsune_miku_v6.glb",
+  "bytes": 26672976,
+  "sha256": "19f9f7e48e8224e961c9b6dc870fe8c5585be3de6903ce505c45919dc17e5287",
+  "header": {
+    "magic": "0x46546c67",
+    "version": 2,
+    "length": 26672976
+  },
+  "asset": {
+    "extras": {
+      "author": "not_here01-39 (https://sketchfab.com/not_here01-39)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/hatsune-miku-v6-14c9c7a0348842d79973bd1c9da29bb4",
+      "title": "Hatsune Miku V6"
+    },
+    "generator": "Sketchfab-17.15.0",
+    "version": "2.0"
+  },
+  "extensionsUsed": [],
+  "extensionsRequired": [],
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "counts": {
+    "nodes": 69,
+    "meshes": 31,
+    "materials": 31,
+    "textures": 13,
+    "images": 13,
+    "skins": 0,
+    "animations": 0
+  },
+  "skins": [],
+  "morphTargets": [
+    {
+      "name": "Object_0",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_1",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_2",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_3",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_4",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_5",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_6",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_7",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_8",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_9",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_10",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_11",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_12",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_13",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_14",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_15",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_16",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_17",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_18",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_19",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_20",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_21",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_22",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_23",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_24",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_25",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_26",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_27",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_28",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_29",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    },
+    {
+      "name": "Object_30",
+      "targetNames": null,
+      "targetCounts": [
+        0
+      ]
+    }
+  ],
+  "animations": [],
+  "externalImages": [],
+  "externalBuffers": []
+}

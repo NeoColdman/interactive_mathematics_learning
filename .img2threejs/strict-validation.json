@@ -1,0 +1,11 @@
+{
+  "command": [
+    "python3",
+    "forge/stage2_spec/validate_sculpt_spec.py",
+    "/Users/zhenyu/dev/Interactive_Mathematics_Learning/.img2threejs/miku-sculpt-spec.json",
+    "--strict-quality"
+  ],
+  "exitCode": 0,
+  "output": "PASS\n",
+  "status": "pass"
+}

@@ -1,0 +1,474 @@
+{
+  "date": "2026-10-24T21:02:37.206Z",
+  "scope": "Native-response loader regression on static and motion pages; seven scenario buttons and reduced-motion UI; no repeated rig sweep.",
+  "staticPreview": {
+    "ready": true,
+    "meshCount": 31,
+    "triangleCount": 248223,
+    "vertexCount": 50553,
+    "bounds": {
+      "min": [
+        -1.1318998065376396,
+        0,
+        -0.5968258677489297
+      ],
+      "max": [
+        1.1318998065376396,
+        3.3999999999999995,
+        0.5968258677489298
+      ],
+      "size": [
+        2.263799613075279,
+        3.3999999999999995,
+        1.1936517354978595
+      ],
+      "center": [
+        0,
+        1.6999999999999997,
+        5.551115123125783e-17
+      ]
+    },
+    "viewport": {
+      "width": 826,
+      "height": 608
+    },
+    "camera": {
+      "position": [
+        0,
+        1.7612,
+        7.8671631023551924
+      ],
+      "target": [
+        0,
+        1.6999999999999997,
+        5.551115123125783e-17
+      ],
+      "fov": 30
+    },
+    "renderCount": 2,
+    "background": "light",
+    "requestedPass": "imported-glb-static",
+    "renderer": {
+      "frame": 4,
+      "calls": 31,
+      "triangles": 248223,
+      "points": 0,
+      "lines": 0
+    },
+    "modelUserData": {
+      "sourceKind": "imported-glb",
+      "sourcePath": "3D/hatsune_miku_v6.glb",
+      "runtimeAsset": "/companion/hatsune_miku_v6.glb",
+      "sourceSha256": "19f9f7e48e8224e961c9b6dc870fe8c5585be3de6903ce505c45919dc17e5287",
+      "normalizedHeight": 3.4,
+      "previewTextureLimit": 2048,
+      "originalBounds": {
+        "min": [
+          -0.5501717329025269,
+          0.0007535147597081959,
+          -0.3868598937988281
+        ],
+        "max": [
+          0.5501717329025269,
+          1.653359055519104,
+          0.19332700967788696
+        ]
+      },
+      "inventory": {
+        "meshCount": 31,
+        "triangles": 248223,
+        "materialCount": 31,
+        "textureCount": 13,
+        "skinnedMeshes": 0,
+        "morphMeshes": 0,
+        "animationClips": 0
+      },
+      "animationStatus": "no-skin-or-animation-in-source",
+      "attribution": {
+        "title": "Hatsune Miku V6",
+        "author": "not_here01-39",
+        "license": "CC BY 4.0",
+        "source": "https://sketchfab.com/3d-models/hatsune-miku-v6-14c9c7a0348842d79973bd1c9da29bb4"
+      }
+    }
+  },
+  "motion": {
+    "state": "wave",
+    "currentTime": 1.2,
+    "duration": 2.5999999046325684,
+    "playing": false,
+    "reducedMotion": false,
+    "tickCount": 105,
+    "updateCount": 105,
+    "transitionProgress": 1,
+    "boneCount": 27,
+    "skeletonCount": 1,
+    "skinnedMeshes": 31,
+    "morphMeshes": 11,
+    "clips": [
+      {
+        "name": "idle",
+        "duration": 4,
+        "tracks": 38,
+        "loopCapable": true,
+        "playbackLoops": true
+      },
+      {
+        "name": "wave",
+        "duration": 2.5999999046325684,
+        "tracks": 38,
+        "loopCapable": true,
+        "playbackLoops": false
+      },
+      {
+        "name": "encourage",
+        "duration": 2.200000047683716,
+        "tracks": 38,
+        "loopCapable": true,
+        "playbackLoops": false
+      },
+      {
+        "name": "correct",
+        "duration": 2,
+        "tracks": 38,
+        "loopCapable": true,
+        "playbackLoops": false
+      },
+      {
+        "name": "retry",
+        "duration": 2.200000047683716,
+        "tracks": 38,
+        "loopCapable": true,
+        "playbackLoops": false
+      },
+      {
+        "name": "thinking",
+        "duration": 2.5999999046325684,
+        "tracks": 38,
+        "loopCapable": true,
+        "playbackLoops": false
+      },
+      {
+        "name": "celebrate",
+        "duration": 3,
+        "tracks": 38,
+        "loopCapable": true,
+        "playbackLoops": false
+      }
+    ],
+    "bindingCount": 266,
+    "morphs": [
+      {
+        "name": "Object_46",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0.026612509042024612,
+          0.5699999928474426
+        ]
+      },
+      {
+        "name": "Object_48",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0.026612509042024612,
+          0.5699999928474426
+        ]
+      },
+      {
+        "name": "Object_50",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0.026612509042024612,
+          0.5699999928474426
+        ]
+      },
+      {
+        "name": "Object_52",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0.026612509042024612,
+          0.5699999928474426
+        ]
+      },
+      {
+        "name": "Object_54",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0.026612509042024612,
+          0.5699999928474426
+        ]
+      },
+      {
+        "name": "Object_56",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0.026612509042024612,
+          0.5699999928474426
+        ]
+      },
+      {
+        "name": "Object_58",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0.026612509042024612,
+          0.5699999928474426
+        ]
+      },
+      {
+        "name": "Object_60",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0.026612509042024612,
+          0.5699999928474426
+        ]
+      },
+      {
+        "name": "Object_62",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0.026612509042024612,
+          0.5699999928474426
+        ]
+      },
+      {
+        "name": "Object_64",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0.026612509042024612,
+          0.5699999928474426
+        ]
+      },
+      {
+        "name": "Object_66",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0.026612509042024612,
+          0.5699999928474426
+        ]
+      }
+    ]
+  },
+  "reduced": {
+    "state": "rest",
+    "currentTime": 0,
+    "duration": 0,
+    "playing": false,
+    "reducedMotion": true,
+    "tickCount": 97,
+    "updateCount": 97,
+    "transitionProgress": 1,
+    "boneCount": 27,
+    "skeletonCount": 1,
+    "skinnedMeshes": 31,
+    "morphMeshes": 11,
+    "clips": [
+      {
+        "name": "idle",
+        "duration": 4,
+        "tracks": 38,
+        "loopCapable": true,
+        "playbackLoops": true
+      },
+      {
+        "name": "wave",
+        "duration": 2.5999999046325684,
+        "tracks": 38,
+        "loopCapable": true,
+        "playbackLoops": false
+      },
+      {
+        "name": "encourage",
+        "duration": 2.200000047683716,
+        "tracks": 38,
+        "loopCapable": true,
+        "playbackLoops": false
+      },
+      {
+        "name": "correct",
+        "duration": 2,
+        "tracks": 38,
+        "loopCapable": true,
+        "playbackLoops": false
+      },
+      {
+        "name": "retry",
+        "duration": 2.200000047683716,
+        "tracks": 38,
+        "loopCapable": true,
+        "playbackLoops": false
+      },
+      {
+        "name": "thinking",
+        "duration": 2.5999999046325684,
+        "tracks": 38,
+        "loopCapable": true,
+        "playbackLoops": false
+      },
+      {
+        "name": "celebrate",
+        "duration": 3,
+        "tracks": 38,
+        "loopCapable": true,
+        "playbackLoops": false
+      }
+    ],
+    "bindingCount": 266,
+    "morphs": [
+      {
+        "name": "Object_46",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Object_48",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Object_50",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Object_52",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Object_54",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Object_56",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Object_58",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Object_60",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Object_62",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Object_64",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Object_66",
+        "channels": {
+          "blink": 0,
+          "smile": 1
+        },
+        "weights": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "issues": []
+}

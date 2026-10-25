@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "mesh-parity-report",
+  "status": "pass",
+  "ok": true,
+  "reason": null,
+  "frozenAttributes": [
+    "position",
+    "normal",
+    "uv",
+    "index"
+  ],
+  "meshesFrozen": 31,
+  "meshesCompared": 31,
+  "failureCount": 0,
+  "failures": [],
+  "addedLegalCount": 62,
+  "addedLegal": [
+    "Object_0.skinIndex",
+    "Object_0.skinWeight",
+    "Object_1.skinIndex",
+    "Object_1.skinWeight",
+    "Object_2.skinIndex",
+    "Object_2.skinWeight",
+    "Object_3.skinIndex",
+    "Object_3.skinWeight",
+    "Object_4.skinIndex",
+    "Object_4.skinWeight",
+    "Object_5.skinIndex",
+    "Object_5.skinWeight",
+    "Object_6.skinIndex",
+    "Object_6.skinWeight",
+    "Object_7.skinIndex",
+    "Object_7.skinWeight",
+    "Object_8.skinIndex",
+    "Object_8.skinWeight",
+    "Object_9.skinIndex",
+    "Object_9.skinWeight"
+  ],
+  "summary": "mesh parity: PASS   (schema 1, frozen: position, normal, uv, index)\n  meshes frozen 31   compared 31   failures 0   added (legal) 62\n  added (legal): Object_0.skinIndex, Object_0.skinWeight, Object_1.skinIndex, Object_1.skinWeight, Object_2.skinIndex, Object_2.skinWeight, Object_3.skinIndex, Object_3.skinWeight, Object_4.skinIndex, Object_4.skinWeight, Object_5.skinIndex, Object_5.skinWeight, Object_6.skinIndex, Object_6.skinWeight, Object_7.skinIndex, Object_7.skinWeight, Object_8.skinIndex, Object_8.skinWeight, Object_9.skinIndex, Object_9.skinWeight\n  ... 42 further additions not listed"
+}

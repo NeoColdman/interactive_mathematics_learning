@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "method": "LBS using true GLB skin order and IBMs, actual authored clips 25 samples each; nearest original body8-to-cloth21 pairs in shoulder/elbow zones within 0.006H",
+  "pairCount": 200,
+  "clips": [
+    {
+      "sourceName": "idle",
+      "worst": {
+        "gapIncrease": 0.00014476003368332595,
+        "gapIncreaseH": 8.759503106640115e-05,
+        "atTime": 3.0,
+        "sourceDistance": 0.0091558316324496,
+        "posedDistance": 0.009300591666132925,
+        "bodyVertex": 7307,
+        "sleeveVertex": 2646,
+        "side": "positive-X"
+      },
+      "maxPosedPairDistance": 0.009442214696511998
+    },
+    {
+      "sourceName": "wave",
+      "worst": {
+        "gapIncrease": 0.00014128929623252393,
+        "gapIncreaseH": 8.549487022027016e-05,
+        "atTime": 1.4083332816759746,
+        "sourceDistance": 0.0091558316324496,
+        "posedDistance": 0.009297120928682123,
+        "bodyVertex": 7307,
+        "sleeveVertex": 2646,
+        "side": "positive-X"
+      },
+      "maxPosedPairDistance": 0.00943892692571478
+    },
+    {
+      "sourceName": "encourage",
+      "worst": {
+        "gapIncrease": 0.00014128929623235392,
+        "gapIncreaseH": 8.549487022016728e-05,
+        "atTime": 0.0,
+        "sourceDistance": 0.0091558316324496,
+        "posedDistance": 0.009297120928681953,
+        "bodyVertex": 7307,
+        "sleeveVertex": 2646,
+        "side": "positive-X"
+      },
+      "maxPosedPairDistance": 0.00943892692571478
+    },
+    {
+      "sourceName": "correct",
+      "worst": {
+        "gapIncrease": 0.00014128929623235392,
+        "gapIncreaseH": 8.549487022016728e-05,
+        "atTime": 0.0,
+        "sourceDistance": 0.0091558316324496,
+        "posedDistance": 0.009297120928681953,
+        "bodyVertex": 7307,
+        "sleeveVertex": 2646,
+        "side": "positive-X"
+      },
+      "maxPosedPairDistance": 0.00943892692571478
+    },
+    {
+      "sourceName": "retry",
+      "worst": {
+        "gapIncrease": 0.00014128929623252393,
+        "gapIncreaseH": 8.549487022027016e-05,
+        "atTime": 1.9250000417232513,
+        "sourceDistance": 0.0091558316324496,
+        "posedDistance": 0.009297120928682123,
+        "bodyVertex": 7307,
+        "sleeveVertex": 2646,
+        "side": "positive-X"
+      },
+      "maxPosedPairDistance": 0.00943892692571478
+    },
+    {
+      "sourceName": "thinking",
+      "worst": {
+        "gapIncrease": 0.00014128929623252393,
+        "gapIncreaseH": 8.549487022027016e-05,
+        "atTime": 1.4083332816759746,
+        "sourceDistance": 0.0091558316324496,
+        "posedDistance": 0.009297120928682123,
+        "bodyVertex": 7307,
+        "sleeveVertex": 2646,
+        "side": "positive-X"
+      },
+      "maxPosedPairDistance": 0.00943892692571478
+    },
+    {
+      "sourceName": "celebrate",
+      "worst": {
+        "gapIncrease": 0.00014128929623235392,
+        "gapIncreaseH": 8.549487022016728e-05,
+        "atTime": 0.0,
+        "sourceDistance": 0.0091558316324496,
+        "posedDistance": 0.009297120928681953,
+        "bodyVertex": 7307,
+        "sleeveVertex": 2646,
+        "side": "positive-X"
+      },
+      "maxPosedPairDistance": 0.00943892692571478
+    }
+  ],
+  "evidenceBoundary": "Pair-distance increase is a numeric seam risk indicator, not a background-hole or crease pixel gate. Hidden overlapping surfaces and sliding pair correspondence can overestimate visible gaps."
+}

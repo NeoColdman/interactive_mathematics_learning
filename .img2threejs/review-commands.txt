@@ -1,0 +1,64 @@
+STATIC PREVIEW REVIEW — WORK FROM INSTALLED SKILL ROOT
+/Users/zhenyu/.codex/skills/img2threejs
+
+Workspace state: /Users/zhenyu/dev/Interactive_Mathematics_Learning/.img2threejs/state.json
+Workspace spec: /Users/zhenyu/dev/Interactive_Mathematics_Learning/.img2threejs/miku-sculpt-spec.json
+Current unlocked pass: blockout (obtain fresh next.py result, never trust this line after advancing).
+All rig steps remain pending until the user accepts the static appearance.
+
+0. Before start/resume/correction:
+python3 forge/next.py --state <state> <spec>
+An exit 3 or status stopped is hard stop; never regenerate/reset to evade correction limits.
+
+1. Current pass only, implementation and provenance:
+Record actual factory path/hash and subject-specific changes back into spec/geometry-design.
+The generated seed's arbitrary geometryDescriptor.construction fields are metadata, not executable recipes.
+Official generator supports taperedSweep, but curve-sweep + attachment may become a cylinder; hand-refinement must implement the true continuous ring lofts and preserve parameter authority.
+
+2. Hair geometry BEFORE capture:
+Export exact implemented head ring table [[y,rx,rz,zc],...] and world-space hair mesh points without using a browser render as substitute.
+python3 forge/stage4_review/scalp_exposure.py --rings <actual-head-rings.json> --hair-points <actual-hair-points.json> --v-low <reference-derived-scalp-range-low> --v-high <range-high> --out <evidence/scalp-exposure.json>
+Do not relax default --hard-max to make it pass. State examined scalp range and unmeasured lower zones.
+
+3. Browser captures (root agent owns browser):
+node scripts/capture-companion-preview.mjs --playwright /Users/zhenyu/dev/physics/inclined-plane-lab/node_modules/playwright-core --out <evidence-dir> --url http://127.0.0.1:3211/companion-preview.html
+Script outputs page-desktop.png, view-0.png, view-35.png, view--35.png, view-90.png, view-135.png, view-180.png, view-270.png, head-0.png, head-35.png, meshes.json, browser-report.json.
+Mark render-capture with real capture evidence; then mark review-contract-read with review-contract-read.md. The state refuses out-of-order marks.
+
+4. Hard geometric and multi-view checks:
+python3 forge/stage4_review/turntable_gate.py --capture 0=<view0> --capture 90=<view90> --capture 180=<view180> --capture 270=<view270> --json
+python3 forge/stage4_review/self_intersection.py <evidence/meshes.json> --json
+python3 forge/stage4_review/attachment_anchor.py <spec> --measured <actual-world-component-origins.json> --json
+Read sampledVertexCount, unmeasuredAttachments and missingAzimuths before reporting success.
+Only use --allow-holes if inspected legitimate arm/body/hair negative spaces explain the holes; document it and still inspect head closure.
+
+5. Pixel diagnostics, capture JSON output even on failure:
+python3 forge/stage4_review/interior_difference.py <reference-true-png> <view0> --from 0 --to 0.22 --json
+python3 forge/stage4_review/interior_difference.py <reference-true-png> <view0> --from 0.22 --to 0.58 --json
+python3 forge/stage4_review/interior_difference.py <reference-true-png> <view0> --from 0.58 --to 1 --json
+python3 forge/stage4_review/hair_gate.py --reference front=<reference-true-png> --render front=<view0> --scalp-exposure <scalp-report> --out <evidence/hair-gate.json>
+python3 forge/stage4_review/diagnose_render.py --reference <reference-true-png> --render <view0> --spec <spec> --pass-id <current-pass> --in-place --json
+python3 forge/stage4_review/diagnose_render_multi_angle.py --reference <view0> --orbit <view35> --orbit <view-35> --json
+
+Reference PNG has transparent background; render must use clean neutral background and tight enough framing for meaningful mask. Whole-frame mask fallback or mismatched capture is unusable evidence, not a clean gate result.
+
+6. Mark completed tier1-diagnostics and multi-angle-review with actual reports, then:
+python3 forge/stage3_build/orchestrate_passes.py check <spec> --pass-id <current-pass>
+Use returned command/order; do not mark pass-gate-check if a hard check is failing.
+
+7. Only after Tier1 passes, create and INSPECT real side-by-side sheet:
+python3 forge/stage4_review/make_comparison_sheet.py --reference <reference-true-png> --render <view0> --out <evidence/comparison.png> --json
+Root or image-capable reviewing agent supplies honest global, 5 layer and each current critical feature scores. Scores never come from source code, spec compliance or metadata.
+python3 forge/stage4_review/append_review.py <spec> --pass-id <pass> --fidelity <actual-score> --action <one-action> --summary <actual-critique> --render-screenshot <view0> --comparison-image <comparison> --ai-vision-score <actual-score> --layer-scores-json <JSON> --feature-reviews-json <feature-JSON-file> --require-screenshot-files --in-place
+No --force-out-of-order or threshold lowering.
+
+8. Sync only after valid recorded review:
+python3 forge/stage3_build/orchestrate_passes.py sync <spec> --in-place
+Mark ai-review-recorded and pipeline-sync with evidence in expected order, then run next.py again.
+A refine-code/refine-spec action counts against bounded correction budget. A continue advances only when every required score/check really passes.
+
+KNOWN MATERIAL TOOL INCONSISTENCY
+validate_sculpt_spec.py formally supports evidence-bearing textureless declarations; orchestrate_passes.py material_pass_gaps currently does not. At material-pass it may demand physically meaningless PBR maps from this cel illustration. Preserve the error; never manufacture maps/confidence or mark hero materials utility. This static appearance milestone must not be called entire-pipeline-complete.
+
+FINAL STATIC USER REVIEW
+User must accept static shape before motion design/binding/Stage R. Finalize honest screenshots and a pending-user-approval checkpoint, not animated readiness. Standard captures include six full body views and two head views; side/rear geometry is inferred and separately labeled.

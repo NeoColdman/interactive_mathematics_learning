@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "clips": [
+    {
+      "sourceName": "idle",
+      "stanceSource": "authored GLB clip extras declare both feet planted, expanded to full [0,duration]",
+      "measurement": {
+        "figureHeight": 1.6526055407593958,
+        "limit": 0.01,
+        "status": "pass",
+        "reason": "footSlide 0H <= 0.01H over 2 stance interval(s)",
+        "maxSlideFraction": 0.0,
+        "perStance": [
+          {
+            "landmark": "foot.l",
+            "interval": [
+              0.0,
+              4.0
+            ],
+            "contactTime": 0.0,
+            "frames": 25,
+            "maxSlide": 0.0,
+            "maxSlideFraction": 0.0,
+            "worstTime": 0.0
+          },
+          {
+            "landmark": "foot.r",
+            "interval": [
+              0.0,
+              4.0
+            ],
+            "contactTime": 0.0,
+            "frames": 25,
+            "maxSlide": 0.0,
+            "maxSlideFraction": 0.0,
+            "worstTime": 0.0
+          }
+        ],
+        "unmeasured": []
+      }
+    },
+    {
+      "sourceName": "wave",
+      "stanceSource": "authored GLB clip extras declare both feet planted, expanded to full [0,duration]",
+      "measurement": {
+        "figureHeight": 1.6526055407593958,
+        "limit": 0.01,
+        "status": "pass",
+        "reason": "footSlide 0H <= 0.01H over 2 stance interval(s)",
+        "maxSlideFraction": 0.0,
+        "perStance": [
+          {
+            "landmark": "foot.l",
+            "interval": [
+              0.0,
+              2.5999999046325684
+            ],
+            "contactTime": 0.0,
+            "frames": 25,
+            "maxSlide": 0.0,
+            "maxSlideFraction": 0.0,
+            "worstTime": 0.0
+          },
+          {
+            "landmark": "foot.r",
+            "interval": [
+              0.0,
+              2.5999999046325684
+            ],
+            "contactTime": 0.0,
+            "frames": 25,
+            "maxSlide": 0.0,
+            "maxSlideFraction": 0.0,
+            "worstTime": 0.0
+          }
+        ],
+        "unmeasured": []
+      }
+    },
+    {
+      "sourceName": "encourage",
+      "stanceSource": "authored GLB clip extras declare both feet planted, expanded to full [0,duration]",
+      "measurement": {
+        "figureHeight": 1.6526055407593958,
+        "limit": 0.01,
+        "status": "pass",
+        "reason": "footSlide 0H <= 0.01H over 2 stance interval(s)",
+        "maxSlideFraction": 0.0,
+        "perStance": [
+          {
+            "landmark": "foot.l",
+            "interval": [
+              0.0,
+              2.200000047683716
+            ],
+            "contactTime": 0.0,
+            "frames": 25,
+            "maxSlide": 0.0,
+            "maxSlideFraction": 0.0,
+            "worstTime": 0.0
+          },
+          {
+            "landmark": "foot.r",
+            "interval": [
+              0.0,
+              2.200000047683716
+            ],
+            "contactTime": 0.0,
+            "frames": 25,
+            "maxSlide": 0.0,
+            "maxSlideFraction": 0.0,
+            "worstTime": 0.0
+          }
+        ],
+        "unmeasured": []
+      }
+    },
+    {
+      "sourceName": "correct",
+      "stanceSource": "authored GLB clip extras declare both feet planted, expanded to full [0,duration]",
+      "measurement": {
+        "figureHeight": 1.6526055407593958,
+        "limit": 0.01,
+        "status": "pass",
+        "reason": "footSlide 0H <= 0.01H over 2 stance interval(s)",
+        "maxSlideFraction": 0.0,
+        "perStance": [
+          {
+            "landmark": "foot.l",
+            "interval": [
+              0.0,
+              2.0
+            ],
+            "contactTime": 0.0,
+            "frames": 25,
+            "maxSlide": 0.0,
+            "maxSlideFraction": 0.0,
+            "worstTime": 0.0
+          },
+          {
+            "landmark": "foot.r",
+            "interval": [
+              0.0,
+              2.0
+            ],
+            "contactTime": 0.0,
+            "frames": 25,
+            "maxSlide": 0.0,
+            "maxSlideFraction": 0.0,
+            "worstTime": 0.0
+          }
+        ],
+        "unmeasured": []
+      }
+    },
+    {
+      "sourceName": "retry",
+      "stanceSource": "authored GLB clip extras declare both feet planted, expanded to full [0,duration]",
+      "measurement": {
+        "figureHeight": 1.6526055407593958,
+        "limit": 0.01,
+        "status": "pass",
+        "reason": "footSlide 0H <= 0.01H over 2 stance interval(s)",
+        "maxSlideFraction": 0.0,
+        "perStance": [
+          {
+            "landmark": "foot.l",
+            "interval": [
+              0.0,
+              2.200000047683716
+            ],
+            "contactTime": 0.0,
+            "frames": 25,
+            "maxSlide": 0.0,
+            "maxSlideFraction": 0.0,
+            "worstTime": 0.0
+          },
+          {
+            "landmark": "foot.r",
+            "interval": [
+              0.0,
+              2.200000047683716
+            ],
+            "contactTime": 0.0,
+            "frames": 25,
+            "maxSlide": 0.0,
+            "maxSlideFraction": 0.0,
+            "worstTime": 0.0
+          }
+        ],
+        "unmeasured": []
+      }
+    },
+    {
+      "sourceName": "thinking",
+      "stanceSource": "authored GLB clip extras declare both feet planted, expanded to full [0,duration]",
+      "measurement": {
+        "figureHeight": 1.6526055407593958,
+        "limit": 0.01,
+        "status": "pass",
+        "reason": "footSlide 0H <= 0.01H over 2 stance interval(s)",
+        "maxSlideFraction": 0.0,
+        "perStance": [
+          {
+            "landmark": "foot.l",
+            "interval": [
+              0.0,
+              2.5999999046325684
+            ],
+            "contactTime": 0.0,
+            "frames": 25,
+            "maxSlide": 0.0,
+            "maxSlideFraction": 0.0,
+            "worstTime": 0.0
+          },
+          {
+            "landmark": "foot.r",
+            "interval": [
+              0.0,
+              2.5999999046325684
+            ],
+            "contactTime": 0.0,
+            "frames": 25,
+            "maxSlide": 0.0,
+            "maxSlideFraction": 0.0,
+            "worstTime": 0.0
+          }
+        ],
+        "unmeasured": []
+      }
+    },
+    {
+      "sourceName": "celebrate",
+      "stanceSource": "authored GLB clip extras declare both feet planted, expanded to full [0,duration]",
+      "measurement": {
+        "figureHeight": 1.6526055407593958,
+        "limit": 0.01,
+        "status": "pass",
+        "reason": "footSlide 0H <= 0.01H over 2 stance interval(s)",
+        "maxSlideFraction": 0.0,
+        "perStance": [
+          {
+            "landmark": "foot.l",
+            "interval": [
+              0.0,
+              3.0
+            ],
+            "contactTime": 0.0,
+            "frames": 25,
+            "maxSlide": 0.0,
+            "maxSlideFraction": 0.0,
+            "worstTime": 0.0
+          },
+          {
+            "landmark": "foot.r",
+            "interval": [
+              0.0,
+              3.0
+            ],
+            "contactTime": 0.0,
+            "frames": 25,
+            "maxSlide": 0.0,
+            "maxSlideFraction": 0.0,
+            "worstTime": 0.0
+          }
+        ],
+        "unmeasured": []
+      }
+    }
+  ],
+  "evidenceBoundary": "GLB joint-landmark stance measurement; browser visual foot contact is separate."
+}

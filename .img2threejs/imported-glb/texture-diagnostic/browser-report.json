@@ -1,0 +1,148 @@
+{
+  "metrics": {
+    "ready": true,
+    "meshCount": 31,
+    "triangleCount": 248223,
+    "vertexCount": 50553,
+    "bounds": {
+      "min": [
+        -1.1318998065376396,
+        0,
+        -0.5968258677489297
+      ],
+      "max": [
+        1.1318998065376396,
+        3.3999999999999995,
+        0.5968258677489298
+      ],
+      "size": [
+        2.263799613075279,
+        3.3999999999999995,
+        1.1936517354978595
+      ],
+      "center": [
+        0,
+        1.6999999999999997,
+        5.551115123125783e-17
+      ]
+    },
+    "viewport": {
+      "width": 906,
+      "height": 608
+    },
+    "camera": {
+      "position": [
+        0,
+        1.7612000000000003,
+        7.359604192525825
+      ],
+      "target": [
+        0,
+        1.6999999999999997,
+        5.551115123125783e-17
+      ],
+      "fov": 30
+    },
+    "renderCount": 3,
+    "background": "light",
+    "requestedPass": "imported-glb-static",
+    "renderer": {
+      "frame": 3,
+      "calls": 31,
+      "triangles": 248223,
+      "points": 0,
+      "lines": 0
+    },
+    "modelUserData": {
+      "sourceKind": "imported-glb",
+      "sourcePath": "3D/hatsune_miku_v6.glb",
+      "sourceSha256": "19f9f7e48e8224e961c9b6dc870fe8c5585be3de6903ce505c45919dc17e5287",
+      "normalizedHeight": 3.4,
+      "originalBounds": {
+        "min": [
+          -0.5501717329025269,
+          0.0007535147597081959,
+          -0.3868598937988281
+        ],
+        "max": [
+          0.5501717329025269,
+          1.653359055519104,
+          0.19332700967788696
+        ]
+      },
+      "inventory": {
+        "meshCount": 31,
+        "triangles": 248223,
+        "materialCount": 31,
+        "textureCount": 0,
+        "skinnedMeshes": 0,
+        "morphMeshes": 0,
+        "animationClips": 0
+      },
+      "animationStatus": "no-skin-or-animation-in-source",
+      "attribution": {
+        "title": "Hatsune Miku V6",
+        "author": "not_here01-39",
+        "license": "CC BY 4.0",
+        "source": "https://sketchfab.com/3d-models/hatsune-miku-v6-14c9c7a0348842d79973bd1c9da29bb4"
+      }
+    }
+  },
+  "errors": [],
+  "consoleWarnings": [
+    "Executing inline script violates the following Content Security Policy directive 'script-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-ww+TdwEdJLBiuFnYBT0Pn+YQ2th1b32RFhR3+8OpiJE='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.",
+    "[.WebGL-0x13c00447a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x13c00444a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "Connecting to 'blob:http://127.0.0.1:3211/1f5ca5b1-15a8-45cb-bcc5-570a498ed41a' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.",
+    "Fetch API cannot load blob:http://127.0.0.1:3211/1f5ca5b1-15a8-45cb-bcc5-570a498ed41a. Refused to connect because it violates the document's Content Security Policy.",
+    "Connecting to 'blob:http://127.0.0.1:3211/2a70351d-221b-4da1-a7fc-d5e40bdfaee6' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.",
+    "Fetch API cannot load blob:http://127.0.0.1:3211/2a70351d-221b-4da1-a7fc-d5e40bdfaee6. Refused to connect because it violates the document's Content Security Policy.",
+    "Connecting to 'blob:http://127.0.0.1:3211/5c58d2d1-cb74-4ba6-865c-0e21588f4f1c' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.",
+    "Fetch API cannot load blob:http://127.0.0.1:3211/5c58d2d1-cb74-4ba6-865c-0e21588f4f1c. Refused to connect because it violates the document's Content Security Policy.",
+    "Connecting to 'blob:http://127.0.0.1:3211/acfaad5f-adab-4537-a5a9-9a0959d9cf41' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.",
+    "Fetch API cannot load blob:http://127.0.0.1:3211/acfaad5f-adab-4537-a5a9-9a0959d9cf41. Refused to connect because it violates the document's Content Security Policy.",
+    "Connecting to 'blob:http://127.0.0.1:3211/e17253ac-ecef-4b1a-9087-12c8d5324517' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.",
+    "Fetch API cannot load blob:http://127.0.0.1:3211/e17253ac-ecef-4b1a-9087-12c8d5324517. Refused to connect because it violates the document's Content Security Policy.",
+    "Connecting to 'blob:http://127.0.0.1:3211/d0670279-ce13-4958-91c3-ea287adeadd9' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.",
+    "Fetch API cannot load blob:http://127.0.0.1:3211/d0670279-ce13-4958-91c3-ea287adeadd9. Refused to connect because it violates the document's Content Security Policy.",
+    "Connecting to 'blob:http://127.0.0.1:3211/d1149a69-edc4-480c-941d-ea76d47aac61' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.",
+    "Fetch API cannot load blob:http://127.0.0.1:3211/d1149a69-edc4-480c-941d-ea76d47aac61. Refused to connect because it violates the document's Content Security Policy.",
+    "Connecting to 'blob:http://127.0.0.1:3211/a23a50b8-bb61-4eb3-ac86-e9c24f34c87d' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.",
+    "Fetch API cannot load blob:http://127.0.0.1:3211/a23a50b8-bb61-4eb3-ac86-e9c24f34c87d. Refused to connect because it violates the document's Content Security Policy.",
+    "Connecting to 'blob:http://127.0.0.1:3211/acb4cdc1-0d05-4bf7-968e-d06faf367179' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.",
+    "Fetch API cannot load blob:http://127.0.0.1:3211/acb4cdc1-0d05-4bf7-968e-d06faf367179. Refused to connect because it violates the document's Content Security Policy.",
+    "Connecting to 'blob:http://127.0.0.1:3211/fa31768c-b3ed-48c3-95a1-d5f24246d2a8' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.",
+    "Fetch API cannot load blob:http://127.0.0.1:3211/fa31768c-b3ed-48c3-95a1-d5f24246d2a8. Refused to connect because it violates the document's Content Security Policy.",
+    "Connecting to 'blob:http://127.0.0.1:3211/2662a490-7692-4911-a7c0-4bcf3a2e7027' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.",
+    "Fetch API cannot load blob:http://127.0.0.1:3211/2662a490-7692-4911-a7c0-4bcf3a2e7027. Refused to connect because it violates the document's Content Security Policy.",
+    "Connecting to 'blob:http://127.0.0.1:3211/4785da93-ac48-4276-b2b0-02ed6c4da16a' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.",
+    "Fetch API cannot load blob:http://127.0.0.1:3211/4785da93-ac48-4276-b2b0-02ed6c4da16a. Refused to connect because it violates the document's Content Security Policy.",
+    "Connecting to 'blob:http://127.0.0.1:3211/0316859f-7113-4b1b-9584-8c363e58c643' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.",
+    "Fetch API cannot load blob:http://127.0.0.1:3211/0316859f-7113-4b1b-9584-8c363e58c643. Refused to connect because it violates the document's Content Security Policy.",
+    "THREE.GLTFLoader: Couldn't load texture blob:http://127.0.0.1:3211/1f5ca5b1-15a8-45cb-bcc5-570a498ed41a",
+    "THREE.GLTFLoader: Couldn't load texture blob:http://127.0.0.1:3211/2a70351d-221b-4da1-a7fc-d5e40bdfaee6",
+    "THREE.GLTFLoader: Couldn't load texture blob:http://127.0.0.1:3211/5c58d2d1-cb74-4ba6-865c-0e21588f4f1c",
+    "THREE.GLTFLoader: Couldn't load texture blob:http://127.0.0.1:3211/acfaad5f-adab-4537-a5a9-9a0959d9cf41",
+    "THREE.GLTFLoader: Couldn't load texture blob:http://127.0.0.1:3211/e17253ac-ecef-4b1a-9087-12c8d5324517",
+    "THREE.GLTFLoader: Couldn't load texture blob:http://127.0.0.1:3211/d0670279-ce13-4958-91c3-ea287adeadd9",
+    "THREE.GLTFLoader: Couldn't load texture blob:http://127.0.0.1:3211/d1149a69-edc4-480c-941d-ea76d47aac61",
+    "THREE.GLTFLoader: Couldn't load texture blob:http://127.0.0.1:3211/a23a50b8-bb61-4eb3-ac86-e9c24f34c87d",
+    "THREE.GLTFLoader: Couldn't load texture blob:http://127.0.0.1:3211/acb4cdc1-0d05-4bf7-968e-d06faf367179",
+    "THREE.GLTFLoader: Couldn't load texture blob:http://127.0.0.1:3211/fa31768c-b3ed-48c3-95a1-d5f24246d2a8",
+    "THREE.GLTFLoader: Couldn't load texture blob:http://127.0.0.1:3211/2662a490-7692-4911-a7c0-4bcf3a2e7027",
+    "THREE.GLTFLoader: Couldn't load texture blob:http://127.0.0.1:3211/4785da93-ac48-4276-b2b0-02ed6c4da16a",
+    "THREE.GLTFLoader: Couldn't load texture blob:http://127.0.0.1:3211/0316859f-7113-4b1b-9584-8c363e58c643",
+    "[.WebGL-0x13c00447a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x13c00444a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+  ],
+  "externalRequests": [],
+  "views": [
+    0,
+    35,
+    -35,
+    90,
+    135,
+    180,
+    270
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "method": "Extract embedded PNGs and limit preview texture size to 2048; retain geometry, UVs, materials and colors. Source GLB unchanged.",
+  "images": [
+    {
+      "imageIndex": 0,
+      "uri": "/companion/textures/0.png",
+      "sourceSize": [
+        4096,
+        4096
+      ],
+      "previewSize": [
+        2048,
+        2048
+      ],
+      "sourcePngSha256": "6f77ef985ec613701bc0205f1f2776401bb5c96762e6de4d16d1ed3cfb2542ac",
+      "previewSha256": "5f2a88d3c286b8e7a3cc6f04799fcf72d5f29dd73704631cae39d59e17c141c1",
+      "bytes": 1335780
+    },
+    {
+      "imageIndex": 1,
+      "uri": "/companion/textures/1.png",
+      "sourceSize": [
+        4096,
+        4096
+      ],
+      "previewSize": [
+        2048,
+        2048
+      ],
+      "sourcePngSha256": "39c00b036b08efbe391dc1db3d12a62d1ca5774cb77b4b9c18339bcc86066fcd",
+      "previewSha256": "cdffd51e3958be158bfcab684a03a9fceea05515b01044e7cd204d7109273404",
+      "bytes": 630844
+    },
+    {
+      "imageIndex": 2,
+      "uri": "/companion/textures/2.png",
+      "sourceSize": [
+        4096,
+        4096
+      ],
+      "previewSize": [
+        2048,
+        2048
+      ],
+      "sourcePngSha256": "fac18107bde94858e65f7ea0d7385c6a317dd580e2e36fb13d3080f7243baefc",
+      "previewSha256": "f998b6fd247e8edbb72ac2c9303179fd2c828a4eb20fbeb507bd0d4843e7a217",
+      "bytes": 1116135
+    },
+    {
+      "imageIndex": 3,
+      "uri": "/companion/textures/3.png",
+      "sourceSize": [
+        4096,
+        4096
+      ],
+      "previewSize": [
+        2048,
+        2048
+      ],
+      "sourcePngSha256": "b0ae586d8bdb110f7d435c4389edfd591d161e40fd81aa1675f73a2569fda04b",
+      "previewSha256": "f607c1d810d8c9b36c4e66adad7b0de104341b435cbab95dca71452e2d17fffb",
+      "bytes": 1200656
+    },
+    {
+      "imageIndex": 4,
+      "uri": "/companion/textures/4.png",
+      "sourceSize": [
+        4096,
+        4096
+      ],
+      "previewSize": [
+        2048,
+        2048
+      ],
+      "sourcePngSha256": "f5019b9c51bf0b2a89d614f5600e72dd5904588cc53120cb13a5d8d3bfd0b55a",
+      "previewSha256": "b58beae6ccab64d508239d8c3c9fb3e1cfbbf2a9f5fd9ff175ea626822ae8c68",
+      "bytes": 623379
+    },
+    {
+      "imageIndex": 5,
+      "uri": "/companion/textures/5.png",
+      "sourceSize": [
+        4096,
+        4096
+      ],
+      "previewSize": [
+        2048,
+        2048
+      ],
+      "sourcePngSha256": "3a457b11fa3ad3860295c3f0138ef7e9d006192a9321b90d2995cdce4de067b5",
+      "previewSha256": "3f8a24ee0769c101e1db9c81430b837b79bdb28ad8b9e444a8e3bc49757f95b5",
+      "bytes": 682031
+    },
+    {
+      "imageIndex": 6,
+      "uri": "/companion/textures/6.png",
+      "sourceSize": [
+        4096,
+        4096
+      ],
+      "previewSize": [
+        2048,
+        2048
+      ],
+      "sourcePngSha256": "2772396bc9a08aad8a6898209f0d07ab0dbf7acf6d6a1d6b35dbc3e7ab077d9c",
+      "previewSha256": "c86f97cd6859fe2bb27213380b38ff39481cbf962eebc140afd47338311a887b",
+      "bytes": 1281591
+    },
+    {
+      "imageIndex": 7,
+      "uri": "/companion/textures/7.png",
+      "sourceSize": [
+        4096,
+        4096
+      ],
+      "previewSize": [
+        2048,
+        2048
+      ],
+      "sourcePngSha256": "5a79135aca719e2a1593209bfdfbc1c5c1b5ed4b822a71a86f9bd109271b90f7",
+      "previewSha256": "f49d66bb6521803e66e09a276ec9e9bc196a029ddfc72cc5321910820389f558",
+      "bytes": 660764
+    },
+    {
+      "imageIndex": 8,
+      "uri": "/companion/textures/8.png",
+      "sourceSize": [
+        4096,
+        4096
+      ],
+      "previewSize": [
+        2048,
+        2048
+      ],
+      "sourcePngSha256": "e59a5b7d36b645de5c35469df949aa0d0caf1f78a09027df17a05ce3c58b44d7",
+      "previewSha256": "062912bff4e009033ef0f2f948896734defd66ebe3811e09ec24feda11bea335",
+      "bytes": 487680
+    },
+    {
+      "imageIndex": 9,
+      "uri": "/companion/textures/9.png",
+      "sourceSize": [
+        4096,
+        4096
+      ],
+      "previewSize": [
+        2048,
+        2048
+      ],
+      "sourcePngSha256": "c4aee6f850b9bbf1f9791b57f1fd27af3a1c22d1853caff0514775751fe90ace",
+      "previewSha256": "59cf451ab87fab36de606e5a603b50f2c24c17432121ebf76b1136db459ded48",
+      "bytes": 800302
+    },
+    {
+      "imageIndex": 10,
+      "uri": "/companion/textures/10.png",
+      "sourceSize": [
+        4096,
+        4096
+      ],
+      "previewSize": [
+        2048,
+        2048
+      ],
+      "sourcePngSha256": "0b6aacb69166edacc9e53e3fc466b35effd7f5dd90db355034ca7e69cf0589de",
+      "previewSha256": "9b3605a68cc037db72b0df2249c70b8eaa14cc9012d4dd1f5d4a11e52b0e779a",
+      "bytes": 629217
+    },
+    {
+      "imageIndex": 11,
+      "uri": "/companion/textures/11.png",
+      "sourceSize": [
+        1024,
+        1024
+      ],
+      "previewSize": [
+        1024,
+        1024
+      ],
+      "sourcePngSha256": "358baab9bceade08d51afea0bf78917302eb93276f844bf127184aaa18769b3a",
+      "previewSha256": "d43d8a4d23384200014f13f00322a535139954506497aa926947033bc01139ce",
+      "bytes": 63070
+    },
+    {
+      "imageIndex": 12,
+      "uri": "/companion/textures/12.png",
+      "sourceSize": [
+        4096,
+        4096
+      ],
+      "previewSize": [
+        2048,
+        2048
+      ],
+      "sourcePngSha256": "39f1ce0c8dbf0137cc1e4ac8f84cff8fabde132222c92640ed5d14c11aea2c6d",
+      "previewSha256": "e035984bf8b6565b8b0ee9ae4d47040b98e6a35f61f0596301991794555ea08d",
+      "bytes": 217816
+    }
+  ]
+}

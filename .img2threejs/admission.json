@@ -1,0 +1,14 @@
+{
+  "admitted": true,
+  "reasons": [],
+  "provenance": {
+    "viewpoint": "front",
+    "sourcePath": "/Users/zhenyu/dev/Interactive_Mathematics_Learning/images/Hatsune_Miku_V2.png",
+    "width": 1028,
+    "height": 1199,
+    "foregroundCoverage": 0.2592,
+    "largestComponentFraction": 1.0,
+    "pHash": 18428078367670010121,
+    "duplicateOfHash": null
+  }
+}

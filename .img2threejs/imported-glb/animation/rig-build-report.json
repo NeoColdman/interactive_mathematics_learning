@@ -1,0 +1,20 @@
+{
+  "source": "3D/hatsune_miku_v6.glb",
+  "output": "public/companion/hatsune_miku_v6-rigged.glb",
+  "sourceHadSkin": false,
+  "jointCount": 27,
+  "meshCount": 31,
+  "vertexCount": 50553,
+  "figureHeight": 1.6526055407593958,
+  "animationCount": 0,
+  "morphTargetCount": 0,
+  "geometryParity": "pass",
+  "geometryByteParity": true,
+  "pluginRigRead": true,
+  "structuralValidation": true,
+  "restTranslationInverseResidual": 0.0,
+  "weightSumMaximumResidual": 0.0,
+  "weightQuantisation": "1/1048576, exactly representable float32 and exact sum=1",
+  "runtimeDeformation": "unevaluated; browser probe required",
+  "fullRigGate": "unevaluated"
+}

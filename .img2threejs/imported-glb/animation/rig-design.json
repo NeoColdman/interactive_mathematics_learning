@@ -1,0 +1,689 @@
+{
+  "schemaVersion": 1,
+  "provenance": {
+    "skeleton": "authored offline from static source landmarks",
+    "sourceHadSkin": false,
+    "sourceHadAnimation": false,
+    "generator": "scripts/rig-companion.py"
+  },
+  "coordinateSystem": {
+    "up": "Y",
+    "forward": "+Z",
+    "left": "+X",
+    "handedness": "right",
+    "unit": "source-model-unit"
+  },
+  "bind": {
+    "meshBindMatrix": "identity",
+    "jointOrderAuthority": "GLB skins[0].joints",
+    "inverseBindMatrices": "inverse(restWorld)",
+    "restRotations": "identity",
+    "worldJointGrid": "1/4096",
+    "originalSceneTransformChain": "retained; -90X/+90X cancels"
+  },
+  "joints": [
+    {
+      "name": "hips",
+      "skinIndex": 0,
+      "nodeIndex": 69,
+      "parent": null,
+      "parentSkinIndex": null,
+      "restWorld": [
+        0.0,
+        1.02001953125,
+        0.010009765625
+      ],
+      "restLocal": [
+        0.0,
+        1.02001953125,
+        0.010009765625
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "humanoid"
+    },
+    {
+      "name": "spine",
+      "skinIndex": 1,
+      "nodeIndex": 70,
+      "parent": "hips",
+      "parentSkinIndex": 0,
+      "restWorld": [
+        0.0,
+        1.159912109375,
+        0.014892578125
+      ],
+      "restLocal": [
+        0.0,
+        0.139892578125,
+        0.0048828125
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "humanoid"
+    },
+    {
+      "name": "chest",
+      "skinIndex": 2,
+      "nodeIndex": 71,
+      "parent": "spine",
+      "parentSkinIndex": 1,
+      "restWorld": [
+        0.0,
+        1.2900390625,
+        0.00390625
+      ],
+      "restLocal": [
+        0.0,
+        0.130126953125,
+        -0.010986328125
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "humanoid"
+    },
+    {
+      "name": "neck",
+      "skinIndex": 3,
+      "nodeIndex": 72,
+      "parent": "chest",
+      "parentSkinIndex": 2,
+      "restWorld": [
+        0.0,
+        1.360107421875,
+        0.00390625
+      ],
+      "restLocal": [
+        0.0,
+        0.070068359375,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "humanoid"
+    },
+    {
+      "name": "head",
+      "skinIndex": 4,
+      "nodeIndex": 73,
+      "parent": "neck",
+      "parentSkinIndex": 3,
+      "restWorld": [
+        0.0,
+        1.455078125,
+        0.006103515625
+      ],
+      "restLocal": [
+        0.0,
+        0.094970703125,
+        0.002197265625
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "humanoid"
+    },
+    {
+      "name": "leftClavicle",
+      "skinIndex": 5,
+      "nodeIndex": 74,
+      "parent": "chest",
+      "parentSkinIndex": 2,
+      "restWorld": [
+        0.06005859375,
+        1.320068359375,
+        0.0
+      ],
+      "restLocal": [
+        0.06005859375,
+        0.030029296875,
+        -0.00390625
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "humanoid"
+    },
+    {
+      "name": "leftUpperArm",
+      "skinIndex": 6,
+      "nodeIndex": 75,
+      "parent": "leftClavicle",
+      "parentSkinIndex": 5,
+      "restWorld": [
+        0.112060546875,
+        1.320068359375,
+        -0.0029296875
+      ],
+      "restLocal": [
+        0.052001953125,
+        0.0,
+        -0.0029296875
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "humanoid"
+    },
+    {
+      "name": "leftForeArm",
+      "skinIndex": 7,
+      "nodeIndex": 76,
+      "parent": "leftUpperArm",
+      "parentSkinIndex": 6,
+      "restWorld": [
+        0.2939453125,
+        1.176025390625,
+        -0.011962890625
+      ],
+      "restLocal": [
+        0.181884765625,
+        -0.14404296875,
+        -0.009033203125
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "humanoid"
+    },
+    {
+      "name": "leftHand",
+      "skinIndex": 8,
+      "nodeIndex": 77,
+      "parent": "leftForeArm",
+      "parentSkinIndex": 7,
+      "restWorld": [
+        0.47412109375,
+        1.034912109375,
+        -0.012939453125
+      ],
+      "restLocal": [
+        0.18017578125,
+        -0.14111328125,
+        -0.0009765625
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "humanoid"
+    },
+    {
+      "name": "rightClavicle",
+      "skinIndex": 9,
+      "nodeIndex": 78,
+      "parent": "chest",
+      "parentSkinIndex": 2,
+      "restWorld": [
+        -0.06005859375,
+        1.320068359375,
+        0.0
+      ],
+      "restLocal": [
+        -0.06005859375,
+        0.030029296875,
+        -0.00390625
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "humanoid"
+    },
+    {
+      "name": "rightUpperArm",
+      "skinIndex": 10,
+      "nodeIndex": 79,
+      "parent": "rightClavicle",
+      "parentSkinIndex": 9,
+      "restWorld": [
+        -0.112060546875,
+        1.320068359375,
+        -0.0029296875
+      ],
+      "restLocal": [
+        -0.052001953125,
+        0.0,
+        -0.0029296875
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "humanoid"
+    },
+    {
+      "name": "rightForeArm",
+      "skinIndex": 11,
+      "nodeIndex": 80,
+      "parent": "rightUpperArm",
+      "parentSkinIndex": 10,
+      "restWorld": [
+        -0.2939453125,
+        1.176025390625,
+        -0.011962890625
+      ],
+      "restLocal": [
+        -0.181884765625,
+        -0.14404296875,
+        -0.009033203125
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "humanoid"
+    },
+    {
+      "name": "rightHand",
+      "skinIndex": 12,
+      "nodeIndex": 81,
+      "parent": "rightForeArm",
+      "parentSkinIndex": 11,
+      "restWorld": [
+        -0.47412109375,
+        1.034912109375,
+        -0.012939453125
+      ],
+      "restLocal": [
+        -0.18017578125,
+        -0.14111328125,
+        -0.0009765625
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "humanoid"
+    },
+    {
+      "name": "leftThigh",
+      "skinIndex": 13,
+      "nodeIndex": 82,
+      "parent": "hips",
+      "parentSkinIndex": 0,
+      "restWorld": [
+        0.06103515625,
+        0.98388671875,
+        0.012939453125
+      ],
+      "restLocal": [
+        0.06103515625,
+        -0.0361328125,
+        0.0029296875
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "humanoid"
+    },
+    {
+      "name": "leftShin",
+      "skinIndex": 14,
+      "nodeIndex": 83,
+      "parent": "leftThigh",
+      "parentSkinIndex": 13,
+      "restWorld": [
+        0.054931640625,
+        0.55810546875,
+        0.007080078125
+      ],
+      "restLocal": [
+        -0.006103515625,
+        -0.42578125,
+        -0.005859375
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "humanoid"
+    },
+    {
+      "name": "leftFoot",
+      "skinIndex": 15,
+      "nodeIndex": 84,
+      "parent": "leftShin",
+      "parentSkinIndex": 14,
+      "restWorld": [
+        0.06103515625,
+        0.093994140625,
+        -0.02001953125
+      ],
+      "restLocal": [
+        0.006103515625,
+        -0.464111328125,
+        -0.027099609375
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "humanoid"
+    },
+    {
+      "name": "rightThigh",
+      "skinIndex": 16,
+      "nodeIndex": 85,
+      "parent": "hips",
+      "parentSkinIndex": 0,
+      "restWorld": [
+        -0.06103515625,
+        0.98388671875,
+        0.012939453125
+      ],
+      "restLocal": [
+        -0.06103515625,
+        -0.0361328125,
+        0.0029296875
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "humanoid"
+    },
+    {
+      "name": "rightShin",
+      "skinIndex": 17,
+      "nodeIndex": 86,
+      "parent": "rightThigh",
+      "parentSkinIndex": 16,
+      "restWorld": [
+        -0.054931640625,
+        0.55810546875,
+        0.007080078125
+      ],
+      "restLocal": [
+        0.006103515625,
+        -0.42578125,
+        -0.005859375
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "humanoid"
+    },
+    {
+      "name": "rightFoot",
+      "skinIndex": 18,
+      "nodeIndex": 87,
+      "parent": "rightShin",
+      "parentSkinIndex": 17,
+      "restWorld": [
+        -0.06103515625,
+        0.093994140625,
+        -0.02001953125
+      ],
+      "restLocal": [
+        -0.006103515625,
+        -0.464111328125,
+        -0.027099609375
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "humanoid"
+    },
+    {
+      "name": "leftHair1",
+      "skinIndex": 19,
+      "nodeIndex": 88,
+      "parent": "head",
+      "parentSkinIndex": 4,
+      "restWorld": [
+        0.1220703125,
+        1.574951171875,
+        -0.0869140625
+      ],
+      "restLocal": [
+        0.1220703125,
+        0.119873046875,
+        -0.093017578125
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "hair-auxiliary"
+    },
+    {
+      "name": "leftHair2",
+      "skinIndex": 20,
+      "nodeIndex": 89,
+      "parent": "leftHair1",
+      "parentSkinIndex": 19,
+      "restWorld": [
+        0.219970703125,
+        1.239990234375,
+        -0.139892578125
+      ],
+      "restLocal": [
+        0.097900390625,
+        -0.3349609375,
+        -0.052978515625
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "hair-auxiliary"
+    },
+    {
+      "name": "leftHair3",
+      "skinIndex": 21,
+      "nodeIndex": 90,
+      "parent": "leftHair2",
+      "parentSkinIndex": 20,
+      "restWorld": [
+        0.294921875,
+        0.830078125,
+        -0.2451171875
+      ],
+      "restLocal": [
+        0.074951171875,
+        -0.409912109375,
+        -0.105224609375
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "hair-auxiliary"
+    },
+    {
+      "name": "leftHair4",
+      "skinIndex": 22,
+      "nodeIndex": 91,
+      "parent": "leftHair3",
+      "parentSkinIndex": 21,
+      "restWorld": [
+        0.320068359375,
+        0.39990234375,
+        -0.27001953125
+      ],
+      "restLocal": [
+        0.025146484375,
+        -0.43017578125,
+        -0.02490234375
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "hair-auxiliary"
+    },
+    {
+      "name": "rightHair1",
+      "skinIndex": 23,
+      "nodeIndex": 92,
+      "parent": "head",
+      "parentSkinIndex": 4,
+      "restWorld": [
+        -0.1220703125,
+        1.574951171875,
+        -0.0869140625
+      ],
+      "restLocal": [
+        -0.1220703125,
+        0.119873046875,
+        -0.093017578125
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "hair-auxiliary"
+    },
+    {
+      "name": "rightHair2",
+      "skinIndex": 24,
+      "nodeIndex": 93,
+      "parent": "rightHair1",
+      "parentSkinIndex": 23,
+      "restWorld": [
+        -0.219970703125,
+        1.239990234375,
+        -0.139892578125
+      ],
+      "restLocal": [
+        -0.097900390625,
+        -0.3349609375,
+        -0.052978515625
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "hair-auxiliary"
+    },
+    {
+      "name": "rightHair3",
+      "skinIndex": 25,
+      "nodeIndex": 94,
+      "parent": "rightHair2",
+      "parentSkinIndex": 24,
+      "restWorld": [
+        -0.294921875,
+        0.830078125,
+        -0.2451171875
+      ],
+      "restLocal": [
+        -0.074951171875,
+        -0.409912109375,
+        -0.105224609375
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "hair-auxiliary"
+    },
+    {
+      "name": "rightHair4",
+      "skinIndex": 26,
+      "nodeIndex": 95,
+      "parent": "rightHair3",
+      "parentSkinIndex": 25,
+      "restWorld": [
+        -0.320068359375,
+        0.39990234375,
+        -0.27001953125
+      ],
+      "restLocal": [
+        -0.025146484375,
+        -0.43017578125,
+        -0.02490234375
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "tag": "hair-auxiliary"
+    }
+  ],
+  "landmarks": {
+    "hip": 69,
+    "head": 73,
+    "hand.l": 77,
+    "hand.r": 81,
+    "foot.l": 84,
+    "foot.r": 87
+  },
+  "landmarkEvidence": "component connectivity, measured mesh cross-sections, front/profile static render",
+  "limitations": [
+    "No finger joints; entire hand deforms with hand joint.",
+    "Skirt is hips-bound for standing gestures.",
+    "Proximity seam conditioning does not guarantee crease-free broad articulation.",
+    "This rig authoring report does not establish animation or visual integrity gates."
+  ]
+}

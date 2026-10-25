@@ -1,0 +1,544 @@
+{
+  "schemaVersion": 1,
+  "kind": "rigging.mesh-manifest-summary-v1",
+  "provenance": {
+    "provider": "character",
+    "version": "0.1.0"
+  },
+  "frozenAttributes": [
+    "position",
+    "normal",
+    "uv",
+    "index"
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "vertexCount": 7266,
+      "indexCount": 96804,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "bdd4e2c0dcecf603bea0a27fe7c97ed3fc34d715d72dee3368ca86be45e54cd5",
+        "normal": "e39790b7f32cb1c12dbd74c1061b3380614b7d45dda3bd5270327ccba095c8f3",
+        "uv": "cbe89052ad4ba0ecaebe84d5bf9ef7fc10c92299a8869ad8a28aaff2e076d597",
+        "index": "5814e4ba44b8bbd69a4bdd501ad950ce058e8a6194f9409f4b4adae585017b19"
+      }
+    },
+    {
+      "name": "Object_1",
+      "vertexCount": 4690,
+      "indexCount": 73944,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "23aedd18f8238ceb487cde8770ffb6bfa305d1e6f609c378cf9269ea29cda4bd",
+        "normal": "9b452b4384b1304c5f3076a3929fe65e3473e17fdc20841f564a166ea5eb4c84",
+        "uv": "804a9ee153f2fd30962ccd4cc9260e6426e4ca5d4553f6840ac79030540fc70e",
+        "index": "c7e5be8aef11cc42b56bacdccdbb7df946275873751a5ea419f5fbd11813b3fe"
+      }
+    },
+    {
+      "name": "Object_2",
+      "vertexCount": 838,
+      "indexCount": 10908,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "cb5d17276b6b4c93869430c9c275ff5ade726372cccd9521420bf74b728910be",
+        "normal": "1d0f1fe6635b193a2b967db1514ecab0545df5772fe88e75c51c3761a1146393",
+        "uv": "433c511badf4b6bd5a6541cc621f770f7b034ff4d1e4ffd7d8e1e4939c986524",
+        "index": "504ff55041f725fa2b7e0ac78334fe97906437acf554316e4ee694d6fec326aa"
+      }
+    },
+    {
+      "name": "Object_3",
+      "vertexCount": 528,
+      "indexCount": 3960,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "3c53dcb2b4ff7d8ff3e79f0f40c8af811fa008b9e0cd068c7a7dbb7906f80153",
+        "normal": "0489dc354265204609e1cd1b38a860ca51795f6de4648c0cb2ef6e72a1b17cdb",
+        "uv": "24a3d275d71e3fded0392c59dc6de1a5ad377dc8c576731fe928af46c2e71e91",
+        "index": "8ff8243f8bfec9f350e32d513a0e67ed4813cacce87cb27c08eb903d3f3522eb"
+      }
+    },
+    {
+      "name": "Object_4",
+      "vertexCount": 317,
+      "indexCount": 4302,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "fa8fa4c247569c1203fc8059e568833b95cd940bc14a73483888cd1b9e3e3033",
+        "normal": "7b4f2525887d5b9eb0e2ac3a8f492ac8cb400039ca485e9cad174e5599589faa",
+        "uv": "9445519893bff1bc9f546f535dba177d4e2a75394e75730167f69db0f8edf285",
+        "index": "76ad80fce68efc42d731d2ff8c1fc845af6d48a0d5fed248b4ef07c09735e21b"
+      }
+    },
+    {
+      "name": "Object_5",
+      "vertexCount": 256,
+      "indexCount": 1728,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "23e0aee0bf6b6fc44a3be1a2ce78b81bf590ee7a91074acc0c466f91f029826b",
+        "normal": "e557d0af97599c78201afd2fd8b54610578c850c09912e85df6af4e1a991d298",
+        "uv": "27e9600df9f4a9139a73b571afae6b8cb3030c93a67ce380910c48c411557e51",
+        "index": "0ae36bd9d0061714e8f27417a530705d3dc6cb5c678de72d534c18e4a03eaf8b"
+      }
+    },
+    {
+      "name": "Object_6",
+      "vertexCount": 252,
+      "indexCount": 2592,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "d52abda938826fd81a667ec9c34b4fcc78cea3305f56eecf8b32c3fa6e13248a",
+        "normal": "c11dd98d79989fdd028446a23486b8a25a59d756426d9920f0ab2298f66a3851",
+        "uv": "2b61fee81097d44f20c075e28dd5954ad2dee331a9c668d624696445448b4306",
+        "index": "a8aeb4e2589caf6c799501a171238dc9b0f1d0b1b281e0eb09a53a685691d574"
+      }
+    },
+    {
+      "name": "Object_7",
+      "vertexCount": 370,
+      "indexCount": 4572,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "7270ca347585ce10fb59f2f2d2a57dc0e4a628ce438c6fa962552552973fe0d0",
+        "normal": "7489c81700b3171621411e8e5be1c2f1ba926eae73c8c1ad1fe6c7a7d6f3c34c",
+        "uv": "ce1c7a7f992ff19062f2549d6dbafdefb0bdb08c7b894e3aa18559e47e4664a1",
+        "index": "ae3d4d46238e51e0e429187d98b672247e477d92ac54718818af843ce96a22c6"
+      }
+    },
+    {
+      "name": "Object_8",
+      "vertexCount": 8497,
+      "indexCount": 135486,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "493a14784097148f42748d2e39930a7d0be7ab28eee17c5d760dc7179820a2bb",
+        "normal": "bebde22ce1f68f81e70b5825e97130991e9b7cc735ba759b3e667d73e801e5c7",
+        "uv": "5a6d6e6d1dd487212844e6670fac71cde0e01636d9996c19dd1003e03882d8b5",
+        "index": "7f43d9390ec2200bc3e494a2518d7f194b5db1d47a3a1b17f0c1ac29f540fe45"
+      }
+    },
+    {
+      "name": "Object_9",
+      "vertexCount": 4064,
+      "indexCount": 64368,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "f17d8f63129773460c5ce19b9f00c48a45ccf4144662e4de946142d032ddc0a7",
+        "normal": "48738a093ba75dd6564625d7a6780081e1dbb15320732b4bf581ff869766163a",
+        "uv": "486b2a36b19e0b321184ee7431460fde4882f474197d5ea83295f1773b91900e",
+        "index": "d74a63ecdd29ed6af6807558fcd9029272aaede5a012a408479b7a20122ae408"
+      }
+    },
+    {
+      "name": "Object_10",
+      "vertexCount": 3060,
+      "indexCount": 46080,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "23a13bf2ef857b8fe71bc2f6c6f5c385090dded144155ddb53ff12859feceb09",
+        "normal": "cae89e4c758e5ba8d06900b1192d10b1e57e2a5285a5daf8e21d5b9569fefa0c",
+        "uv": "093973925d327456825c0f21ec9c4c57cb89a1222096cf60729352b20ea9689e",
+        "index": "7078a4278b578fc156962e496d832fc07c60b1d625cf0676503dc1f690280872"
+      }
+    },
+    {
+      "name": "Object_11",
+      "vertexCount": 5716,
+      "indexCount": 87003,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "5a7a1f2885e5764619792021136d1c499ee20543d32a06041f149fe1e1b20f24",
+        "normal": "38de159440ac782afe2cc82c30ca287b1672903a747d782289cbfab80e031e55",
+        "uv": "53ed42f63f31f340b459a69c75ab989befca8aa55ee3fd2ac47d081f53c952b3",
+        "index": "f94ab554eb27c9cf911d32b44d63e0957b9c9290c4d763861dcbb8a2e46c9681"
+      }
+    },
+    {
+      "name": "Object_12",
+      "vertexCount": 3104,
+      "indexCount": 34326,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "f0e1bed6ba264e70c8a2c951e9063fad1e70ea073c8473d2b295b336cf42555b",
+        "normal": "84655b0120a658fe4812aa4d1c27bdd24be8e39f5cd89ff7e4eba1bf944362d9",
+        "uv": "3c9ab929ef3cfa775054e707fa445d3174d96d90dec3c31097ba7d858f584e07",
+        "index": "9064dbab90a2d7780dc2f72eb0a2cd4d9a95b48744386c66df928e6097b35c74"
+      }
+    },
+    {
+      "name": "Object_13",
+      "vertexCount": 48,
+      "indexCount": 216,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "f706da226357c54ab9dbdeb7173dad44ade8d32961fe8d8292b4e0dd9eef2484",
+        "normal": "5ad33135e2e10efd770b7be0ae360de32e7d4181754be755d9bb63658bd7c562",
+        "uv": "d6e2fe27e153ac187b342e6ecfcd5fcb3eab2c8a3aedf70ab44f1b52098c760e",
+        "index": "237be8ef1f6d13b270466daab53724e199e4f7b05f5dc33dca0a8e36320216c3"
+      }
+    },
+    {
+      "name": "Object_14",
+      "vertexCount": 3856,
+      "indexCount": 61812,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "3aff4aacda09f1167688b0e1d9187aea19b9baf62ed6b19fcc7c160f5f07244f",
+        "normal": "b24a1d3de5a9feb702b496047669d52bd7d92dab109f84e4b4920f47284256c5",
+        "uv": "4f6df9c7363c6c49e01dcec7f26f9e05007645d4b40ddd3212a759bcce00b34e",
+        "index": "6e488d3fa922215cff206ed9c811d5a30a1f76a513a43265c08ac8fa65ccf58e"
+      }
+    },
+    {
+      "name": "Object_15",
+      "vertexCount": 888,
+      "indexCount": 9072,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "e939a69201096e784eed4ca75d9989e454cb37a2700cb7b55dcd911ada53f18b",
+        "normal": "927d50e2064a02a487514b55504743fb14780fea1a1440b3da0c027f95cb3bed",
+        "uv": "98c5957647d9ada5d197b65a92c55408fe18bd9fbe1ea4a5fe3460d38c76b698",
+        "index": "1314bf81e3e9138b3a3e73a20e7db51b140f51ed33ac03f79019c084de4ef945"
+      }
+    },
+    {
+      "name": "Object_16",
+      "vertexCount": 34,
+      "indexCount": 432,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "444ef2cf85ec33db94310e0bd2b3e314a23e7be3e23021881ed338dbeb84e9b6",
+        "normal": "7f3ab85378538539b876bdd799ad4617cf7b074d3deb4c0b59f1510affd9dad0",
+        "uv": "8741740b69ce8f2fb0bcd8aae9b78c55d2907e6220fff49aa8d2c834be38dcbe",
+        "index": "9dbc37bf179992e90f3ff36661862d2b62b129173d51db6e3252d6f167230a4e"
+      }
+    },
+    {
+      "name": "Object_17",
+      "vertexCount": 378,
+      "indexCount": 5544,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "af1b44a9cf8584cc445bfe24d1d2c75fa11adac0c24ed71c84e4d551c2af352a",
+        "normal": "4197925f8d1468b9c3452548afc1d1e87ac363db143a2122500f84138061126e",
+        "uv": "178a5d418bd313af922c459c2b28800bfa0041f4085ab94f0f297d305f31c97c",
+        "index": "8be73d27e7d0ada7dbdd705032da0e1b1d68465e742dd55d72feadf88e8584d1"
+      }
+    },
+    {
+      "name": "Object_18",
+      "vertexCount": 112,
+      "indexCount": 1368,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "4c12290d2758dbd41fcaf8d50941a9b3581f4c61349901432096a7669e02540c",
+        "normal": "3fa662240d7c2f3dccfe2b5b77d7737ee33a756e1d8da2d1242809e9b734cd20",
+        "uv": "50c733953de7dec155143d9fb38b9820fc77b1c2e2fb888b9a4db71c6763a4ef",
+        "index": "cbdb1e334fbcd8625a478bec920bf85db956faba0d7dc3f6790e5534515e2de2"
+      }
+    },
+    {
+      "name": "Object_19",
+      "vertexCount": 322,
+      "indexCount": 5184,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "26d904e56f1b2e008564af27ac1e5075ac4196f103a37e7198f824d09d3a6fd7",
+        "normal": "cc94721ecf7e9c7956023f4e92eb6a1c5d9487c16e2208cb8125d2eb7dc53e27",
+        "uv": "12e5cb0c6ca5ab2fdd04f519fc8f1ac6a09a33b13ebda73ad581b4815da793b2",
+        "index": "f214174aaefea84143205298623778dfa293305e5388d61c7a768d87b003bdfd"
+      }
+    },
+    {
+      "name": "Object_20",
+      "vertexCount": 426,
+      "indexCount": 6192,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "e8188a0ee35f503576a34a985df4d62d87e20e90e780ca43b38f92519e756f23",
+        "normal": "006920b97cf1d48cc3dacd1671512da4fbd40fe94c856d14d393cc986a8de603",
+        "uv": "8301418311e4bfb31426a1e311739579f541be05688ec1fe7ae9443fd253a6c1",
+        "index": "68b18f202aa84cc3645b5e73a1cd526ab19bbf4f7d6330686197db6b38a67834"
+      }
+    },
+    {
+      "name": "Object_21",
+      "vertexCount": 100,
+      "indexCount": 864,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "a20e4d45501e6ff96a0d8cbabc23b84dad39d0348d7ed7e731f24499168911f9",
+        "normal": "9aa9da6c99c058f396b858f5b916b1bc03a261de39029d7649cde00dc282f038",
+        "uv": "60efb705cb4f58286dcf4f3f0b57494116153380fb0a039df95d060bb3e5d76b",
+        "index": "15de333b3d08604f71451d28a7c901d04f94113f58838ae654d773185bbfa8b3"
+      }
+    },
+    {
+      "name": "Object_22",
+      "vertexCount": 310,
+      "indexCount": 3744,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "62ada052029812e3c979e3841457427203df7fa0eb42ad48f6acd8cf80726881",
+        "normal": "7ef0dd2943ee27b1986dcfb68a1b20842aee41207bf2279fe486f379b5f6715b",
+        "uv": "973616cd9a2b0a83be19d94040b19871f0cce2db6e464656131c283c9364318a",
+        "index": "84634af5a32d1048ddfa05bddf5812c3bf8d59480b874ce683d53d843871f1d9"
+      }
+    },
+    {
+      "name": "Object_23",
+      "vertexCount": 258,
+      "indexCount": 4032,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "01085b3e8f3d6105868feee4d6c988e77ec3d3d8d442af83f375235adea409ff",
+        "normal": "6a4963ca7b3d672f49661a314dd1ebc6fdb4b2ffced46138dcdb38cb8c8f8fde",
+        "uv": "37a620d9a861dc975a583e5fc25b1443bce98186f07f26692b424e4e43ce0906",
+        "index": "4cd14e8d106762bdc7f50c8d22ae09cd9dd6b183f1e30d9fb13d91f75791a653"
+      }
+    },
+    {
+      "name": "Object_24",
+      "vertexCount": 170,
+      "indexCount": 2304,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "334923d8ecdd3463f534f83e94b5d1aa8d223b311b842d08b2988f1987ed1bb0",
+        "normal": "3e9bf2e012aa87ec3a9278f33037f210e8c1b6fc122af67b14a311eb7e8a8a5b",
+        "uv": "590d29ede6ef21875e6cca37772217b0b5a5c7cac363d3ad9602089d5831a374",
+        "index": "be41de6fb51b41547eb4654d444ec2300c4a623693b54b8c02df9aa5bb4d264c"
+      }
+    },
+    {
+      "name": "Object_25",
+      "vertexCount": 144,
+      "indexCount": 1944,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "e1156831342c8b01e26a6ba1392cb8c407fd52bddf2fd6b8dd11ae32850ab28d",
+        "normal": "128f2fe65b9b8e5c86af8ed60658449e9710640ed5c93620375c9a37ca58f3e9",
+        "uv": "5d6cc988dd4703c0acdc184beebb38829186ca528c219d81d9e94441d49a295c",
+        "index": "5f1547c9864b296260f90986ef28447723bcd115396d66587e30cd704a3e6f52"
+      }
+    },
+    {
+      "name": "Object_26",
+      "vertexCount": 448,
+      "indexCount": 7416,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "6a4853ea915b27d3ddad9a628c4979a21c113103f0d9afea81b1f4770ae83483",
+        "normal": "0ceddf06332b04885b0e6ede898e7123161e6090ea655d1692ec111bd184ad98",
+        "uv": "814ec04add4ab3029bad54f289989ed4e2de3753b3e04acefeefd89a57e42288",
+        "index": "5f7cfd34977f30e0b12cae220022c47f7429192cb0fb46dba2ef23c799b0f238"
+      }
+    },
+    {
+      "name": "Object_27",
+      "vertexCount": 3401,
+      "indexCount": 58140,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "79665492190ba6bc0721d4697a8e742452c338c3b526db8e3c6b4f70f804681b",
+        "normal": "3bf71a43aa32c615c970818dcc4a6df5bccc6b352989c9af6010458121085d3a",
+        "uv": "14ad216a34dd113865bdc4c60f78e6461845ec4eeeec7423f4fa0ab6c5da8d56",
+        "index": "d32367cdb6dc4307770c8ae7c44e90d3832a5c687e4af121304b2d4c98cef594"
+      }
+    },
+    {
+      "name": "Object_28",
+      "vertexCount": 139,
+      "indexCount": 1620,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "84c9bcf48bd802f1c74dabd250717edc1808c12824c470f1269d8df9d8e25bf5",
+        "normal": "2e9faa96ffce736e039b51b7aee423eb83256b51b850dec48c4156df62118076",
+        "uv": "d7df695746de67d2ab6f7c7b37ca84c6c007c884103b0a9daf5862236060397b",
+        "index": "fbf9333a4bbc06ec10ce5d7e5ea82627dd24e8163e2e653c3399cd8e2b279e9e"
+      }
+    },
+    {
+      "name": "Object_29",
+      "vertexCount": 489,
+      "indexCount": 7704,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "22ea52237884062dac471e158bfcbe3b9d2779b0b03300475c452a65b310bd9a",
+        "normal": "10f4384184f7de9156c003b20c034e9bcbb9ff72f306b3a981ee87fd304a45ae",
+        "uv": "688323373dd86db9be303a3c05368406b8d409a655077c1a7d1039d428cfd4df",
+        "index": "219a82e15cf78919e5096e34c6ee724ceaa7e5b176c8b1b3a375883d2cdda42d"
+      }
+    },
+    {
+      "name": "Object_30",
+      "vertexCount": 72,
+      "indexCount": 1008,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "index"
+      ],
+      "hashes": {
+        "position": "873182c65ca71eeba3347507a0f4e777a7d6d229fdc2388d919a7b70f30bee83",
+        "normal": "1d04d0043d35b5bad75ba5ca79d076562cd161a79ed9854aca2225131048ba4f",
+        "uv": "59e509c8bc9111d72da4a38e586499038a7d68a94f3e8403e97dcff771997fb9",
+        "index": "275d5dd85ae3f836e74913a16975481b1f7b2541230070657f12a243d2defbcb"
+      }
+    }
+  ],
+  "note": "Geometry frozen. Implementation may add a skeleton, skinIndex/skinWeight and clips; it may not change position, normal, uv or index on any mesh, and it may not add or remove meshes."
+}

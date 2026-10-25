@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f7f7f2">
+  <meta name="color-scheme" content="light">
+  <title>初音 · 静态形象预览 · 交互学数学</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='10' fill='%23245646'/%3E%3Cpath d='M12 35h25M12 35 28 11' fill='none' stroke='%23fff' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/companion/preview.css">
+</head>
+<body>
+  <a class="skip-link" href="#preview-main">跳到人物预览</a>
+  <header class="site-header">
+    <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">∠</span><span>交互学数学<small>学习陪伴精灵</small></span></a>
+    <a class="back-link" href="/companion-animation.html">查看动作样板 <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="preview-main" class="page">
+    <div class="page-heading">
+      <div><p class="eyebrow">人物预览 · 形象已确认</p><h1>就是这个模样。</h1><p class="intro">已确认使用 Hatsune Miku V6。此页保留静态原姿态，动作可在独立样板中体验。</p></div>
+      <span class="status-pill"><span aria-hidden="true"></span>静态形象已确认</span>
+    </div>
+    <div class="preview-layout">
+      <aside class="reference-column" aria-labelledby="reference-title">
+        <div class="section-label"><h2 id="reference-title">参考形象</h2><span>原图</span></div>
+        <figure class="reference-figure"><img src="/companion/reference.png" alt="初音未来参考图：青色长双马尾、白色上衣、青色领带和深色短裙。"><figcaption>Hatsune Miku</figcaption></figure>
+        <p class="reference-note">原始形象参考。右侧现已直接加载你提供的 GLB，可旋转检查模型本身的脸部、服装、侧面与背面。</p>
+      </aside>
+      <section class="model-column" aria-labelledby="model-title">
+        <div class="section-label"><h2 id="model-title">立体人物</h2><span id="view-label">正面</span></div>
+        <div class="model-stage" id="model-stage" data-background="light">
+          <div class="stage-corner-label" aria-hidden="true">Hatsune Miku V6 · 静态预览</div>
+          <canvas id="main-canvas" tabindex="0" role="img" aria-label="初音静态三维人物。可拖动旋转，滚轮或双指缩放，也可使用下方视角按钮和方向键。"></canvas>
+          <div class="stage-fallback" id="stage-fallback"><img src="/companion/reference.png" alt="初音参考立绘"><p id="load-status" role="status" aria-live="polite">正在准备人物预览…</p></div>
+          <p class="stage-guide" id="stage-guide">拖动旋转 · 滚轮或双指缩放</p>
+        </div>
+        <div class="stage-toolbar">
+          <div class="view-controls" role="group" aria-label="选择人物视角">
+            <button type="button" data-view="0" aria-pressed="true">正面</button><button type="button" data-view="90" aria-pressed="false">左侧</button><button type="button" data-view="180" aria-pressed="false">背面</button><button type="button" data-view="270" aria-pressed="false">右侧</button>
+          </div>
+          <button type="button" class="quiet-button" id="reset-view" title="恢复正面和初始缩放">重置视角</button>
+        </div>
+        <div class="background-row"><span>舞台背景</span><div role="group" aria-label="选择舞台背景"><button type="button" class="background-choice" data-background="light" aria-pressed="true"><span class="swatch light" aria-hidden="true"></span>浅色</button><button type="button" class="background-choice" data-background="dark" aria-pressed="false"><span class="swatch dark" aria-hidden="true"></span>深色</button></div></div>
+      </section>
+      <aside class="detail-column">
+        <section aria-labelledby="mini-title">
+          <div class="section-label"><h2 id="mini-title">陪伴时的大小</h2><span>约 220 px</span></div>
+          <div class="corner-demo"><div class="demo-topline"><span aria-hidden="true"></span>练习时间</div><p class="demo-title">专心做好眼前这一题。</p><div class="demo-lines" aria-hidden="true"><i></i><i></i><i></i></div><canvas id="mini-canvas" aria-label="初音在页面角落的小尺寸静态预览" role="img"></canvas><img class="mini-fallback" id="mini-fallback" src="/companion/reference.png" alt="初音小尺寸参考立绘"></div>
+          <p class="detail-note">角落预览用于检查缩小后的辨识度，实际位置会在接入学习页时适配。</p>
+        </section>
+        <section class="review-note" aria-labelledby="review-title"><p class="eyebrow">这一步看什么</p><h2 id="review-title">像她，也适合陪伴。</h2><ol><li><span>01</span>脸部、眼睛与发型</li><li><span>02</span>双马尾与身形比例</li><li><span>03</span>服装轮廓与配色</li><li><span>04</span>侧面、背面与小尺寸表现</li></ol><p>形象已确认。此页保留静态原姿态，可从顶部进入动作样板。</p></section>
+      </aside>
+    </div>
+    <footer class="page-footer"><span id="preview-status" role="status" aria-live="polite">人物准备中</span><span>本地预览 · 无需外网</span></footer>
+    <p class="asset-credit">模型：<a href="https://sketchfab.com/3d-models/hatsune-miku-v6-14c9c7a0348842d79973bd1c9da29bb4" target="_blank" rel="noopener noreferrer">Hatsune Miku V6</a>，作者 <a href="https://sketchfab.com/not_here01-39" target="_blank" rel="noopener noreferrer">not_here01-39</a> · <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>。保留原模型造型与材质，调整展示比例与位置；预览贴图最大 2048 像素。</p>
+  </main>
+  <noscript><p class="noscript-note">请开启浏览器的 JavaScript 查看三维人物；参考图仍可查看。</p></noscript>
+  <script type="module" src="/companion/preview.js"></script>
+</body>
+</html>
